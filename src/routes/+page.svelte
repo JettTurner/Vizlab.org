@@ -1,10 +1,14 @@
 <script>
   import Sidebar from "$lib/Sidebar.svelte";
   import BoxHolder from "$lib/BoxHolder.svelte";
-   import { onMount } from "svelte";
+  import { onMount } from "svelte";
   import { links as sites } from "$lib/sites.js";
   import { selectedTags, selectedCategories, selectedPrices, selectedSoftware, searchQuery, loadFiltersFromURL } from "$lib/urlFilters.js";
 
+  onMount(() => {
+    loadFiltersFromURL();
+  });
+  
   let showSidebar = false; // State for controlling sidebar visibility
 
   // Function to update sidebar state

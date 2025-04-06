@@ -7,8 +7,8 @@
 	<q>
       Vizlab.org is Powered by 
       <span class="tracking-widest italic">
-        <a href="https://www.youtube.com/watch?v=e2oSGMLmkjI" class="hover:text-white">Beans™</a> 
-        Version 4.2.0 — Now with better labels!
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="hover:text-white">Beans™</a> 
+        Version 4.3.0 — Now on GitHub!
       </span>
     </q> 
     

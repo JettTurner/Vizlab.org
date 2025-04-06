@@ -934,6 +934,18 @@ export const links = [
 		"score": null,
 	},
 	{
+		"image": "/src/lib/assets/synchSketch.jpg",
+		"title": "synchsketch",
+		"description": "A visual Collaboration tool for easy Critique",
+		"href": "https://syncsketch.com/",
+		"category":["GettingStarted",],
+		"tags": [],
+		"software": ["All",],
+		"price": ["Subscription","Free",],
+		"color": null,
+		"score": null,
+	},
+	{
 		"image": "/src/lib/assets/materialize.jpg",
 		"title": "Materialize",
 		"description": "a stand alone tool for creating materials for use in games from images. also see: https://github.com/BoundingBoxsoftware/Materialize  ",
@@ -1099,6 +1111,7 @@ export const links = [
 		"color": null,
 		"score": null,
 	},
+	
 	//Assets-----------------------------------------------------------------------------------------------------------------------------------------
 	{
 		"image": "/src/lib/assets/Textures.jpg",
