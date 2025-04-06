@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+	min-height: 100%;
+	/* see https://github.com/saadeghi/daisyui/issues/3040 */
+	scrollbar-gutter: auto !important;
+	scroll-behavior: smooth;
+	scroll-padding-top: 4rem;
+}
+body {
+	/* see https://stackoverflow.com/a/57587306 */
+	height: 100vh;
+}
+body > div {
+	min-height: 100%;
+	display: flex !important;
+	flex-direction: column;
+	flex-wrap: nowrap;
+}
