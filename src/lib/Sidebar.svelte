@@ -1,6 +1,7 @@
 <script>
-  import { selectedTags, selectedCategories, selectedPrices, selectedSoftware, 
-    searchQuery, addFilter, removeFilter, allTags, allCategories, allPrices, allSoftware } from "$lib/urlFilters.js";
+  import { selectedTags, selectedCategories, selectedPrices, selectedSoftware,
+	allTags, allCategories, allPrices, allSoftware,   
+    searchQuery, addFilter, removeFilter, clearAllFilters, hasActiveFilters } from "$lib/urlFilters.js";
 
   export let showSidebar = false;
   export let filteredSites = [];
@@ -40,6 +41,18 @@
     // Set filtered results
     filteredSites = filtered;
   }
+  
+  
+  let searchText = $searchQuery; // Local text input value
+  // Debounce searching so that as the user types we dont interupt with a urlupdating page refresh
+  let debounceTimeout;
+	$: if (searchText !== undefined) {
+	  clearTimeout(debounceTimeout);
+	  debounceTimeout = setTimeout(() => {
+		searchQuery.set(searchText);
+	  }, 900); // 300ms delay after user stops typing
+	}
+
 </script>
 
 
@@ -47,7 +60,7 @@
   class={`sidebar p-4 bg-gray-900 text-white w-64 fixed left-0 overflow-y-auto transition-transform duration-300 ${showSidebar ? 'transform-none' : '-translate-x-full'}`}
   style="top: {headerHeight}; height: calc(100vh - {headerHeight} - {footerHeight});" 
 ><!-- Adjust this to the remaining height of the viewport -->
-  <div class="flex flex-col justify-between h-full">
+  <div class="flex flex-col items-start h-full">
     <a class="text-gray-500"> Showing {filteredSites.length} results</a>
     <!-- Search Bar in Sidebar -->
     <div class="mb-4">
@@ -55,9 +68,16 @@
         type="text" 
         placeholder="Search..." 
         class="border p-1 rounded w-full bg-gray-950 text-white" 
-        bind:value={$searchQuery} />
+        bind:value={searchText} />
     </div>
-    
+	
+	<!-- Clear All Button -->
+	<button
+	  class="mb-4 bg-stone-700 hover:bg-red-800 text-white px-3 py-2 rounded text-sm w-full disabled:opacity-50 disabled:cursor-not-allowed"
+	  on:click={() => {if (confirm("Clear all filters?")) clearAllFilters();}} disabled={!$hasActiveFilters}>
+	  ✖ Clear All Filters
+	</button>
+   
     <!-- Selected Filters (display selected tags for removal) -->
     <div class="mt-4">
       {#each $selectedCategories as category}

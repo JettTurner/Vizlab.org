@@ -2,6 +2,7 @@ import { writable, get } from "svelte/store";
 import { goto } from "$app/navigation";
 import { page } from "$app/stores";
 import { links as sites } from "$lib/sites.js";
+import { derived } from "svelte/store";
 
 // ✅ Extract unique filters dynamically
 export let allTags = [...new Set(sites.flatMap(site => site.tags || []))];
@@ -83,6 +84,30 @@ export function removeFilter(store, value) {
   store.update(items => items.filter(item => item !== value));
   updateURL();
 }
+
+// ✅ Clear all filters from the specified store
+export function clearAllFilters() {
+  selectedTags.set([]);
+  selectedCategories.set([]);
+  selectedPrices.set([]);
+  selectedSoftware.set([]);
+  searchQuery.set("");
+  scoreThreshold.set(0);
+  updateURL();
+}
+
+// used for making sure the clear filters button 
+export const hasActiveFilters = derived(
+  [selectedTags, selectedCategories, selectedPrices, selectedSoftware, searchQuery, scoreThreshold],
+  ([$tags, $categories, $prices, $software, $search, $score]) =>
+    $tags.length > 0 ||
+    $categories.length > 0 ||
+    $prices.length > 0 ||
+    $software.length > 0 ||
+    $search.length > 0 ||
+    $score > 0
+);
+
 
 // ✅ Automatically trigger updateURL when filters change (but only after mounted)
 function safeSubscribe(store) {
