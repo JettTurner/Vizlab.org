@@ -13,9 +13,9 @@
   export let footerHeight = '3.2rem'; // Pass the header height to adjust the sidebar
 
   // Update the sidebar state
-  function toggleSidebar() {
-    updateSidebarState(!showSidebar);
-  }
+  //function toggleSidebar() {
+  //  updateSidebarState(!showSidebar);
+  //}
  
   let searchText = $searchQuery; // Local text input value
   let debounceTimeout;
@@ -26,11 +26,108 @@
     }, 900); // 900ms delay after user stops typing
   }
 
+
+
+//-------------------------code for sidebar timeout:-------------------------
+import { onMount, onDestroy } from 'svelte';
+  
+  let timeoutId;
+  const INACTIVITY_TIME = 3000; // 3 seconds of inactivity before closing the sidebar
+  const SCROLL_DELAY = 100; // Delay (in milliseconds) before closing the sidebar after scroll
+  
+  let scrollTimeoutId;
+
+  // Function to open the sidebar
+  function openSidebar() {
+    showSidebar = true;
+  }
+
+  // Function to close the sidebar
+  function closeSidebar() {
+    showSidebar = false;
+  }
+
+  // Toggle sidebar on button click
+  function toggleSidebar() {
+    showSidebar = !showSidebar; // Toggle sidebar visibility
+    if (showSidebar) {
+      // Reset the inactivity timeout if the sidebar is opened
+      if (timeoutId) {
+        clearTimeout(timeoutId);
+      }
+    }
+  }
+
+  // Reset the timeout when hovering over the sidebar
+  function resetTimeout() {
+    if (timeoutId) {
+      clearTimeout(timeoutId); // Clear any previous timeouts
+    }
+    timeoutId = setTimeout(closeSidebar, INACTIVITY_TIME); // Set a new timeout to close after 3 seconds
+  }
+
+  // Close sidebar when mouse leaves
+  let sidebarHovered = false;
+  function onMouseLeave() {
+    sidebarHovered = false;
+    resetTimeout();
+  }
+
+  // Open sidebar on mouse enter
+  let sidebarEntered = false;
+  function onMouseEnter() {
+    sidebarHovered = true;
+    openSidebar();
+    if (timeoutId) {
+      clearTimeout(timeoutId); // Clear timeout when the user interacts with the sidebar
+    }
+  }
+
+  // Close sidebar on scroll event (with delay)
+  function onScroll() {
+    // Clear previous timeout to reset delay if the user scrolls again quickly
+    if (scrollTimeoutId) {
+      clearTimeout(scrollTimeoutId);
+    }
+
+    // Set a delayed timeout to close the sidebar after the user stops scrolling
+    scrollTimeoutId = setTimeout(() => {
+      closeSidebar();
+    }, SCROLL_DELAY); // Set a delay before closing the sidebar (e.g., 500ms)
+  }
+
+  onMount(() => {
+    // Attach scroll event listener
+    window.addEventListener('scroll', onScroll);
+
+    // Reset timeout to close sidebar after inactivity
+    resetTimeout(); 
+    
+    // Cleanup event listener when the component is destroyed
+    onDestroy(() => {
+      window.removeEventListener('scroll', onScroll);
+    });
+  });
 </script>
 
-<div 
-  class={`sidebar p-4 bg-gray-900 text-white w-64 fixed left-0 overflow-y-auto duration-300 ${showSidebar ? 'transform-none' : '-translate-x-full'} opacity-95 hover:opacity-100 transition-all`}
-  style="top: {headerHeight}; height: calc(100vh - {headerHeight} - {footerHeight});">
+<!-- Sidebar Toggle Button -->
+<button 
+  class="bg-gray-900 px-4 py-2 rounded text-white fixed transition-all duration-300 z-50 opacity-80 hover:bg-blue-600"
+  style="left: {showSidebar ? 'calc(16rem)' : '0'}; top: calc(4rem + 1rem);"
+  on:click={toggleSidebar}>
+  <span class="transform transition-transform duration-300 inline-block" class:rotate-180={showSidebar}>
+    ➤
+  </span>
+</button>
+
+<!-- Sidebar Content (filters) -->
+<div
+  class={`sidebar p-4 bg-gray-900 text-white w-64 fixed left-0 overflow-y-auto duration-300 
+    ${showSidebar ? 'transform-none' : '-translate-x-full'} opacity-95 hover:opacity-100 transition-all`}
+  style="top: {headerHeight}; height: calc(100vh - {headerHeight} - {footerHeight});"
+  on:mouseenter={onMouseEnter} 
+  on:mouseleave={onMouseLeave}>
+  <!-- Sidebar content here -->
   <div class="flex flex-col items-start h-full">
     <a class="text-gray-500"> Showing {filteredSites.length} results</a>
     
@@ -149,12 +246,3 @@
   </div>
 </div>
 
-<!-- Sidebar Toggle Button -->
-<button 
-  class="bg-gray-900 px-4 py-2 rounded text-white fixed transition-all duration-300 z-50 opacity-80 hover:bg-blue-600"
-  style="left: {showSidebar ? 'calc(16rem)' : '0'}; top: calc(4rem + 1rem);"
-  on:click={toggleSidebar}>
-  <span class="transform transition-transform duration-300 inline-block" class:rotate-180={showSidebar}>
-    ➤
-  </span>
-</button>
