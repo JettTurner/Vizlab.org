@@ -1,7 +1,7 @@
 <script>
   import { selectedTags, selectedCategories, selectedPrices, selectedSoftware,
 	allTags, allCategories, allPrices, allSoftware,   
-    searchQuery, addFilter, removeFilter, clearAllFilters, hasActiveFilters } from "$lib/urlFilters.js";
+    searchQuery, addFilter, removeFilter, clearAllFilters, hasActiveFilters, applyFilters } from "$lib/urlFilters.js";
 
   export let showSidebar = false;
   export let filteredSites = [];
@@ -13,36 +13,7 @@
   function toggleSidebar() {
     updateSidebarState(!showSidebar);
   }
-
-  // Create a function to handle the filtering logic
-  function applyFilters() {
-    let filtered = [...allSites]; // Assuming allSites contains all available links
-
-    // Apply category filter (AND logic, so we check if the site matches any selected categories)
-    if ($selectedCategories.length > 0) {
-      filtered = filtered.filter(site => $selectedCategories.includes(site.category));
-    }
-
-    // Apply tag filter (AND logic)
-    if ($selectedTags.length > 0) {
-      filtered = filtered.filter(site => $selectedTags.every(tag => site.tags.includes(tag)));
-    }
-
-    // Apply software filter (AND logic)
-    if ($selectedSoftware.length > 0) {
-      filtered = filtered.filter(site => $selectedSoftware.every(software => site.software.includes(software)));
-    }
-
-    // Apply price filter (AND logic)
-    if ($selectedPrices.length > 0) {
-      filtered = filtered.filter(site => $selectedPrices.includes(site.price));
-    }
-
-    // Set filtered results
-    filteredSites = filtered;
-  }
-  
-  
+ 
   let searchText = $searchQuery; // Local text input value
   // Debounce searching so that as the user types we dont interupt with a urlupdating page refresh
   let debounceTimeout;
@@ -63,7 +34,7 @@
   <div class="flex flex-col items-start h-full">
     <a class="text-gray-500"> Showing {filteredSites.length} results</a>
     <!-- Search Bar in Sidebar -->
-    <div class="mb-4">
+    <div class="mb-2">
       <input 
         type="text" 
         placeholder="Search..." 
@@ -73,13 +44,13 @@
 	
 	<!-- Clear All Button -->
 	<button
-	  class="mb-4 bg-stone-700 hover:bg-red-800 text-white px-3 py-2 rounded text-sm w-full disabled:opacity-50 disabled:cursor-not-allowed"
+	  class="mb-0 bg-stone-700 hover:bg-red-800 text-white px-3 py-2 rounded text-sm w-full disabled:opacity-50 disabled:cursor-not-allowed"
 	  on:click={() => {if (confirm("Clear all filters?")) clearAllFilters();}} disabled={!$hasActiveFilters}>
 	  ✖ Clear All Filters
 	</button>
    
     <!-- Selected Filters (display selected tags for removal) -->
-    <div class="mt-4">
+    <div class="mt-0">
       {#each $selectedCategories as category}
         <span 
           class="bg-red-600 text-white px-3 py-1 rounded text-sm cursor-pointer" 
