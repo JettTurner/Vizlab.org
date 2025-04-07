@@ -59,6 +59,23 @@ export function applyFilters() {
   return filteredSites = filtered;
 }
 
+// Disable Category filters logic
+export function isCategoryDisabled(category, selectedCategories, filteredSites) {
+  return selectedCategories.length > 0 && filteredSites.every(site => site.category !== category);
+}
+// Disable Tag filters logic
+export function isTagDisabled(tag, selectedTags, filteredSites) {
+  return selectedTags.length > 0 && filteredSites.every(site => !site.tags.includes(tag));
+}
+// Disable Software filters logic
+export function isSoftwareDisabled(software, selectedSoftware, filteredSites) {
+  return selectedSoftware.length > 0 && filteredSites.every(site => !site.software.includes(software));
+}
+// Disable Price filters logic
+export function isPriceDisabled(price, selectedPrices, filteredSites) {
+  return selectedPrices.length > 0 && filteredSites.every(site => site.price !== price);
+}
+
 
 /**
  * ✅ Parses URL parameters into an array safely.
