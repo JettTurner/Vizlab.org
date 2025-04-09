@@ -15,7 +15,7 @@ q
 pnpm build
 
 # 4. copy the files from /build to the server
-scp -r .\build\* username@pi.local:/home/username/web/
+scp -r .\build\* www-data@pi.local:/var/www/html/
 
 
 in console f12: use this to check the local clickCounts
@@ -102,6 +102,27 @@ Now, the popup will show again!
 GoAccess check it out for ngnix log viewer?
 tracks what activity is going on, on your website.
 
+DB schenanigans?
+
+login to remote as www-data
+> ssh www-data@pi.local
+edit database
+> sqlite3 /var/www/html/api/db.sqlite3
+
+
+Edit php files
+login to remote as www-data
+> ssh www-data@pi.local
+edit files (get.php and set.php)
+> nano /var/www/html/api/get.php
+> nano /var/www/html/api/set.php
+> cat /var/www/html/api/php_errors.log # show errors? maybe move to a different directory?
+
+
+View nginx error logs
+login to remote as username
+> ssh username@pi.local
+> sudo cat /var/log/nginx/error.log
 
 ```
 

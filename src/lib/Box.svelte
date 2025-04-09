@@ -22,11 +22,25 @@
   let categories = link.category ? (Array.isArray(link.category) ? link.category : [link.category]) : [];
 
   // Function to handle click events and track them using the trackClick function
-  function handleClick(event) {
+  async function handleClick(event) {
+	event.preventDefault();
+	console.log(link);
+	
+	try{
+		const url = new URL('/api/set.php', window.location.href);
+		url.searchParams.set('link', link.href);
+		const resp = await fetch(url);
+		console.log(resp.ok);
+	}finally{
+		// actually navigate
+		window.location.href = link.href;
+	}
+	
+	
     // Check if the click is a normal left-click, middle-click, or if the ctrl/meta key is pressed
-    if (event.button === 0 || event.button === 1 || event.ctrlKey || event.metaKey) {
-      trackClick(link.href); // Track the click on the link
-    }
+    /*if (event.button === 0 || event.button === 1 || event.ctrlKey || event.metaKey) {
+      // trackClick(link.href); // Track the click on the link
+    }*/
   }
 
   // Import the sprite (used for icon images like broken link or placeholder)
@@ -94,8 +108,7 @@
 </script>
 
 <!-- Link container with dynamic styles based on the 'link' object -->
-<a class="group flex flex-col size-auto h-32 min-[840px]:size-64 border-2 border-stone-700 cursor-pointer {color} hover:border-blue-900 hover:bg-blue-800 rounded-lg overflow-hidden" title={link.href} href={link.href} onmousedown={handleClick}>
-  
+<a class="group flex flex-col size-auto h-32 min-[840px]:size-64 border-2 border-stone-700 cursor-pointer {color} hover:border-blue-900 hover:bg-blue-800 rounded-lg overflow-hidden" title={link.href} href={link.href} onclick={handleClick}>
   <!-- Category Tags (show only if categories exist) -->
   {#if categories.length}
     <div class="relative flex flex-col gap-1 items-start opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">

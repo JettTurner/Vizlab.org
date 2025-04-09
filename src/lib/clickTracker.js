@@ -24,7 +24,7 @@ export async function getClickCounts() {
 }*/
 export async function getClickCounts() {
     try {
-        const response = await fetch('/api/click-counts'); // No need for full URL
+        const response = await fetch('/api/get.php'); // No need for full URL
         if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
         return await response.json();
     } catch (error) {
@@ -40,7 +40,7 @@ export async function trackClick(linkHref) {
     if (!browser) return;
 
     // Update localStorage
-    let clickData = getClickCounts();
+    let clickData = await getClickCounts();
     clickData[linkHref] = (clickData[linkHref] || 0) + 1;
     localStorage.setItem("clickCounts", JSON.stringify(clickData));
 

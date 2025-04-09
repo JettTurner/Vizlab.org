@@ -36,9 +36,6 @@ importers:
       postcss:
         specifier: ^8.4.40
         version: 8.4.40
-      prisma:
-        specifier: 6.5.0
-        version: 6.5.0
       svelte:
         specifier: ^5.0.0-next.1
         version: 5.0.0-next.201
@@ -1369,10 +1366,13 @@ snapshots:
       esbuild-register: 3.6.0(esbuild@0.21.5)
     transitivePeerDependencies:
       - supports-color
+    optional: true
 
-  '@prisma/debug@6.5.0': {}
+  '@prisma/debug@6.5.0':
+    optional: true
 
-  '@prisma/engines-version@6.5.0-73.173f8d54f8d52e692c7e27e72a88314ec7aeff60': {}
+  '@prisma/engines-version@6.5.0-73.173f8d54f8d52e692c7e27e72a88314ec7aeff60':
+    optional: true
 
   '@prisma/engines@6.5.0':
     dependencies:
@@ -1380,16 +1380,19 @@ snapshots:
       '@prisma/engines-version': 6.5.0-73.173f8d54f8d52e692c7e27e72a88314ec7aeff60
       '@prisma/fetch-engine': 6.5.0
       '@prisma/get-platform': 6.5.0
+    optional: true
 
   '@prisma/fetch-engine@6.5.0':
     dependencies:
       '@prisma/debug': 6.5.0
       '@prisma/engines-version': 6.5.0-73.173f8d54f8d52e692c7e27e72a88314ec7aeff60
       '@prisma/get-platform': 6.5.0
+    optional: true
 
   '@prisma/get-platform@6.5.0':
     dependencies:
       '@prisma/debug': 6.5.0
+    optional: true
 
   '@rollup/pluginutils@5.1.0(rollup@4.19.1)':
     dependencies:
@@ -1661,6 +1664,7 @@ snapshots:
       esbuild: 0.21.5
     transitivePeerDependencies:
       - supports-color
+    optional: true
 
   esbuild@0.21.5:
     optionalDependencies:
@@ -1909,6 +1913,7 @@ snapshots:
       fsevents: 2.3.3
     transitivePeerDependencies:
       - supports-color
+    optional: true
 
   queue-microtask@1.2.3: {}
 
