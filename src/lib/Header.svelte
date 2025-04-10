@@ -11,14 +11,14 @@
     { href: "/education", label: "Education", navcolor: 'hover:text-yellow-500' },
     { href: "/reference", label: "Reference", navcolor: 'hover:text-green-500' },
     { href: "/assets", label: "Assets", navcolor: 'hover:text-red-500' },
-    { href: "/documentation", label: "Documentation", navcolor: 'hover:text-purple-400' },
-    { href: "/gettingstarted", label: "Getting Started", navcolor: 'hover:text-orange-500' },
-    { href: "/about", label: "About" },
-    { href: "/missingsomething", label: "Missing Something?" },
   ];
 
   const dropdownLinks = [
     //{ href: "/search", label: "Search" },
+	{ href: "/documentation", label: "Documentation", navcolor: 'hover:text-purple-400' },
+    { href: "/gettingstarted", label: "Getting Started", navcolor: 'hover:text-orange-500' },
+    { href: "/about", label: "About" },
+    { href: "/missingsomething", label: "Missing Something?" },
   ];
 </script>
 

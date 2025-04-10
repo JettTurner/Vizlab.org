@@ -42,3 +42,14 @@ Which one would you like to tackle next?
 ☑️ Collapsible sidebar with memory
 
 Your call!
+
+
+
+
+Let me know if you want:
+
+Sorted groups (alphabetically or by number of links)
+
+Custom anchor link format
+
+Or collapsible group sections for longer lists

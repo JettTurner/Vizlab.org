@@ -3,4 +3,13 @@
 
 </script>
 
-<CategoryBreakdwonPage category="Reference" descriptor="Reference Categories:" />
+<CategoryBreakdwonPage
+  category="Reference"
+  descriptor="Reference Categories:"
+  excludedTags={["Top", "Question",]}
+  tagNameOverrides={{
+    "AI": "Artificial Intelligence",
+    "3D": "3D Art",
+    "UX": "User Experience",
+  }}
+/>
