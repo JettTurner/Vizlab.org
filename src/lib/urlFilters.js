@@ -24,6 +24,8 @@ export let searchQuery = writable("");
 export let scoreThreshold = writable(0);
 export let lastQuery = writable("");
 
+export const showFilterDropdown = writable(false);
+
 let mounted = false;
 
 

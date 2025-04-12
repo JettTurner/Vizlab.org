@@ -1,5 +1,6 @@
 <script>
   import Sidebar from "$lib/Sidebar.svelte";
+  import FilterDropdown from "$lib/FilterDropdown.svelte";
   import BoxHolder from "$lib/BoxHolder.svelte";
   import { onMount } from "svelte";
   import { links as sites } from "$lib/sites.js";
@@ -10,10 +11,15 @@
   });
   
   let showSidebar = false; // State for controlling sidebar visibility
+  let showFilterDropdown = false; // State for controlling sidebar visibility
 
   // Function to update sidebar state
   function updateSidebarState(state) {
     showSidebar = state;
+  }
+  // Function to update sidebar state
+  function updateFilterDropdownState(state) {
+    showFilterDropdown = state;
   }
 
   // Reactive filtered sites
@@ -32,6 +38,7 @@
 
     return categoryMatch && tagMatch && softwareMatch && priceMatch && searchMatch;
   });
+  
   
   // src/routes/your-page/+page.js
 export async function load({ url }) {
@@ -56,15 +63,23 @@ export async function load({ url }) {
 
 </script>
 
+  <!-- FilterDropdown Component-->
+  <FilterDropdown 
+    {showFilterDropdown} 
+    {filteredSites} 
+    updateFilterDropdownState={updateFilterDropdownState} 
+  /> 
+
 
 <!-- Main Content Section -->
 <div class="flex">
-  <!-- Sidebar Component -->
+  <!-- Sidebar Component
   <Sidebar 
     {showSidebar} 
     {filteredSites} 
     updateSidebarState={updateSidebarState} 
-  />
+  /> -->
+
 
   <!-- Main Content Section -->
   <div class="flex-1">

@@ -25,7 +25,7 @@
   justify-content: space-around;
   width: 30px;
   height: 30px;
-  z-index: 101;
+  z-index: 20;
 }
 
 .hamburger .line {
@@ -41,10 +41,10 @@
   align-items: center;
   justify-content: space-between;
   position: sticky;
-  top: 54px;
+  top: 0px;
   background: #111;
   padding: 10px 20px;
-  z-index: 100;
+  z-index: 20;
 }
 
 .nav-links {
@@ -84,7 +84,7 @@
 
   /* Section Backgrounds */
   .section {
-    padding: 50px 20px;
+    padding: 10px;
   }
 
 .bg-dark-1 { background-color: #000000; } /* Pure Black */
@@ -245,7 +245,7 @@
 
   <br>
 
-  <div class="flex-container">
+  <div class="flex-container md:text-lg text-xs">
     <div class="box box-main">
       <h2>"Main" Screen</h2>
       <h2 style="color:#cf0228">Maya, Blender, Unreal, Notepad++, Adobe, Clip Studio, DaVinci Resolve, etc.</h2>
