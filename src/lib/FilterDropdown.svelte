@@ -47,7 +47,7 @@
   
 </script>
 
-{#if $showFilterDropdown}
+<!--{#if $showFilterDropdown}--><!--Hidden so that the FilterDropdown is always visible-->
   <div
     class="w-full px-4 py-2 flex flex-col  bg-gray-900 text-white border-b border-gray-700 gap-2 shadow-sm z-20"
   >
@@ -174,4 +174,4 @@
 	  </div>
 	{/if}
 </div>
-{/if}
+<!--{/if}-->
