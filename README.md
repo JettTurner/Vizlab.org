@@ -1,128 +1,75 @@
-# HOW DO I USE THIS THING???
+Vizlab.org
+Vizlab.org is a curated gateway to the best resources for 3D artists, animators, VFX professionals, and CGI creators. Whether you're seeking inspiration, tutorials, or high-quality assets, Vizlab helps you spend less time searching and more time creating.
 
-```bash
-# 0. hold shift and open powershell in this folder
+🚀 Live Features
+🌐 Centralized Resource Hub – Find educational content, references, and assets in one place.
 
-# 1. run the development server
-pnpm run dev -- --open
+🎨 Color-Coded Resources – Quickly distinguish between free, one-time, and subscription-based links.
 
-# 2. Edit the files in /src (try notepad++)
+🖥️ Dual-Screen Optimized – Built to complement production workflows across two monitors.
 
-# 2b. Stop the local web server
-q
+📁 Categorized Browsing – Browse by Education, Reference, and Assets.
 
-# 3. build the distribution
-pnpm build
+🧠 Thoughtfully Curated – Every link is handpicked for value and usefulness.
 
-# 4. copy the files from /build to the server
-scp -r .\build\* www-data@pi.local:/var/www/html/
+📁 Project Structure
+Here's a breakdown of the key components of the codebase:
 
+src/
+Top-level folder for source files.
 
-in console f12: use this to check the local clickCounts
-JSON.parse(localStorage.getItem("clickCounts"))
+app.css, app.html: Main entry styles and HTML template.
 
+New Text Document.txt: Placeholder or scratchpad file (safe to delete if unused).
 
-
-
-Fix: Set Up Prisma on Your Server
-
-prisma database checks:
-npx prisma db pull  # Syncs schema with database
-npx prisma studio   # Opens Prisma GUI to check data
-
-1. ssh into raspberry pi
-ssh username@pi.local
-password password
-
-2. Check if the database is running:
-ps aux | grep postgres
-# or for MySQL
-systemctl status mysql
-
-If the database isn’t running, start it:
-systemctl start postgresql  # for PostgreSQL
-systemctl start mysql       # for MySQL
-
-3. Ensure Prisma has the right database URL.
-Edit the .env file in your deployed project:
-
-nano .env
-
-Ensure it has:
-DATABASE_URL=postgresql://user:password@localhost:5432/mydb
-
-4. Apply migrations on the server:
-npx prisma migrate deploy
+src/lib/
+This is the heart of your application’s logic and components:
 
 
+File	Description
+Box.svelte	Component for displaying an individual resource box with visual styling and interaction.
+BoxHolder.svelte	The main resource grid that holds and displays all Box components. Handles layout and filtering.
+CategoryBreakdownPage.svelte	Page component used to render categorized breakdowns for each resource type.
+clicks.json	Temporary local JSON file for simulating click tracking.
+clickTracker.js	Utility function for tracking and storing user click interactions on resource links.
+FilterDropdown.svelte	A dropdown UI component used for tag-based filtering of resources.
+Footer.svelte	Site footer component with links or meta info.
+Header.svelte	Top navigation component, including sticky behavior and responsive hamburger menu.
+index.js	Entry point exporting major components or utilities for easy importing.
+PossibleTagsForSites.txt	A tag list used for filtering logic and matching resources.
+Sidebar.svelte	(Deprecated or alternate use) A component originally for sidebar-based tag filters.
+sites.js	Main data file with all site/resource entries including URLs, categories, and tags.
+software.js	A list of software used for filtering or tagging (Maya, Blender, etc.).
+timeDelay.js	A small utility for introducing delays, likely used for animation or vote cooldowns.
+urlFilters.js	Functions used for filtering or parsing URLs for search and filter purposes.
+🔒 Archive
+Located under src/lib/archive/, these are older backups of BoxHolder.svelte. Useful for restoring previous versions.
 
+🔧 Development
+To run the site locally:
 
-
-
-
-
-TODO:
-make middle mouse button clicks vallid clicks for clickCounts.
-make server side click aggragator.
-
-Purchase ChatGPT Pro?
-
-RED
-[#ff0000]
-
-Dark RED
-[#4a0317]
-
-BLUE
-[#0000ff]
-
-Dark Blue
-[#080c59]
-
-
-
-
-Testing the Popup
-If you need to reset and see the popup again:
-
-Open your browser console (F12 → Console).
-
-Run:
-
-js
+bash
 Copy
 Edit
-localStorage.removeItem("vizlabPopupSeen")
-Refresh the page.
+npm install
+npm run dev
+Open your browser at http://localhost:5173 (or whichever port is specified).
 
-Now, the popup will show again!
+💡 Future Features
+✅ Voting (upvote/downvote) system per resource
 
+✅ Local click tracking (ready for backend integration)
 
+🚧 User login & personalized collections
 
-GoAccess check it out for ngnix log viewer?
-tracks what activity is going on, on your website.
+🚧 Search auto-suggestions & tag cloud
 
-DB schenanigans?
+🚧 Bookmark and history panel
 
-login to remote as www-data
-> ssh www-data@pi.local
-edit database
-> sqlite3 /var/www/html/api/db.sqlite3
+🤝 Contributing
+Got suggestions or found a useful resource to add? Pull requests and issues are welcome!
 
+📜 License
+This project is licensed under the MIT License.
 
-Edit php files
-login to remote as www-data
-> ssh www-data@pi.local
-edit files (get.php and set.php)
-> nano /var/www/html/api/get.php
-> nano /var/www/html/api/set.php
-> cat /var/www/html/api/php_errors.log # show errors? maybe move to a different directory?
-
-
-View nginx error logs
-login to remote as username
-> ssh username@pi.local
-> sudo cat /var/log/nginx/error.log
-
-```
-
+Let me know if you want badges, screenshots, or deployment instructions (e.g. Vercel, Netlify) added to the README! ​
