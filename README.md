@@ -43,7 +43,7 @@ This is the heart of your application’s logic and components:
 |------|-------------|
 | `Box.svelte` | Component for displaying an individual resource box with visual styling and interaction. |
 | `BoxHolder.svelte` | The main resource grid that holds and displays all `Box` components. Handles layout and filtering. |
-| `CategoryBreakdownPage.svelte` | Page component used to render categorized breakdowns for each resource type. |
+| `CategoryBreakdownPage.svelte` | a depreciated Page component used to render categorized breakdowns for each resource type. |
 | `clicks.json` | Temporary local JSON file for simulating click tracking. |
 | `clickTracker.js` | Utility function for tracking and storing user click interactions on resource links. |
 | `FilterDropdown.svelte` | A dropdown UI component used for tag-based filtering of resources. |
