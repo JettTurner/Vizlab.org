@@ -4,6 +4,10 @@
 
 ---
 
+[📊 Feature Roadmap](roadmap.md) | [📝 Features Under Consideration](FeaturesUnderConsideration.md)
+
+---
+
 ## 🚀 Live Features
 
 - 🌐 **Centralized Resource Hub** – Find educational content, references, and assets in one place.
