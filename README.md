@@ -92,24 +92,3 @@ Got suggestions or found a useful resource to add? Pull requests and issues are 
 This project is licensed under the **GNU General Public License v3.0**.
 
 ---
-
-Let me know if you want badges, screenshots, or deployment instructions (e.g. Vercel, Netlify) added to the README!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Thanks! Here's the corrected and improved `README.md` file with GPL-3.0 licensing, no YAML issues, and better formatting for GitHub:
-
----
