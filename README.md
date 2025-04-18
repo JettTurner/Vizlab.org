@@ -1,5 +1,3 @@
----
-
 # Vizlab.org
 
 **Vizlab.org** is a curated gateway to the best resources for 3D artists, animators, VFX professionals, and CGI creators. Whether you're seeking inspiration, tutorials, or high-quality assets, Vizlab helps you spend less time searching and more time creating.
