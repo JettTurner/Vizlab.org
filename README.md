@@ -43,14 +43,14 @@ This is the heart of your application’s logic and components:
 |------|-------------|
 | `Box.svelte` | Component for displaying an individual resource box with visual styling and interaction. |
 | `BoxHolder.svelte` | The main resource grid that holds and displays all `Box` components. Handles layout and filtering. |
-| `CategoryBreakdownPage.svelte` | Page component used to render categorized breakdowns for each resource type. (Depreciated) |
+| `CategoryBreakdownPage.svelte` | (Depreciated) Page component used to render categorized breakdowns for each resource type.  |
 | `clicks.json` | Temporary local JSON file for simulating click tracking. |
 | `clickTracker.js` | Utility function for tracking and storing user click interactions on resource links. |
 | `FilterDropdown.svelte` | A dropdown UI component used for tag-based filtering of resources. |
 | `Footer.svelte` | Site footer component with links or meta info. |
 | `Header.svelte` | Top navigation component, including sticky behavior and responsive hamburger menu. |
 | `index.js` | Entry point exporting major components or utilities for easy importing. |
-| `PossibleTagsForSites.txt` | A tag list used for filtering logic and matching resources. |
+| `PossibleTagsForSites.txt` | A tag list used for creating site.js and ease of use. Useful for filtering logic and matching resources. |
 | `Sidebar.svelte` | (Deprecated or alternate use) A component originally for sidebar-based tag filters. |
 | `sites.js` | Main data file with all site/resource entries including URLs, categories, and tags. |
 | `software.js` | A list of software used for filtering or tagging (Maya, Blender, etc.). |
