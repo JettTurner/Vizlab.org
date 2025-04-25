@@ -1,6 +1,6 @@
 <script>
   import { onMount } from 'svelte';
-  import { trackClick } from "$lib/clickTracker.js";
+  import { trackClick, getVoteData, setVoteData, } from "$lib/clickTracker.js";
   import { boxSize } from "$lib/stores/boxSize.js";
   import sprite from "$lib/assets/sprite.min.svg";
 
@@ -65,26 +65,6 @@
 	
 	updateVoteColors();
   });
-
-  // LocalStorage helper: get
-  function getVoteData() {
-    try {
-      const data = localStorage.getItem('linkVotes');
-      return data ? JSON.parse(data) : {};
-    } catch (e) {
-      console.warn("Couldn't parse local vote data:", e);
-      return {};
-    }
-  }
-
-  // LocalStorage helper: set
-  function setVoteData(data) {
-    try {
-      localStorage.setItem('linkVotes', JSON.stringify(data));
-    } catch (e) {
-      console.warn("Couldn't save vote data:", e);
-    }
-  }
 
   // Handle click-through tracking (ignore vote button clicks)
   async function handleClick(event) {
@@ -235,7 +215,7 @@
 
   <!-- Tag container -->
   {#if categories.length}
-    <div class="absolute top-2 left-2 z-20 flex flex-col gap-1 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
+    <div class="absolute top-2 left-2 z-20 flex flex-col gap-1 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none hidden md:flex">
       {#each categories as cat}
         <span class="category-tag text-xs font-semibold px-2 py-1 bg-black/80 rounded {categoryColors[cat] || 'text-gray-500'}">
           {cat}
@@ -246,7 +226,7 @@
 
   <!-- Price Tags top-right -->
   {#if link.price}
-    <div class="absolute top-2 right-2 z-20 flex flex-col gap-1 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
+    <div class="absolute top-2 right-2 z-20 flex flex-col gap-1 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none hidden md:flex">
       {#if link.price.includes('Free')}
         <span class="text-green-400 text-xs font-semibold px-2 py-1 bg-black/80 rounded">
           Free
@@ -285,7 +265,7 @@
   {/if}
 
   <!-- Description overlay -->
-  <div class="absolute bottom-0 left-0 right-0 h-1/2 bg-black/80 text-white px-2 py-1 text-xs min-[840px]:text-sm opacity-0 translate-y-full group-hover:opacity-90 group-hover:bg-blue-900 group-hover:translate-y-0 transition-all duration-300 ease-in-out z-10 overflow-y-auto">
+  <div class="absolute bottom-0 left-0 right-0 h-full md:h-1/2 bg-black/80 text-white px-2 py-1 text-xs min-[840px]:text-sm opacity-0 translate-y-full group-hover:opacity-90 group-hover:bg-blue-900 group-hover:translate-y-0 transition-all duration-300 ease-in-out z-10 overflow-y-auto">
     {link.description}
   </div>
 

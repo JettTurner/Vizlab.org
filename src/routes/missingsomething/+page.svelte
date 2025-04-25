@@ -30,6 +30,67 @@
     color: #FFFFFF;
   }
 
+/* Media Query for Mobile Screens (max-width: 768px) */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.8rem; /* Smaller heading on mobile */
+  }
+
+  h2 {
+    font-size: 1.5rem; /* Slightly smaller heading */
+  }
+
+  h3 {
+    font-size: 1.2rem; /* Smaller sub-heading */
+  }
+
+  p {
+    font-size: 0.9rem; /* Smaller paragraph text */
+    line-height: 1.5; /* Improve readability */
+  }
+
+  li {
+    font-size: 1rem; /* Smaller list item text */
+  }
+
+  .category-list li {
+    margin: 10px 0; /* Adjust spacing for smaller screens */
+  }
+
+  .category-list {
+    padding-left: 0;
+  }
+
+  /* Adjust for mobile screens in the gallery section */
+  .flex-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 15px; /* Space out the boxes more on mobile */
+  }
+
+  .box {
+    width: 100%; /* Make the boxes full-width */
+    padding: 0px;
+  }
+
+  /* Sticky Navigation Adjustments */
+  .nav-container {
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+
+  .nav-links a {
+    font-size: 1rem; /* Adjust nav link text size */
+  }
+}
+
   /* Sticky Navigation for Quick Links */
   .nav-links {
     position: sticky;

@@ -33,9 +33,6 @@ export async function getClickCounts() {
     }
 }
 
-
-
-
 export async function trackClick(linkHref) {
     if (!browser) return;
 
@@ -55,4 +52,28 @@ export async function trackClick(linkHref) {
         console.error("Failed to send click data to the server:", error);
     }
 }
+
+//================================ local upvote downvote ========================================
+
+  // LocalStorage helper: get
+  export function getVoteData() {
+    try {
+      const data = localStorage.getItem('linkVotes');
+      return data ? JSON.parse(data) : {};
+    } catch (e) {
+      console.warn("Couldn't parse local vote data:", e);
+      return {};
+    }
+  }
+
+  // LocalStorage helper: set
+  export function setVoteData(data) {
+    try {
+      localStorage.setItem('linkVotes', JSON.stringify(data));
+    } catch (e) {
+      console.warn("Couldn't save vote data:", e);
+    }
+  }
+
+
 
