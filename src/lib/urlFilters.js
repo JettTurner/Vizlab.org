@@ -28,39 +28,6 @@ export const showFilterDropdown = writable(false);
 
 let mounted = false;
 
-
-// Create a function to handle the filtering logic
-export function applyFilters() {
-  let filtered = [...allSites]; // Assuming allSites contains all available links
-
-  // Apply category filter (AND logic, so we check if the site matches any selected categories)
-  if ($selectedCategories.length > 0) {
-    filtered = filtered.filter(site => $selectedCategories.includes(site.category));
-  }
-
-  // Apply tag filter (OR logic: site should match at least one selected tag)
-  if ($selectedTags.length > 0) {
-    filtered = filtered.filter(site => 
-      $selectedTags.some(tag => site.tags.includes(tag))
-    );
-  }
-
-  // Apply software filter (OR logic: site should match at least one selected software)
-  if ($selectedSoftware.length > 0) {
-    filtered = filtered.filter(site => 
-      $selectedSoftware.some(software => site.software.includes(software))
-    );
-  }
-
-  // Apply price filter (AND logic: site should match any selected price)
-  if ($selectedPrices.length > 0) {
-    filtered = filtered.filter(site => $selectedPrices.includes(site.price));
-  }
-
-  // Set filtered results
-  return filteredSites = filtered;
-}
-
 // Disable Category filters logic
 export function isCategoryDisabled(category, selectedCategories, filteredSites) {
   return selectedCategories.length > 0 && filteredSites.every(site => site.category !== category);

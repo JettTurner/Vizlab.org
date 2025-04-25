@@ -9,6 +9,7 @@
 
   //export let showFilterDropdown = false;
   export let filteredSites = [];
+  export let SortedSites = [];
   //export let updateFilterDropdownState;
 
   let searchText;

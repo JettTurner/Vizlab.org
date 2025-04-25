@@ -2,7 +2,7 @@
   import { 
     selectedTags, selectedCategories, selectedPrices, selectedSoftware,
     allTags, allCategories, allPrices, allSoftware,   
-    searchQuery, addFilter, removeFilter, clearAllFilters, hasActiveFilters, applyFilters,
+    searchQuery, addFilter, removeFilter, clearAllFilters, hasActiveFilters,
     isCategoryDisabled, isTagDisabled, isSoftwareDisabled, isPriceDisabled 
   } from "$lib/urlFilters.js";
 
