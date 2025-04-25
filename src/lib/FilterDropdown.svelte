@@ -2,67 +2,87 @@
   import {
     selectedTags, selectedCategories, selectedPrices, selectedSoftware,
     allTags, allCategories, allPrices, allSoftware,
-    searchQuery, addFilter, removeFilter, clearAllFilters, hasActiveFilters,
+    addFilter, removeFilter, clearAllFilters, hasActiveFilters,
     isCategoryDisabled, isTagDisabled, isSoftwareDisabled, isPriceDisabled,
+    searchQuery, sortOptions, sortOption, sortDirection,
 	showFilterDropdown,
   } from "$lib/urlFilters.js";
 
-  //export let showFilterDropdown = false;
-  export let filteredSites = [];
-  export let SortedSites = [];
-  //export let updateFilterDropdownState;
+  export let filteredSites = [];  
 
+  // Local text field for search input, linked to debounced reactive store update
   let searchText;
   let debounceTimeout;
 
-  $: searchText = $searchQuery;
+  // Debounce search input
+	$: if (searchText !== undefined) {
+	  clearTimeout(debounceTimeout);
+	  debounceTimeout = setTimeout(() => {
+		searchQuery.set(searchText);
+	  }, 900);
+	}
 
-  $: if (searchText !== undefined) {
-    clearTimeout(debounceTimeout);
-    debounceTimeout = setTimeout(() => {
-      searchQuery.set(searchText);
-    }, 900);
-  }
-  
+
+  // Manual filters toggle
   let showFiltersUI = false;
+  const toggleManualFilterUI = () => showFiltersUI = !showFiltersUI;
 
-  function toggleManualFilterUI() {
-    showFiltersUI = !showFiltersUI;
-  }
-
-  // Function to open the FilterDropdown
-  function openFilterDropdown() {
-    showFilterDropdown.set(true);
-  }
-
-  // Function to close the FilterDropdown
-  function closeFilterDropdown() {
-    showFilterDropdown.set(false);
-  }
-
-  // Toggle FilterDropdown on button click
-  function toggleFilterDropdown() {
-    showFilterDropdown.update(value => !value); // Toggle FilterDropdown visibility
-  }
-  
-  
+  // Filter dropdown controls
+  const openFilterDropdown = () => showFilterDropdown.set(true);
+  const closeFilterDropdown = () => showFilterDropdown.set(false);
+  const toggleFilterDropdown = () => showFilterDropdown.update(v => !v);
 </script>
+
 
 <!--{#if $showFilterDropdown}--><!--Hidden so that the FilterDropdown is always visible-->
   <div
     class="w-full px-4 py-2 flex flex-col  bg-gray-900 text-white border-b border-gray-700 gap-2 shadow-sm z-20"
   >
-
-	<div class="flex items-center justify-between gap-2">
+	<!-- THE BASIC SEARCH BAR -->
+	<div class="flex items-center justify-between gap-2 sm:flex-row flex-wrap sm:items-center sm:justify-between">
+	  <!-- search box -->
 	  <input
 		type="text"
 		placeholder="Search..."
-		class="flex-grow border border-gray-700 px-2 rounded bg-gray-800 text-white text-default placeholder-gray-400"
+		class="flex-grow w-full sm:w-auto border border-gray-700 px-2 rounded bg-gray-800 text-white text-default placeholder-gray-400"
 		bind:value={searchText}
 	  />
+	  <!-- Sort By drop down and order flip -->
+		<div class="flex items-center gap-2 text-sm text-white">
+		  <label for="sort">Sort By:</label>
+			<select
+			  id="sort"
+			  bind:value={$sortOption}
+			  class="bg-gray-800 border border-red-600 rounded px-2 py-1 text-sm text-white"
+			>
+			  {#each sortOptions as option}
+				<option value={option.value}>{option.label}</option>
+			  {/each}
+			</select>
+		<!-- Sort By button Logic -->
+		<button
+		  class={`px-2 py-1 rounded text-white text-sm
+			${$sortOption === 'none'
+			  ? 'bg-gray-600 cursor-not-allowed opacity-50'
+			  : 'bg-gray-700 hover:bg-gray-600'}`}
+		  on:click={() => {
+			if ($sortOption !== 'none') {
+			  sortDirection.set($sortDirection === 'asc' ? 'desc' : 'asc');
+			}
+		  }}
+		  title="Toggle ascending/descending"
+		  disabled={$sortOption === 'none'}
+		>
+		  {$sortDirection === 'asc' ? '⬆ Ascending' : '⬇ Descending'}
+		    <!-- {$sortDirection === 'asc' ? '⬆' : '⬇'} {$sortOption}-->
+		</button>
+
+		</div>
+	  <!-- number of links meeting search and filters intentionally not the sorted list-->
 	  <span class="text-sm text-gray-400 whitespace-nowrap">
 		{filteredSites.length} links
 	  </span>
+	  <!-- Show filters toggle button -->
 	  <button
 		class="bg-blue-700 hover:bg-blue-800 text-white px-2 py-1 rounded text-sm"
 		on:click={toggleManualFilterUI}
@@ -72,38 +92,35 @@
 	  </button>
 	</div>
 
-
+	<!-- Filters! -->
 	{#if showFiltersUI}
+	  <!-- Clear All filters button, triggers a warning pop up -->
 	  <button
 		class="bg-red-700 hover:bg-red-800 text-white px-3 py-1 rounded text-sm w-full disabled:opacity-50"
 		on:click={() => { if (confirm("Clear all filters?")) clearAllFilters(); }}
 		disabled={!$hasActiveFilters}>
 		✖ Clear All Filters
 	  </button>
-
+	  
+	  <!-- flex space for selected tags, where the user can click to remove them individualy -->
 	  <div class="flex flex-wrap gap-2">
-		{#each $selectedCategories as category}
-		  <span class="bg-red-600 px-2 py-1 rounded text-sm cursor-pointer" on:click={() => removeFilter(selectedCategories, category)}>
-			{category} ✖
-		  </span>
-		{/each}
-		{#each $selectedTags as tag}
-		  <span class="bg-blue-600 px-2 py-1 rounded text-sm cursor-pointer" on:click={() => removeFilter(selectedTags, tag)}>
-			{tag} ✖
-		  </span>
-		{/each}
-		{#each $selectedSoftware as software}
-		  <span class="bg-green-600 px-2 py-1 rounded text-sm cursor-pointer" on:click={() => removeFilter(selectedSoftware, software)}>
-			{software} ✖
-		  </span>
-		{/each}
-		{#each $selectedPrices as price}
-		  <span class="bg-yellow-600 px-2 py-1 rounded text-sm cursor-pointer" on:click={() => removeFilter(selectedPrices, price)}>
-			{price === 'OneTimePurchase' ? 'One-Time' : price} ✖
-		  </span>
-		{/each}
+			{#each [
+			  { list: $selectedCategories, color: 'bg-red-600', store: selectedCategories },
+			  { list: $selectedTags, color: 'bg-blue-600', store: selectedTags },
+			  { list: $selectedSoftware, color: 'bg-green-600', store: selectedSoftware },
+			  { list: $selectedPrices, color: 'bg-yellow-600', store: selectedPrices, transform: p => p === 'OneTimePurchase' ? 'One-Time' : p }
+			] as group}
+			  {#each group.list as item}
+				<span
+				  class={`${group.color} px-2 py-1 rounded text-sm cursor-pointer`}
+				  on:click={() => removeFilter(group.store, item)}>
+				  {group.transform ? group.transform(item) : item} ✖
+				</span>
+			  {/each}
+			{/each}
 	  </div>
-
+		
+		<!-- grid of all the filter options: Category, Software, Tags, Price -->
 	  <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
 		<!-- Categories -->
 		<div>

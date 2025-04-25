@@ -21,10 +21,21 @@ export let selectedCategories = writable([]);
 export let selectedPrices = writable([]);
 export let selectedSoftware = writable([]);
 export let searchQuery = writable("");
+export const sortOption = writable("none");
+export const sortDirection = writable("desc");
 export let scoreThreshold = writable(0);
 export let lastQuery = writable("");
 
 export const showFilterDropdown = writable(false);
+
+// Sorting options
+export const sortOptions = [
+	{ value: "none", label: "None" },
+	//{ value: "likes", label: "Most Liked" },
+	//{ value: "date", label: "Newest" },
+	{ value: "popularity", label: "Most Popular" },
+	{ value: "alphabetical", label: "A–Z" },
+];
 
 let mounted = false;
 
@@ -53,44 +64,49 @@ export function isPriceDisabled(price, selectedPrices, filteredSites) {
  */
 export function parseUrlParams(params) {
   return params ? decodeURIComponent(params).split(",") : [];
+  return items.filter(Boolean); // Remove empty strings
 }
 
 // 🏁 ✅ Load filters from the URL only once on page mount
 export function loadFiltersFromURL() {
-  return page.subscribe(($page) => {
-    const params = $page.url.searchParams;
+	return page.subscribe(($page) => {
+		const params = $page.url.searchParams;
 
-    setTimeout(() => {
-      selectedTags.set(parseUrlParams(params.get("tags")));
-      selectedCategories.set(parseUrlParams(params.get("categories")));
-      selectedPrices.set(parseUrlParams(params.get("prices")));
-      selectedSoftware.set(parseUrlParams(params.get("software")));
-      searchQuery.set(params.get("search") || "");
-      scoreThreshold.set(params.get("score") ? Number(params.get("score")) : 0);
-    });
-
-    mounted = true;
-  });
+		setTimeout(() => {
+			selectedTags.set(parseUrlParams(params.get("tags")));
+			selectedCategories.set(parseUrlParams(params.get("categories")));
+			selectedPrices.set(parseUrlParams(params.get("prices")));
+			selectedSoftware.set(parseUrlParams(params.get("software")));
+			searchQuery.set(params.get("search") || "");
+			scoreThreshold.set(params.get("score") ? Number(params.get("score")) : 0);
+			sortOption.set(params.get("sort") || "none"); // ✅ keep as string
+			sortDirection.set(params.get("direction") || "desc"); // ✅ default to "desc"
+			
+			mounted = true;
+		});	
+	});
 }
 
 // ✅ 🔄 Automatically update the URL when any filter changes
 export function updateURL() {
-  if (!mounted) return;
+	if (!mounted) return;
 
-  let query = new URLSearchParams();
+	const query = new URLSearchParams();
 
-  if (get(selectedTags).length) query.set("tags", get(selectedTags).join(","));
-  if (get(selectedCategories).length) query.set("categories", get(selectedCategories).join(","));
-  if (get(selectedPrices).length) query.set("prices", get(selectedPrices).join(","));
-  if (get(selectedSoftware).length) query.set("software", get(selectedSoftware).join(","));
-  if (get(searchQuery)) query.set("search", get(searchQuery));
-  if (get(scoreThreshold) > 0) query.set("score", get(scoreThreshold));
+	if (get(selectedTags).length) query.set("tags", get(selectedTags).join(","));
+	if (get(selectedCategories).length) query.set("categories", get(selectedCategories).join(","));
+	if (get(selectedPrices).length) query.set("prices", get(selectedPrices).join(","));
+	if (get(selectedSoftware).length) query.set("software", get(selectedSoftware).join(","));
+	if (get(searchQuery)) query.set("search", get(searchQuery));
+	if (get(scoreThreshold) > 0) query.set("score", get(scoreThreshold));
+	if (get(sortOption)) query.set("sort", get(sortOption));
+	if (get(sortDirection)) query.set("direction", get(sortDirection));
 
-  const queryString = query.toString();
-  if (queryString !== get(lastQuery)) {
-    goto(`${get(page).url.pathname}?${queryString}`, { replaceState: true });
-    lastQuery.set(queryString);
-  }
+	const queryString = query.toString();
+	if (queryString !== get(lastQuery)) {
+		goto(`${get(page).url.pathname}?${queryString}`, { replaceState: true });
+		lastQuery.set(queryString);
+	}
 }
 
 // ✅ Add a selected filter to the specified store
@@ -118,14 +134,19 @@ export function clearAllFilters() {
 
 // used for making sure the clear filters button 
 export const hasActiveFilters = derived(
-  [selectedTags, selectedCategories, selectedPrices, selectedSoftware, searchQuery, scoreThreshold],
-  ([$tags, $categories, $prices, $software, $search, $score]) =>
-    $tags.length > 0 ||
-    $categories.length > 0 ||
-    $prices.length > 0 ||
-    $software.length > 0 ||
-    $search.length > 0 ||
-    $score > 0
+	[selectedTags, selectedCategories, selectedPrices, selectedSoftware, searchQuery, scoreThreshold],
+	([$tags, $categories, $prices, $software, $search, $score]) => {
+		// Ignore early false-negatives before mounted
+		if (!mounted) return false;
+		return (
+			$tags.length > 0 ||
+			$categories.length > 0 ||
+			$prices.length > 0 ||
+			$software.length > 0 ||
+			$search.length > 0 ||
+			$score > 0
+		);
+	}
 );
 
 
@@ -142,3 +163,5 @@ safeSubscribe(selectedPrices);
 safeSubscribe(selectedSoftware);
 safeSubscribe(searchQuery);
 safeSubscribe(scoreThreshold);
+safeSubscribe(sortOption);
+safeSubscribe(sortDirection);

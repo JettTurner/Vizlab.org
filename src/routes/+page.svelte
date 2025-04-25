@@ -4,7 +4,7 @@
   import BoxHolder from "$lib/BoxHolder.svelte";
   import { onMount } from "svelte";
   import { links as sites } from "$lib/sites.js";
-  import { selectedTags, selectedCategories, selectedPrices, selectedSoftware, searchQuery, loadFiltersFromURL } from "$lib/urlFilters.js";
+  import { selectedTags, selectedCategories, selectedPrices, selectedSoftware, searchQuery, sortOption, sortDirection, loadFiltersFromURL } from "$lib/urlFilters.js";
 
   onMount(() => {
     loadFiltersFromURL();
@@ -49,6 +49,8 @@ export async function load({ url }) {
   const selectedPrices = searchParams.getAll('price') || [];
   const selectedSoftware = searchParams.getAll('software') || [];
   const searchQuery = searchParams.get('search') || '';
+  const sortOption = searchParams.set(params.get("sort") || "");			
+  const sortDirection = searchParams.set(params.get("direction") || "");
 
   return {
     props: {
@@ -57,6 +59,8 @@ export async function load({ url }) {
       selectedPrices,
       selectedSoftware,
       searchQuery,
+      sortOption,
+	  sortDirection,
     },
   };
 }
@@ -90,6 +94,8 @@ export async function load({ url }) {
       bind:filterPrice={$selectedPrices}
       bind:filterSoftware={$selectedSoftware}
       bind:searchQuery={$searchQuery}
+      bind:sortOption={$sortOption}
+      bind:sortDirection={$sortDirection}
     />
   </div>
 </div>
