@@ -88,6 +88,15 @@ for obj in object_matches:
 # Refactor each entry
 refactored_data = []
 for idx, entry in enumerate(cleaned_objects, start=1):
+    # Check if the 'id' field exists, otherwise assign a new one
+    if 'id' not in entry:
+        entry['id'] = f"{idx:04d}"  # Assign a unique ID if not already present
+
+    # Check if 'date curated' exists, otherwise default to '2/23/2025'
+    if 'date curated' not in entry:
+        entry['date curated'] = '02/23/2025'
+
+    # Create the new entry with the appropriate fields
     new_entry = {
         "title": entry.get("title", "Untitled"),
         "description": entry.get("description", ""),
@@ -100,16 +109,19 @@ for idx, entry in enumerate(cleaned_objects, start=1):
         "price": entry.get("price") if isinstance(entry.get("price"), list) else ([entry.get("price")] if entry.get("price") else []),
         "color": entry.get("color", None),
         "score": entry.get("score", None),
-        "date curated": datetime.now().strftime("%d/%m/%Y"),
-        "id": f"{idx:04d}"
+        "date curated": entry['date curated'],  # Use the existing or default date
+        # Use the ID from the entry (either the existing one or the new one assigned)
+        "id": entry['id']
     }
     refactored_data.append(new_entry)
 
 # Wrap it as a JS variable
-js_output = "const resources = " + json.dumps(refactored_data, indent=4) + ";\n"
+js_output = "export const links = " + json.dumps(refactored_data, indent=4) + ";\n"
 
 # Write to output
 with open(output_path, 'w', encoding='utf-8') as f:
     f.write(js_output)
 
 print(f"✅ Refactored data saved to {output_path}")
+
+
