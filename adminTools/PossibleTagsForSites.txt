@@ -1,3 +1,172 @@
+const resources = [
+    {
+    "title": "sound-effects.bbcrewind.co.uk",
+    "description": "BBC archive of 30,000+ sound effects",
+    "href": "https://sound-effects.bbcrewind.co.uk/",
+    "image": "/src/lib/assets/sound-effects.bbcrewind.co.uk_0001.png",
+    "category": [
+        "Assets / Tools"
+    ],
+    "tag": [
+        "Asset Library / Marketplace",
+        "Sound"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "date curated": "25/04/2025",
+    "id": "0001"
+},
+    {
+    "title": "substance3d.adobe.com",
+    "description": "A library of thousands of materials, models, and lights A vast range of assets, to meet an immense variety of needs.",
+    "href": "https://substance3d.adobe.com/assets/allassets",
+    "image": "/src/lib/assets/substance3d.adobe.com_0002.png",
+    "category": [
+        "Assets / Tools"
+    ],
+    "tag": [
+        "Asset Library / Marketplace",
+        "Models",
+        "Textures"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "Subscription"
+    ],
+    "color": null,
+    "score": null,
+    "date curated": "30/04/2025",
+    "id": "0002"
+},
+    {
+    "title": "Test Entry",
+    "description": "Test Description",
+    "href": "https://vizlab.org/",
+    "image": "/src/lib/assets/Test Entry_0003.png",
+    "category": [
+        "Education / Tutorial",
+        "Reference /",
+        "Assets / Tools",
+        "Documentation",
+        "Getting Started (ideal resources for beginners)"
+    ],
+    "tag": [
+        "Asset Library / Marketplace",
+        "Animation",
+        "Level Design",
+        "Environment Art",
+        "Concept Art",
+        "Lighting",
+        "Shaders and Rendering",
+        "Math",
+        "Compositing",
+        "Color Spaces and Management",
+        "Texturing Trims and Procedurals",
+        "Modeling (Characters)",
+        "Modeling (Hard Surface)",
+        "Modeling (Procedural)",
+        "Animation Reference",
+        "Character Design",
+        "Topology",
+        "Anatomy",
+        "Rigging",
+        "Documentation",
+        "Game Development",
+        "Web Development",
+        "Models",
+        "Textures",
+        "Plugins",
+        "FX",
+        "Simulation",
+        "Sculpting",
+        "Scanning",
+        "Workflow/Management/Pipeline"
+    ],
+    "subtag": [
+        "Kitbash",
+        "Greebles",
+        "Plants/Nature",
+        "Cars & Vehichles",
+        "Characters & Creatures",
+        "Architecture",
+        "Props",
+        "Noise Maps",
+        "Grunge",
+        "HDRI",
+        "Decals",
+        "Alpha Brushes",
+        "Face Rigs",
+        "Body Rigs",
+        "Lip Sync",
+        "Non Human Rigs",
+        "Terrain",
+        "Water",
+        "Explosions",
+        "Clouds",
+        "Fire",
+        "Dust",
+        "UI /UX"
+    ],
+    "software": [
+        "All",
+        "Blender",
+        "Maya",
+        "Unreal",
+        "Unity",
+        "3ds Max",
+        "Cinema 4D",
+        "Substance",
+        "Photoshop",
+        "Illustrator",
+        "After Effects",
+        "DaVinci Resolve",
+        "Nuke",
+        "Houdini",
+        "Fusion",
+        "Marvelous Designer",
+        "Quixel Mixer",
+        "Figma",
+        "Krita",
+        "Clip Studio Paint",
+        "Affinity Photo",
+        "ZBrush",
+        "Nomad"
+    ],
+    "price": [
+        "Free",
+        "OneTimePurchase",
+        "Subscription"
+    ],
+    "color": null,
+    "score": null,
+    "date curated": "02/05/2025",
+    "id": "0003"
+},
+];
+
+
+
+
+
+
+
+
+
+
 //posible tags for site
 {
   "image": "/src/lib/assets/test_everything_extended.png",
