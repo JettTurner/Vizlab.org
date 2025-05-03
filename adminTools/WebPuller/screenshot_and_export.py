@@ -80,7 +80,7 @@ def capture_screenshot_and_build_js(unique_id, timestamp, url, name, description
         except Exception as e:
             print(f"⚠️ Error loading {url}: {e}")
             return None  # Skip this entry
-        time.sleep(2)  # Wait for the page to load
+        time.sleep(4)  # Wait for the page to load 2 is standard
 
         # Set zoom to 50% for smaller screenshots
         driver.execute_script("document.body.style.zoom='50%'")
