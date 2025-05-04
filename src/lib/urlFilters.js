@@ -5,7 +5,7 @@ import { links as sites } from "$lib/sites.js";
 import { derived } from "svelte/store";
 
 // ✅ Extract unique filters dynamically
-export let allTags = [...new Set(sites.flatMap(site => site.tags || []))];
+export let allTags = [...new Set(sites.flatMap(site => site.tag || []))];
 export let allCategories = [...new Set(sites.flatMap(site => site.category || []))];
 export let allPrices = [...new Set(sites.flatMap(site => site.price || []))];
 export let allSoftware = [...new Set(sites.flatMap(site => site.software || []))];
@@ -48,7 +48,7 @@ export function isCategoryDisabled(category, selectedCategories, filteredSites) 
 }
 // Disable Tag filters logic
 export function isTagDisabled(tag, selectedTags, filteredSites) {
-  return selectedTags.length > 0 && filteredSites.every(site => !site.tags.includes(tag));
+  return selectedTags.length > 0 && filteredSites.every(site => !site.tag.includes(tag));
 }
 // Disable Software filters logic
 export function isSoftwareDisabled(software, selectedSoftware, filteredSites) {
@@ -86,74 +86,6 @@ export const hasActiveFilters = derived(
 		);
 	}
 );
-
-
-//======================== SORT AND FILTER (UNUSED) ===========================================================================================================================
-export function getFilteredAndSortedSites(inputSites, selectedTags, searchTerm, priceFilter, sortOption, sortDirection) {
-  try {
-    console.log("Filtering and sorting sites...");
-	console.log("allSites at module level:", allSites);
-
-    if (!inputSites || !Array.isArray(inputSites)) {
-      console.log("Sites not found or not an array");
-      return [];
-    }
-
-    let sites = [...inputSites];
-    console.log("input sites:", sites);
-
-    const filteredSites = sites.filter(site => {
-      const hasMatchingTags = selectedTags.length === 0 || selectedTags.every(tag => site.tags?.includes(tag));
-      const matchesSearch = !searchTerm || site.title?.toLowerCase().includes(searchTerm.toLowerCase()) || site.description?.toLowerCase().includes(searchTerm.toLowerCase());
-      const matchesPrice = priceFilter.length === 0 || priceFilter.includes(site.price);
-
-      return hasMatchingTags && matchesSearch && matchesPrice;
-    });
-
-    console.log("Filtered sites:", filteredSites);
-
-    const sortedSites = sortSites(filteredSites, sortOption, sortDirection);
-    console.log("Sorted sites:", sortedSites);
-    
-    return sortedSites;
-
-  } catch (err) {
-    console.error("getFilteredAndSortedSites error:", err);
-    return [];
-  }
-}
-// Sort helper
-export function sortSites(sites, sortKey, direction) {
-	if (!sortKey || sortKey === "none") return sites; // Don't sort at all
-	
-	return [...sites].sort((a, b) => {
-		let valA, valB;
-
-		switch (sortKey) {
-			case "likes":
-				valA = a.likes ?? 0;
-				valB = b.likes ?? 0;
-				break;
-			case "date":
-				valA = new Date(a.dateAdded);
-				valB = new Date(b.dateAdded);
-				break;
-			case "popularity":
-				valA = a.clickCount ?? 0;
-				valB = b.clickCount ?? 0;
-				break;
-			case "alphabetical":
-				valA = (a.title ?? "").toLowerCase();
-				valB = (b.title ?? "").toLowerCase();
-				break;
-			default:
-				return 0;
-		}
-
-		const comparison = valA < valB ? -1 : valA > valB ? 1 : 0;
-		return direction === "asc" ? comparison : -comparison;
-	});
-}
 
 //======================== URL HANDLING ===========================================================================================================================
 

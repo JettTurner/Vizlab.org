@@ -28,6 +28,9 @@
     ? (Array.isArray(link.category) ? link.category : [link.category])
     : [];
 
+  // Date from link
+  let date = link.date
+
   // Voting state
   let upvoted = false;
   let downvoted = false;
@@ -160,42 +163,51 @@
 	downvoteColor = `transition-colors hover:text-red-300 ${downvoted ? 'text-red-400' : 'text-white'}`;
   }
   // Format price-based styling
-  $derived: {
-    if (link.price) {
-      let selectedPrice = "";
+	$derived: {
+	  // Custom override logic
+	  color = link.color ?? null;
+	  primaryTextColor = link.primaryTextColor ?? null;
+	  secondaryTextColor = link.secondaryTextColor ?? null;
 
-      if (link.price.includes('Subscription')) {
-        selectedPrice = 'Subscription';
-      } else if (link.price.includes('OneTimePurchase')) {
-        selectedPrice = 'OneTimePurchase';
-      } else if (link.price.includes('Free')) {
-        selectedPrice = 'Free';
-      }
+	  // If any are still unset, fall back to price-based defaults
+	  if (!color || !primaryTextColor || !secondaryTextColor) {
+		if (link.price) {
+		  let selectedPrice = "";
 
-      switch (selectedPrice) {
-        case "Subscription":
-          color = 'bg-[#171717]';
-          primaryTextColor = 'text-red-400 group-hover:text-red-400';
-          secondaryTextColor = 'text-stone-300';
-          break;
-        case "OneTimePurchase":
-          color = 'bg-[#171717]';
-          primaryTextColor = 'text-orange-400 group-hover:text-orange-400';
-          secondaryTextColor = 'text-stone-300';
-          break;
-        case "Free":
-          color = 'bg-stone-900';
-          primaryTextColor = 'text-stone-400 group-hover:text-stone-100';
-          secondaryTextColor = 'text-stone-300';
-          break;
-        default:
-          color = 'bg-[#ff00ff]';
-          primaryTextColor = 'text-[#ff00ff]';
-          secondaryTextColor = 'text-[#a0a0a0]';
-          break;
-      }
-    }
-  }
+		  if (link.price.includes('Subscription')) {
+			selectedPrice = 'Subscription';
+		  } else if (link.price.includes('OneTimePurchase')) {
+			selectedPrice = 'OneTimePurchase';
+		  } else if (link.price.includes('Free')) {
+			selectedPrice = 'Free';
+		  }
+
+		  switch (selectedPrice) {
+			case "Subscription":
+			  color = color ?? 'bg-[#171717]';
+			  primaryTextColor = primaryTextColor ?? 'text-red-400 group-hover:text-red-400';
+			  secondaryTextColor = secondaryTextColor ?? 'text-stone-100';
+			  break;
+			case "OneTimePurchase":
+			  color = color ?? 'bg-[#171717]';
+			  primaryTextColor = primaryTextColor ?? 'text-orange-400 group-hover:text-orange-400';
+			  secondaryTextColor = secondaryTextColor ?? 'text-stone-100';
+			  break;
+			case "Free":
+			  color = color ?? 'bg-stone-900';
+			  primaryTextColor = primaryTextColor ?? 'text-stone-400 group-hover:text-stone-100';
+			  secondaryTextColor = secondaryTextColor ?? 'text-stone-100';
+			  break;
+			default:
+			  color = color ?? 'bg-[#ff00ff]';
+			  primaryTextColor = primaryTextColor ?? 'text-[#ff00ff]';
+			  secondaryTextColor = secondaryTextColor ?? 'text-[#a0a0a0]';
+			  break;
+		  }
+		}
+	  }
+	}
+
 
   // Set error if image failed to load
   $derived: {
@@ -213,17 +225,25 @@
   on:mouseup={handleClick}
 >
 
+  <!-- Date Currated container -->
+    <div class="absolute top-2 left-2 z-20 flex flex-col gap-1 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none hidden md:flex">
+          <span class="text-white-400 text-xs font-semibold px-2 py-1 bg-blue-800 rounded">
+          Curated On: {link.datecurated}
+          </span>
+		  
+    </div>
+	
   <!-- Tag container -->
   {#if categories.length}
-    <div class="absolute top-2 left-2 z-20 flex flex-col gap-1 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none hidden md:flex">
+    <div class="absolute top-10 left-2 z-20 flex flex-col gap-1 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none hidden md:flex">
       {#each categories as cat}
         <span class="category-tag text-xs font-semibold px-2 py-1 bg-black/80 rounded {categoryColors[cat] || 'text-gray-500'}">
           {cat}
         </span>
       {/each}
     </div>
-  {/if}
-
+  {/if} 
+  
   <!-- Price Tags top-right -->
   {#if link.price}
     <div class="absolute top-2 right-2 z-20 flex flex-col gap-1 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none hidden md:flex">
@@ -265,7 +285,7 @@
   {/if}
 
   <!-- Description overlay -->
-  <div class="absolute bottom-0 left-0 right-0 h-full md:h-1/2 bg-black/80 text-white px-2 py-1 text-xs min-[840px]:text-sm opacity-0 translate-y-full group-hover:opacity-90 group-hover:bg-blue-900 group-hover:translate-y-0 transition-all duration-300 ease-in-out z-10 overflow-y-auto">
+  <div class="absolute bottom-0 left-0 right-0 h-full md:h-1/2 bg-black/80 {secondaryTextColor} px-2 py-1 text-xs min-[840px]:text-sm opacity-0 translate-y-full group-hover:opacity-90 group-hover:bg-blue-900 group-hover:translate-y-0 transition-all duration-300 ease-in-out z-10 overflow-y-auto">
     {link.description}
   </div>
 

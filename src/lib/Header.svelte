@@ -40,12 +40,13 @@
     { category: "Assets", label: "Assets", navcolor: 'hover:text-red-500' },
     { category: "GettingStarted", label: "Getting Started", navcolor: 'hover:text-orange-500' },
     { category: "Documentation", label: "Documentation", navcolor: 'hover:text-purple-400' },
+    { category: "MissingSomething", label: "Missing Something?", navcolor: 'hover:text-orange-300' },
   ];
 
   // Secondary navigation (static pages)
   const dropdownLinks = [ 
     { href: "/about", label: "About" },
-    { href: "/missingsomething", label: "Missing Something?" },
+    { href: "/missingsomething", label: "Want To Add A Site?" },
   ];
 </script>
 

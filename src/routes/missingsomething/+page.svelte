@@ -11,11 +11,15 @@
 
 	// Writable stores for filters
 	let selectedCategories = writable([]);
-	let selectedTags = writable(["Question"]);
+	let selectedTags = writable([]);
 	let selectedPrices = writable([]);
 	let selectedSoftware = writable([]);
 	let searchQuery = writable("");
 	let scoreThreshold = writable(0);
+
+	//Filter for what we want.
+	let filteredSites = sites.filter(site => site.category?.includes("MissingSomething"));
+
 
 	// Dropdown states
 	let showCategories = false;
@@ -191,7 +195,7 @@
 </div>
 
 <BoxHolder 
-      sites={sites} 
+      sites={filteredSites} 
       bind:filterTag={$selectedTags} 
       bind:filterCategory={$selectedCategories}
       bind:filterPrice={$selectedPrices}

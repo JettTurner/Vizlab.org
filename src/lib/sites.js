@@ -8,20 +8,17 @@ export const links = [
             "Main",
             "Assets"
         ],
-        "tag": [
-            "Top",
-            "AssetLibrary",
-            "Textures",
-            "Models"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": 100,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0001"
     },
     {
@@ -33,18 +30,17 @@ export const links = [
             "Main",
             "Education"
         ],
-        "tag": [
-            "Top",
-            "Textures"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": 100,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0002"
     },
     {
@@ -57,19 +53,17 @@ export const links = [
             "Reference",
             "Assets"
         ],
-        "tag": [
-            "AssetLibrary",
-            "Top",
-            "Textures"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": 100,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0003"
     },
     {
@@ -82,19 +76,17 @@ export const links = [
             "Reference",
             "Assets"
         ],
-        "tag": [
-            "AssetLibrary",
-            "Top",
-            "Textures"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": 100,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0004"
     },
     {
@@ -105,19 +97,17 @@ export const links = [
         "category": [
             "Assets"
         ],
-        "tag": [
-            "AssetLibrary",
-            "Top",
-            "Textures"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": 100,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0005"
     },
     {
@@ -129,19 +119,17 @@ export const links = [
             "Main",
             "Assets"
         ],
-        "tag": [
-            "AssetLibrary",
-            "Top",
-            "Fonts"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "Subscription"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": 100,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0006"
     },
     {
@@ -153,19 +141,17 @@ export const links = [
             "Main",
             "Assets"
         ],
-        "tag": [
-            "AssetLibrary",
-            "Top",
-            "Fonts"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": 100,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0007"
     },
     {
@@ -177,19 +163,17 @@ export const links = [
             "Main",
             "Reference"
         ],
-        "tag": [
-            "AssetLibrary",
-            "Top",
-            "Fonts"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": 100,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0008"
     },
     {
@@ -201,18 +185,17 @@ export const links = [
             "Main",
             "Education"
         ],
-        "tag": [
-            "Top",
-            "Lighting"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": 100,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0009"
     },
     {
@@ -223,18 +206,17 @@ export const links = [
         "category": [
             "Education"
         ],
-        "tag": [
-            "LevelDesign",
-            "Top"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": 100,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0010"
     },
     {
@@ -246,19 +228,17 @@ export const links = [
             "Main",
             "Education"
         ],
-        "tag": [
-            "Top",
-            "Shaders",
-            "Rendering"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": 100,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0011"
     },
     {
@@ -270,17 +250,17 @@ export const links = [
             "Main",
             "Reference"
         ],
-        "tag": [
-            "Top"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": 100,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0012"
     },
     {
@@ -293,18 +273,17 @@ export const links = [
             "Education",
             "Reference"
         ],
-        "tag": [
-            "ModelingCharacters",
-            "Anatomy"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": 100,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0013"
     },
     {
@@ -317,18 +296,17 @@ export const links = [
             "Education",
             "Reference"
         ],
-        "tag": [
-            "ModelingCharacters",
-            "Anatomy"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": 100,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0014"
     },
     {
@@ -341,18 +319,17 @@ export const links = [
             "Education",
             "Reference"
         ],
-        "tag": [
-            "ModelingCharacters",
-            "Anatomy"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": 100,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0015"
     },
     {
@@ -371,8 +348,10 @@ export const links = [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": 100,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0016"
     },
     {
@@ -383,9 +362,7 @@ export const links = [
         "category": [
             "Assets"
         ],
-        "tag": [
-            "Tools"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [
             "Blender"
@@ -394,8 +371,10 @@ export const links = [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": 100,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0017"
     },
     {
@@ -408,18 +387,17 @@ export const links = [
             "Education",
             "Reference"
         ],
-        "tag": [
-            "Animation",
-            "CharacterDesign"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": 100,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0018"
     },
     {
@@ -432,18 +410,17 @@ export const links = [
             "Education",
             "Reference"
         ],
-        "tag": [
-            "Animation",
-            "CharacterDesign"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": 100,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0019"
     },
     {
@@ -454,9 +431,7 @@ export const links = [
         "category": [
             "Education"
         ],
-        "tag": [
-            "Tutorials"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [
             "Blender"
@@ -465,8 +440,10 @@ export const links = [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": 100,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0020"
     },
     {
@@ -485,8 +462,10 @@ export const links = [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": 100,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0021"
     },
     {
@@ -499,18 +478,17 @@ export const links = [
             "Education",
             "GettingStarted"
         ],
-        "tag": [
-            "Breakdowns",
-            "Tutorials"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": 100,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0022"
     },
     {
@@ -521,17 +499,17 @@ export const links = [
         "category": [
             "Education"
         ],
-        "tag": [
-            "Courses"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": 100,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0023"
     },
     {
@@ -550,8 +528,10 @@ export const links = [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": 100,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0024"
     },
     {
@@ -562,18 +542,17 @@ export const links = [
         "category": [
             "Education"
         ],
-        "tag": [
-            "Top",
-            "Textures"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0025"
     },
     {
@@ -584,17 +563,17 @@ export const links = [
         "category": [
             "Education"
         ],
-        "tag": [
-            "Top"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0026"
     },
     {
@@ -605,17 +584,17 @@ export const links = [
         "category": [
             "Education"
         ],
-        "tag": [
-            "Top"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0027"
     },
     {
@@ -626,17 +605,17 @@ export const links = [
         "category": [
             "Education"
         ],
-        "tag": [
-            "Math"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0028"
     },
     {
@@ -647,18 +626,17 @@ export const links = [
         "category": [
             "Education"
         ],
-        "tag": [
-            "Shaders",
-            "Rendering"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0029"
     },
     {
@@ -669,17 +647,17 @@ export const links = [
         "category": [
             "Education"
         ],
-        "tag": [
-            "Math"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0030"
     },
     {
@@ -690,17 +668,17 @@ export const links = [
         "category": [
             "Education"
         ],
-        "tag": [
-            "Math"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0031"
     },
     {
@@ -711,17 +689,17 @@ export const links = [
         "category": [
             "Education"
         ],
-        "tag": [
-            "ModelingCharacters"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0032"
     },
     {
@@ -732,17 +710,17 @@ export const links = [
         "category": [
             "Education"
         ],
-        "tag": [
-            "ModelingCharacters"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0033"
     },
     {
@@ -753,18 +731,17 @@ export const links = [
         "category": [
             "Education"
         ],
-        "tag": [
-            "ModelingCharacters",
-            "Animation"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0034"
     },
     {
@@ -775,17 +752,17 @@ export const links = [
         "category": [
             "Education"
         ],
-        "tag": [
-            "Animation"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0035"
     },
     {
@@ -796,17 +773,17 @@ export const links = [
         "category": [
             "Education"
         ],
-        "tag": [
-            "Animation"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0036"
     },
     {
@@ -817,17 +794,17 @@ export const links = [
         "category": [
             "Education"
         ],
-        "tag": [
-            "ModelingHardSurface"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0037"
     },
     {
@@ -838,9 +815,7 @@ export const links = [
         "category": [
             "Education"
         ],
-        "tag": [
-            "Environment"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [
             "Blender",
@@ -851,8 +826,10 @@ export const links = [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0038"
     },
     {
@@ -863,18 +840,17 @@ export const links = [
         "category": [
             "Education"
         ],
-        "tag": [
-            "Environment",
-            "ModelingHardSurface"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0039"
     },
     {
@@ -885,18 +861,17 @@ export const links = [
         "category": [
             "Education"
         ],
-        "tag": [
-            "Environment",
-            "ModelingHardSurface"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0040"
     },
     {
@@ -907,17 +882,17 @@ export const links = [
         "category": [
             "Education"
         ],
-        "tag": [
-            "ModelingCharacters"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0041"
     },
     {
@@ -928,17 +903,17 @@ export const links = [
         "category": [
             "Education"
         ],
-        "tag": [
-            "ModelingHardSurface"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0042"
     },
     {
@@ -949,18 +924,17 @@ export const links = [
         "category": [
             "Education"
         ],
-        "tag": [
-            "Animation",
-            "ModelingCharacters"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0043"
     },
     {
@@ -971,17 +945,17 @@ export const links = [
         "category": [
             "Education"
         ],
-        "tag": [
-            "ModelingHardSurface"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0044"
     },
     {
@@ -992,19 +966,17 @@ export const links = [
         "category": [
             "Education"
         ],
-        "tag": [
-            "Environment",
-            "Compositing",
-            "ModelingHardSurface"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0045"
     },
     {
@@ -1015,19 +987,17 @@ export const links = [
         "category": [
             "Education"
         ],
-        "tag": [
-            "Environment",
-            "Compositing",
-            "ModelingHardSurface"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0046"
     },
     {
@@ -1038,20 +1008,17 @@ export const links = [
         "category": [
             "Education"
         ],
-        "tag": [
-            "Environment",
-            "LevelDesign",
-            "Shaders",
-            "ModelingHardSurface"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0047"
     },
     {
@@ -1062,19 +1029,17 @@ export const links = [
         "category": [
             "Education"
         ],
-        "tag": [
-            "Environment",
-            "Compositing",
-            "ModelingHardSurface"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0048"
     },
     {
@@ -1085,19 +1050,17 @@ export const links = [
         "category": [
             "Education"
         ],
-        "tag": [
-            "Environment",
-            "Compositing",
-            "ModelingHardSurface"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0049"
     },
     {
@@ -1108,19 +1071,17 @@ export const links = [
         "category": [
             "Education"
         ],
-        "tag": [
-            "Environment",
-            "Compositing",
-            "ModelingHardSurface"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "OneTimePurchase"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0050"
     },
     {
@@ -1131,17 +1092,17 @@ export const links = [
         "category": [
             "Education"
         ],
-        "tag": [
-            "Rigging"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0051"
     },
     {
@@ -1152,17 +1113,17 @@ export const links = [
         "category": [
             "Reference"
         ],
-        "tag": [
-            "CharacterDesign"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0052"
     },
     {
@@ -1174,17 +1135,17 @@ export const links = [
             "Education",
             "Reference"
         ],
-        "tag": [
-            "Animation"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0053"
     },
     {
@@ -1196,17 +1157,17 @@ export const links = [
             "Education",
             "Reference"
         ],
-        "tag": [
-            "Animation"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0054"
     },
     {
@@ -1218,18 +1179,17 @@ export const links = [
             "Main",
             "Education"
         ],
-        "tag": [
-            "Breakdowns",
-            "Tutorials"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": 100,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0055"
     },
     {
@@ -1249,8 +1209,10 @@ export const links = [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0056"
     },
     {
@@ -1270,8 +1232,10 @@ export const links = [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0057"
     },
     {
@@ -1291,8 +1255,10 @@ export const links = [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0058"
     },
     {
@@ -1303,9 +1269,7 @@ export const links = [
         "category": [
             "Documentation"
         ],
-        "tag": [
-            "GameDevelopment"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [
             "Unreal"
@@ -1314,8 +1278,10 @@ export const links = [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0059"
     },
     {
@@ -1326,9 +1292,7 @@ export const links = [
         "category": [
             "Documentation"
         ],
-        "tag": [
-            "GameDevelopment"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [
             "Unreal"
@@ -1337,8 +1301,10 @@ export const links = [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0060"
     },
     {
@@ -1349,9 +1315,7 @@ export const links = [
         "category": [
             "Documentation"
         ],
-        "tag": [
-            "GameDevelopment"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [
             "Unreal"
@@ -1360,8 +1324,10 @@ export const links = [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0061"
     },
     {
@@ -1372,9 +1338,7 @@ export const links = [
         "category": [
             "Documentation"
         ],
-        "tag": [
-            "GameDevelopment"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [
             "Unreal"
@@ -1383,8 +1347,10 @@ export const links = [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0062"
     },
     {
@@ -1395,9 +1361,7 @@ export const links = [
         "category": [
             "Documentation"
         ],
-        "tag": [
-            "GameDevelopment"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [
             "Unity"
@@ -1406,8 +1370,10 @@ export const links = [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0063"
     },
     {
@@ -1418,9 +1384,7 @@ export const links = [
         "category": [
             "Documentation"
         ],
-        "tag": [
-            "GameDevelopment"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [
             "Unity"
@@ -1429,8 +1393,10 @@ export const links = [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0064"
     },
     {
@@ -1450,8 +1416,10 @@ export const links = [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0065"
     },
     {
@@ -1471,8 +1439,10 @@ export const links = [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0066"
     },
     {
@@ -1483,17 +1453,17 @@ export const links = [
         "category": [
             "Documentation"
         ],
-        "tag": [
-            "WebDevelopment"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0067"
     },
     {
@@ -1504,17 +1474,17 @@ export const links = [
         "category": [
             "Documentation"
         ],
-        "tag": [
-            "WebDevelopment"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0068"
     },
     {
@@ -1525,17 +1495,17 @@ export const links = [
         "category": [
             "Documentation"
         ],
-        "tag": [
-            "WebDevelopment"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0069"
     },
     {
@@ -1553,8 +1523,10 @@ export const links = [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0070"
     },
     {
@@ -1574,8 +1546,10 @@ export const links = [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0071"
     },
     {
@@ -1595,8 +1569,10 @@ export const links = [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0072"
     },
     {
@@ -1616,8 +1592,10 @@ export const links = [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0073"
     },
     {
@@ -1637,8 +1615,10 @@ export const links = [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0074"
     },
     {
@@ -1658,8 +1638,10 @@ export const links = [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0075"
     },
     {
@@ -1677,8 +1659,10 @@ export const links = [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0076"
     },
     {
@@ -1696,8 +1680,10 @@ export const links = [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0077"
     },
     {
@@ -1715,8 +1701,10 @@ export const links = [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0078"
     },
     {
@@ -1734,8 +1722,10 @@ export const links = [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0079"
     },
     {
@@ -1753,8 +1743,10 @@ export const links = [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0080"
     },
     {
@@ -1772,8 +1764,10 @@ export const links = [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0081"
     },
     {
@@ -1794,8 +1788,10 @@ export const links = [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0082"
     },
     {
@@ -1807,17 +1803,17 @@ export const links = [
             "GettingStarted",
             "Assets"
         ],
-        "tag": [
-            "Tools"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0083"
     },
     {
@@ -1835,8 +1831,10 @@ export const links = [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0084"
     },
     {
@@ -1854,8 +1852,10 @@ export const links = [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0085"
     },
     {
@@ -1873,8 +1873,10 @@ export const links = [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0086"
     },
     {
@@ -1892,8 +1894,10 @@ export const links = [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0087"
     },
     {
@@ -1911,8 +1915,10 @@ export const links = [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0088"
     },
     {
@@ -1930,8 +1936,10 @@ export const links = [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0089"
     },
     {
@@ -1949,8 +1957,10 @@ export const links = [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0090"
     },
     {
@@ -1968,8 +1978,10 @@ export const links = [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0091"
     },
     {
@@ -1987,8 +1999,10 @@ export const links = [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0092"
     },
     {
@@ -2006,8 +2020,10 @@ export const links = [
             "OneTimePurchase"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0093"
     },
     {
@@ -2025,8 +2041,10 @@ export const links = [
             "OneTimePurchase"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0094"
     },
     {
@@ -2045,8 +2063,10 @@ export const links = [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0095"
     },
     {
@@ -2067,8 +2087,10 @@ export const links = [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0096"
     },
     {
@@ -2087,8 +2109,10 @@ export const links = [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0097"
     },
     {
@@ -2099,11 +2123,7 @@ export const links = [
         "category": [
             "Assets"
         ],
-        "tag": [
-            "AssetLibrary",
-            "Textures",
-            "Models"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
@@ -2111,8 +2131,10 @@ export const links = [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0098"
     },
     {
@@ -2123,12 +2145,7 @@ export const links = [
         "category": [
             "Assets"
         ],
-        "tag": [
-            "AssetLibrary",
-            "Plugin",
-            "Textures",
-            "Models"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [
             "Blender"
@@ -2137,8 +2154,10 @@ export const links = [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0099"
     },
     {
@@ -2149,20 +2168,17 @@ export const links = [
         "category": [
             "Assets"
         ],
-        "tag": [
-            "AssetLibrary",
-            "Plugin",
-            "Textures",
-            "Models"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0100"
     },
     {
@@ -2173,20 +2189,17 @@ export const links = [
         "category": [
             "Assets"
         ],
-        "tag": [
-            "AssetLibrary",
-            "Plugin",
-            "Textures",
-            "Models"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "OneTimePurchase"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0101"
     },
     {
@@ -2197,12 +2210,7 @@ export const links = [
         "category": [
             "Assets"
         ],
-        "tag": [
-            "AssetLibrary",
-            "Plugin",
-            "Textures",
-            "Models"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
@@ -2210,8 +2218,10 @@ export const links = [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0102"
     },
     {
@@ -2222,12 +2232,7 @@ export const links = [
         "category": [
             "Assets"
         ],
-        "tag": [
-            "AssetLibrary",
-            "Textures",
-            "Models",
-            "Plugin"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [
             "Maya"
@@ -2237,8 +2242,10 @@ export const links = [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0103"
     },
     {
@@ -2249,19 +2256,17 @@ export const links = [
         "category": [
             "Assets"
         ],
-        "tag": [
-            "AssetLibrary",
-            "Textures",
-            "Models"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0104"
     },
     {
@@ -2272,18 +2277,17 @@ export const links = [
         "category": [
             "Assets"
         ],
-        "tag": [
-            "AssetLibrary",
-            "Models"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0105"
     },
     {
@@ -2294,19 +2298,17 @@ export const links = [
         "category": [
             "Assets"
         ],
-        "tag": [
-            "AssetLibrary",
-            "Textures",
-            "Models"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0106"
     },
     {
@@ -2317,18 +2319,17 @@ export const links = [
         "category": [
             "Assets"
         ],
-        "tag": [
-            "AssetLibrary",
-            "Textures"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0107"
     },
     {
@@ -2339,10 +2340,7 @@ export const links = [
         "category": [
             "Assets"
         ],
-        "tag": [
-            "AssetLibrary",
-            "Textures"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
@@ -2350,8 +2348,10 @@ export const links = [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0108"
     },
     {
@@ -2362,12 +2362,7 @@ export const links = [
         "category": [
             "Assets"
         ],
-        "tag": [
-            "AssetLibrary",
-            "Textures",
-            "Models",
-            "Plugin"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [
             "Blender"
@@ -2377,8 +2372,10 @@ export const links = [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0109"
     },
     {
@@ -2389,12 +2386,7 @@ export const links = [
         "category": [
             "Assets"
         ],
-        "tag": [
-            "AssetLibrary",
-            "Textures",
-            "Models",
-            "Plugin"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [
             "Blender"
@@ -2404,8 +2396,10 @@ export const links = [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0110"
     },
     {
@@ -2416,12 +2410,7 @@ export const links = [
         "category": [
             "Assets"
         ],
-        "tag": [
-            "AssetLibrary",
-            "Textures",
-            "Models",
-            "Plugin"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [
             "Maya"
@@ -2431,8 +2420,10 @@ export const links = [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0111"
     },
     {
@@ -2443,12 +2434,7 @@ export const links = [
         "category": [
             "Assets"
         ],
-        "tag": [
-            "AssetLibrary",
-            "Textures",
-            "Models",
-            "Plugin"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [
             "Blender"
@@ -2458,8 +2444,10 @@ export const links = [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0112"
     },
     {
@@ -2470,12 +2458,7 @@ export const links = [
         "category": [
             "Assets"
         ],
-        "tag": [
-            "AssetLibrary",
-            "Textures",
-            "Models",
-            "Plugin"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [
             "Maya"
@@ -2485,8 +2468,10 @@ export const links = [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0113"
     },
     {
@@ -2497,10 +2482,7 @@ export const links = [
         "category": [
             "Assets"
         ],
-        "tag": [
-            "AssetLibrary",
-            "Plugin"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [
             "Maya"
@@ -2510,8 +2492,10 @@ export const links = [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0114"
     },
     {
@@ -2522,10 +2506,7 @@ export const links = [
         "category": [
             "Assets"
         ],
-        "tag": [
-            "AssetLibrary",
-            "Plugin"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [
             "Maya"
@@ -2534,8 +2515,10 @@ export const links = [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0115"
     },
     {
@@ -2546,18 +2529,17 @@ export const links = [
         "category": [
             "Assets"
         ],
-        "tag": [
-            "AssetLibrary",
-            "Plants"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "OneTimePurchase"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0116"
     },
     {
@@ -2568,12 +2550,7 @@ export const links = [
         "category": [
             "Assets"
         ],
-        "tag": [
-            "AssetLibrary",
-            "Plants",
-            "Plugin",
-            "Tools"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [
             "Blender"
@@ -2582,8 +2559,10 @@ export const links = [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0117"
     },
     {
@@ -2594,18 +2573,17 @@ export const links = [
         "category": [
             "Assets"
         ],
-        "tag": [
-            "AssetLibrary",
-            "Plants"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "OneTimePurchase"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0118"
     },
     {
@@ -2616,17 +2594,17 @@ export const links = [
         "category": [
             "Assets"
         ],
-        "tag": [
-            "AssetLibrary"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0119"
     },
     {
@@ -2637,17 +2615,17 @@ export const links = [
         "category": [
             "Assets"
         ],
-        "tag": [
-            "AssetLibrary"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0120"
     },
     {
@@ -2658,17 +2636,17 @@ export const links = [
         "category": [
             "Assets"
         ],
-        "tag": [
-            "AssetLibrary"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "Free"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0121"
     },
     {
@@ -2679,17 +2657,17 @@ export const links = [
         "category": [
             "Assets"
         ],
-        "tag": [
-            "Tools"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [],
         "price": [
             "OneTimePurchase"
         ],
         "color": null,
+        "primaryTextColor": null,
+        "secondaryTextColor": null,
         "score": null,
-        "date curated": "02/23/2025",
+        "datecurated": "02/23/2025",
         "id": "0122"
     },
     {
@@ -2698,28 +2676,21 @@ export const links = [
         "href": "https://forms.gle/c1YCDTgXBYcnF2oS6",
         "image": "/src/lib/assets/question_background.png",
         "category": [
-            "Main",
-            "Education",
-            "Assets",
-            "Reference",
-            "Documentation",
-            "GettingStarted"
+            "MissingSomething"
         ],
-        "tag": [
-            "Question"
-        ],
+        "tag": [],
         "subtag": [],
         "software": [
             "All"
         ],
         "price": [
-            "Free",
-            "Subscription",
-            "OneTimePurchase"
+            "Free"
         ],
         "color": null,
+        "primaryTextColor": 'text-orange-300',
+        "secondaryTextColor": null,
         "score": 100,
-        "date curated": "02/23/2025",
+        "datecurated": "06/19/2019",
         "id": "0123"
     }
 ];

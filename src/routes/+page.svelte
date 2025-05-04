@@ -5,7 +5,7 @@
   import { onMount } from "svelte";
   import { links as sites } from "$lib/sites.js";
   import { selectedTags, selectedCategories, selectedPrices, selectedSoftware, searchQuery, sortOption, sortDirection, loadFiltersFromURL } from "$lib/urlFilters.js";
-  import {getVoteData } from "$lib/clickTracker.js";
+  import { getVoteData } from "$lib/clickTracker.js";
   import { getClickCounts } from "$lib/clickTracker.js";
   import { browser } from '$app/environment'; // Add this import
   
@@ -46,9 +46,9 @@
     const query = $searchQuery;
 
     const categoryMatch = categories.length === 0 || (Array.isArray(site.category) ? site.category.some(cat => categories.includes(cat)) : categories.includes(site.category));
-    const tagMatch = tags.length === 0 || (site.tags && site.tags.some(tag => tags.includes(tag)));
+    const tagMatch = tags.length === 0 || (site.tag && site.tag.some(tag => tags.includes(tag)));
     const softwareMatch = software.length === 0 || (site.software && site.software.some(soft => software.includes(soft)));
-    const priceMatch = prices.length === 0 || prices.includes(site.price);
+    const priceMatch = prices.length === 0 || (site.price && site.price.some(price => prices.includes(price)));
     const searchMatch = !query || site.title.toLowerCase().includes(query.toLowerCase());
 
     return categoryMatch && tagMatch && softwareMatch && priceMatch && searchMatch;
@@ -96,9 +96,9 @@
 export async function load({ url }) {
   const searchParams = url.searchParams;
 
-  const selectedCategories = searchParams.getAll('category') || [];
-  const selectedTags = searchParams.getAll('tag') || [];
-  const selectedPrices = searchParams.getAll('price') || [];
+  const selectedCategories = searchParams.getAll('categories') || [];
+  const selectedTags = searchParams.getAll('tags') || [];
+  const selectedPrices = searchParams.getAll('prices') || [];
   const selectedSoftware = searchParams.getAll('software') || [];
   const searchQuery = searchParams.get('search') || '';
   const sortOption = searchParams.set(params.get("sort") || "");			

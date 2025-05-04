@@ -108,8 +108,10 @@ for idx, entry in enumerate(cleaned_objects, start=1):
         "software": entry.get("software", []),
         "price": entry.get("price") if isinstance(entry.get("price"), list) else ([entry.get("price")] if entry.get("price") else []),
         "color": entry.get("color", None),
+        "primaryTextColor": entry.get("primaryTextColor", None),
+        "secondaryTextColor": entry.get("secondaryTextColor", None),
         "score": entry.get("score", None),
-        "date curated": entry['date curated'],  # Use the existing or default date
+        "datecurated": entry['date curated'],  # Use the existing or default date
         # Use the ID from the entry (either the existing one or the new one assigned)
         "id": entry['id']
     }
