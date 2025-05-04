@@ -127,7 +127,7 @@ console.log("Loaded Tags:", allTags);
 		<div>
 		  <h4 class="font-bold mb-1">Category</h4>
 		  <div class="flex flex-wrap gap-2">
-			{#each allCategories as category}
+			{#each allCategories.filter(category => category !== "") as category}
 			  {#if !$selectedCategories.includes(category)}
 				<button
 				  class="bg-gray-700 text-white px-2 py-1 rounded text-sm disabled:opacity-50"
@@ -144,7 +144,7 @@ console.log("Loaded Tags:", allTags);
 		<div>
 		  <h4 class="font-bold mb-1">Tags</h4>
 		  <div class="flex flex-wrap gap-2">
-			{#each allTags as tag}
+			{#each allTags.filter(tag => tag !== "").sort() as tag}
 			  {#if !$selectedTags.includes(tag)}
 				<button
 				  class="bg-gray-700 text-white px-2 py-1 rounded text-sm disabled:opacity-50"
@@ -161,7 +161,7 @@ console.log("Loaded Tags:", allTags);
 		<div>
 		  <h4 class="font-bold mb-1">Software</h4>
 		  <div class="flex flex-wrap gap-2">
-			{#each allSoftware as software}
+			{#each allSoftware.filter(software => software !== "").sort() as software}
 			  {#if !$selectedSoftware.includes(software)}
 				<button
 				  class="bg-gray-700 text-white px-2 py-1 rounded text-sm disabled:opacity-50"
@@ -178,7 +178,7 @@ console.log("Loaded Tags:", allTags);
 		<div>
 		  <h4 class="font-bold mb-1">Price</h4>
 		  <div class="flex flex-wrap gap-2">
-			{#each allPrices.filter(price => ['Free', 'Subscription', 'OneTimePurchase'].includes(price)) as price}
+			{#each allPrices.filter(price => ['Free', 'Subscription', 'OneTimePurchase'].includes(price) && price !== "") as price}
 			  {#if !$selectedPrices.includes(price)}
 				<button
 				  class="bg-gray-700 text-white px-2 py-1 rounded text-sm disabled:opacity-50"

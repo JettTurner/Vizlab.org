@@ -127,7 +127,7 @@ def capture_screenshot_and_build_js(unique_id, timestamp, url, name, description
             "price": normalized_price,
             "color": None,
             "score": None,
-            "date curated": timestamp,
+            "datecurated": timestamp,
             "id": unique_id,
         }
 
