@@ -228,7 +228,7 @@
   <!-- Date Currated container -->
     <div class="absolute top-2 left-2 z-20 flex flex-col gap-1 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none hidden md:flex">
           <span class="text-white-400 text-xs font-semibold px-2 py-1 bg-blue-800 rounded">
-          Curated On: {link.datecurated}
+          Curated: {link.datecurated}
           </span>
 		  
     </div>

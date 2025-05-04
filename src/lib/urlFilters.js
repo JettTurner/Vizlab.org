@@ -10,6 +10,7 @@ export let allCategories = [...new Set(sites.flatMap(site => site.category || []
 export let allPrices = [...new Set(sites.flatMap(site => site.price || []))];
 export let allSoftware = [...new Set(sites.flatMap(site => site.software || []))];
 
+
 // ✅ Ensure "Main" category always exists
 if (!allCategories.includes("Main")) {
   allCategories.unshift("Main");
@@ -95,9 +96,9 @@ export const hasActiveFilters = derived(
  * @returns {string[]} - An array of values, or an empty array if none exist.
  */
 export function parseUrlParams(params) {
-  return params ? decodeURIComponent(params).split(",") : [];
-  return items.filter(Boolean); // Remove empty strings
+  return params ? decodeURIComponent(params).split(",").filter(Boolean) : [];
 }
+
 
 // 🏁 ✅ Load filters from the URL only once on page mount
 export function loadFiltersFromURL() {

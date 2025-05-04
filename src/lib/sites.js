@@ -8,7 +8,12 @@ export const links = [
             "Main",
             "Assets"
         ],
-        "tag": [],
+        "tag": [
+            "Top",
+            "AssetLibrary",
+            "Textures",
+            "Models"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -30,7 +35,10 @@ export const links = [
             "Main",
             "Education"
         ],
-        "tag": [],
+        "tag": [
+            "Top",
+            "Textures"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -53,7 +61,11 @@ export const links = [
             "Reference",
             "Assets"
         ],
-        "tag": [],
+        "tag": [
+            "AssetLibrary",
+            "Top",
+            "Textures"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -76,7 +88,11 @@ export const links = [
             "Reference",
             "Assets"
         ],
-        "tag": [],
+        "tag": [
+            "AssetLibrary",
+            "Top",
+            "Textures"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -97,7 +113,11 @@ export const links = [
         "category": [
             "Assets"
         ],
-        "tag": [],
+        "tag": [
+            "AssetLibrary",
+            "Top",
+            "Textures"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -119,7 +139,11 @@ export const links = [
             "Main",
             "Assets"
         ],
-        "tag": [],
+        "tag": [
+            "AssetLibrary",
+            "Top",
+            "Fonts"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -141,7 +165,11 @@ export const links = [
             "Main",
             "Assets"
         ],
-        "tag": [],
+        "tag": [
+            "AssetLibrary",
+            "Top",
+            "Fonts"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -163,7 +191,11 @@ export const links = [
             "Main",
             "Reference"
         ],
-        "tag": [],
+        "tag": [
+            "AssetLibrary",
+            "Top",
+            "Fonts"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -185,7 +217,10 @@ export const links = [
             "Main",
             "Education"
         ],
-        "tag": [],
+        "tag": [
+            "Top",
+            "Lighting"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -206,7 +241,10 @@ export const links = [
         "category": [
             "Education"
         ],
-        "tag": [],
+        "tag": [
+            "LevelDesign",
+            "Top"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -228,7 +266,11 @@ export const links = [
             "Main",
             "Education"
         ],
-        "tag": [],
+        "tag": [
+            "Top",
+            "Shaders",
+            "Rendering"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -250,7 +292,9 @@ export const links = [
             "Main",
             "Reference"
         ],
-        "tag": [],
+        "tag": [
+            "Top"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -273,7 +317,10 @@ export const links = [
             "Education",
             "Reference"
         ],
-        "tag": [],
+        "tag": [
+            "ModelingCharacters",
+            "Anatomy"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -296,7 +343,10 @@ export const links = [
             "Education",
             "Reference"
         ],
-        "tag": [],
+        "tag": [
+            "ModelingCharacters",
+            "Anatomy"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -319,7 +369,10 @@ export const links = [
             "Education",
             "Reference"
         ],
-        "tag": [],
+        "tag": [
+            "ModelingCharacters",
+            "Anatomy"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -362,7 +415,9 @@ export const links = [
         "category": [
             "Assets"
         ],
-        "tag": [],
+        "tag": [
+            "Tools"
+        ],
         "subtag": [],
         "software": [
             "Blender"
@@ -387,7 +442,10 @@ export const links = [
             "Education",
             "Reference"
         ],
-        "tag": [],
+        "tag": [
+            "Animation",
+            "CharacterDesign"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -410,7 +468,10 @@ export const links = [
             "Education",
             "Reference"
         ],
-        "tag": [],
+        "tag": [
+            "Animation",
+            "CharacterDesign"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -431,7 +492,9 @@ export const links = [
         "category": [
             "Education"
         ],
-        "tag": [],
+        "tag": [
+            "Tutorials"
+        ],
         "subtag": [],
         "software": [
             "Blender"
@@ -478,7 +541,10 @@ export const links = [
             "Education",
             "GettingStarted"
         ],
-        "tag": [],
+        "tag": [
+            "Breakdowns",
+            "Tutorials"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -499,7 +565,9 @@ export const links = [
         "category": [
             "Education"
         ],
-        "tag": [],
+        "tag": [
+            "Courses"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -542,7 +610,10 @@ export const links = [
         "category": [
             "Education"
         ],
-        "tag": [],
+        "tag": [
+            "Top",
+            "Textures"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -563,7 +634,9 @@ export const links = [
         "category": [
             "Education"
         ],
-        "tag": [],
+        "tag": [
+            "Top"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -584,7 +657,9 @@ export const links = [
         "category": [
             "Education"
         ],
-        "tag": [],
+        "tag": [
+            "Top"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -605,7 +680,9 @@ export const links = [
         "category": [
             "Education"
         ],
-        "tag": [],
+        "tag": [
+            "Math"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -626,7 +703,10 @@ export const links = [
         "category": [
             "Education"
         ],
-        "tag": [],
+        "tag": [
+            "Shaders",
+            "Rendering"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -647,7 +727,9 @@ export const links = [
         "category": [
             "Education"
         ],
-        "tag": [],
+        "tag": [
+            "Math"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -668,7 +750,9 @@ export const links = [
         "category": [
             "Education"
         ],
-        "tag": [],
+        "tag": [
+            "Math"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -689,7 +773,9 @@ export const links = [
         "category": [
             "Education"
         ],
-        "tag": [],
+        "tag": [
+            "ModelingCharacters"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -710,7 +796,9 @@ export const links = [
         "category": [
             "Education"
         ],
-        "tag": [],
+        "tag": [
+            "ModelingCharacters"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -731,7 +819,10 @@ export const links = [
         "category": [
             "Education"
         ],
-        "tag": [],
+        "tag": [
+            "ModelingCharacters",
+            "Animation"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -752,7 +843,9 @@ export const links = [
         "category": [
             "Education"
         ],
-        "tag": [],
+        "tag": [
+            "Animation"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -773,7 +866,9 @@ export const links = [
         "category": [
             "Education"
         ],
-        "tag": [],
+        "tag": [
+            "Animation"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -794,7 +889,9 @@ export const links = [
         "category": [
             "Education"
         ],
-        "tag": [],
+        "tag": [
+            "ModelingHardSurface"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -815,7 +912,9 @@ export const links = [
         "category": [
             "Education"
         ],
-        "tag": [],
+        "tag": [
+            "Environment"
+        ],
         "subtag": [],
         "software": [
             "Blender",
@@ -840,7 +939,10 @@ export const links = [
         "category": [
             "Education"
         ],
-        "tag": [],
+        "tag": [
+            "Environment",
+            "ModelingHardSurface"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -861,7 +963,10 @@ export const links = [
         "category": [
             "Education"
         ],
-        "tag": [],
+        "tag": [
+            "Environment",
+            "ModelingHardSurface"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -882,7 +987,9 @@ export const links = [
         "category": [
             "Education"
         ],
-        "tag": [],
+        "tag": [
+            "ModelingCharacters"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -903,7 +1010,9 @@ export const links = [
         "category": [
             "Education"
         ],
-        "tag": [],
+        "tag": [
+            "ModelingHardSurface"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -924,7 +1033,10 @@ export const links = [
         "category": [
             "Education"
         ],
-        "tag": [],
+        "tag": [
+            "Animation",
+            "ModelingCharacters"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -945,7 +1057,9 @@ export const links = [
         "category": [
             "Education"
         ],
-        "tag": [],
+        "tag": [
+            "ModelingHardSurface"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -966,7 +1080,11 @@ export const links = [
         "category": [
             "Education"
         ],
-        "tag": [],
+        "tag": [
+            "Environment",
+            "Compositing",
+            "ModelingHardSurface"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -987,7 +1105,11 @@ export const links = [
         "category": [
             "Education"
         ],
-        "tag": [],
+        "tag": [
+            "Environment",
+            "Compositing",
+            "ModelingHardSurface"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -1008,7 +1130,12 @@ export const links = [
         "category": [
             "Education"
         ],
-        "tag": [],
+        "tag": [
+            "Environment",
+            "LevelDesign",
+            "Shaders",
+            "ModelingHardSurface"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -1029,7 +1156,11 @@ export const links = [
         "category": [
             "Education"
         ],
-        "tag": [],
+        "tag": [
+            "Environment",
+            "Compositing",
+            "ModelingHardSurface"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -1050,7 +1181,11 @@ export const links = [
         "category": [
             "Education"
         ],
-        "tag": [],
+        "tag": [
+            "Environment",
+            "Compositing",
+            "ModelingHardSurface"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -1071,7 +1206,11 @@ export const links = [
         "category": [
             "Education"
         ],
-        "tag": [],
+        "tag": [
+            "Environment",
+            "Compositing",
+            "ModelingHardSurface"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -1092,7 +1231,9 @@ export const links = [
         "category": [
             "Education"
         ],
-        "tag": [],
+        "tag": [
+            "Rigging"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -1113,7 +1254,9 @@ export const links = [
         "category": [
             "Reference"
         ],
-        "tag": [],
+        "tag": [
+            "CharacterDesign"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -1135,7 +1278,9 @@ export const links = [
             "Education",
             "Reference"
         ],
-        "tag": [],
+        "tag": [
+            "Animation"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -1157,7 +1302,9 @@ export const links = [
             "Education",
             "Reference"
         ],
-        "tag": [],
+        "tag": [
+            "Animation"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -1179,7 +1326,10 @@ export const links = [
             "Main",
             "Education"
         ],
-        "tag": [],
+        "tag": [
+            "Breakdowns",
+            "Tutorials"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -1269,7 +1419,9 @@ export const links = [
         "category": [
             "Documentation"
         ],
-        "tag": [],
+        "tag": [
+            "GameDevelopment"
+        ],
         "subtag": [],
         "software": [
             "Unreal"
@@ -1292,7 +1444,9 @@ export const links = [
         "category": [
             "Documentation"
         ],
-        "tag": [],
+        "tag": [
+            "GameDevelopment"
+        ],
         "subtag": [],
         "software": [
             "Unreal"
@@ -1315,7 +1469,9 @@ export const links = [
         "category": [
             "Documentation"
         ],
-        "tag": [],
+        "tag": [
+            "GameDevelopment"
+        ],
         "subtag": [],
         "software": [
             "Unreal"
@@ -1338,7 +1494,9 @@ export const links = [
         "category": [
             "Documentation"
         ],
-        "tag": [],
+        "tag": [
+            "GameDevelopment"
+        ],
         "subtag": [],
         "software": [
             "Unreal"
@@ -1361,7 +1519,9 @@ export const links = [
         "category": [
             "Documentation"
         ],
-        "tag": [],
+        "tag": [
+            "GameDevelopment"
+        ],
         "subtag": [],
         "software": [
             "Unity"
@@ -1384,7 +1544,9 @@ export const links = [
         "category": [
             "Documentation"
         ],
-        "tag": [],
+        "tag": [
+            "GameDevelopment"
+        ],
         "subtag": [],
         "software": [
             "Unity"
@@ -1453,7 +1615,9 @@ export const links = [
         "category": [
             "Documentation"
         ],
-        "tag": [],
+        "tag": [
+            "WebDevelopment"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -1474,7 +1638,9 @@ export const links = [
         "category": [
             "Documentation"
         ],
-        "tag": [],
+        "tag": [
+            "WebDevelopment"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -1495,7 +1661,9 @@ export const links = [
         "category": [
             "Documentation"
         ],
-        "tag": [],
+        "tag": [
+            "WebDevelopment"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -1803,7 +1971,9 @@ export const links = [
             "GettingStarted",
             "Assets"
         ],
-        "tag": [],
+        "tag": [
+            "Tools"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -2123,7 +2293,11 @@ export const links = [
         "category": [
             "Assets"
         ],
-        "tag": [],
+        "tag": [
+            "AssetLibrary",
+            "Textures",
+            "Models"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -2145,7 +2319,12 @@ export const links = [
         "category": [
             "Assets"
         ],
-        "tag": [],
+        "tag": [
+            "AssetLibrary",
+            "Plugin",
+            "Textures",
+            "Models"
+        ],
         "subtag": [],
         "software": [
             "Blender"
@@ -2168,7 +2347,12 @@ export const links = [
         "category": [
             "Assets"
         ],
-        "tag": [],
+        "tag": [
+            "AssetLibrary",
+            "Plugin",
+            "Textures",
+            "Models"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -2189,7 +2373,12 @@ export const links = [
         "category": [
             "Assets"
         ],
-        "tag": [],
+        "tag": [
+            "AssetLibrary",
+            "Plugin",
+            "Textures",
+            "Models"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -2210,7 +2399,12 @@ export const links = [
         "category": [
             "Assets"
         ],
-        "tag": [],
+        "tag": [
+            "AssetLibrary",
+            "Plugin",
+            "Textures",
+            "Models"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -2232,7 +2426,12 @@ export const links = [
         "category": [
             "Assets"
         ],
-        "tag": [],
+        "tag": [
+            "AssetLibrary",
+            "Textures",
+            "Models",
+            "Plugin"
+        ],
         "subtag": [],
         "software": [
             "Maya"
@@ -2256,7 +2455,11 @@ export const links = [
         "category": [
             "Assets"
         ],
-        "tag": [],
+        "tag": [
+            "AssetLibrary",
+            "Textures",
+            "Models"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -2277,7 +2480,10 @@ export const links = [
         "category": [
             "Assets"
         ],
-        "tag": [],
+        "tag": [
+            "AssetLibrary",
+            "Models"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -2298,7 +2504,11 @@ export const links = [
         "category": [
             "Assets"
         ],
-        "tag": [],
+        "tag": [
+            "AssetLibrary",
+            "Textures",
+            "Models"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -2319,7 +2529,10 @@ export const links = [
         "category": [
             "Assets"
         ],
-        "tag": [],
+        "tag": [
+            "AssetLibrary",
+            "Textures"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -2340,7 +2553,10 @@ export const links = [
         "category": [
             "Assets"
         ],
-        "tag": [],
+        "tag": [
+            "AssetLibrary",
+            "Textures"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -2362,7 +2578,12 @@ export const links = [
         "category": [
             "Assets"
         ],
-        "tag": [],
+        "tag": [
+            "AssetLibrary",
+            "Textures",
+            "Models",
+            "Plugin"
+        ],
         "subtag": [],
         "software": [
             "Blender"
@@ -2386,7 +2607,12 @@ export const links = [
         "category": [
             "Assets"
         ],
-        "tag": [],
+        "tag": [
+            "AssetLibrary",
+            "Textures",
+            "Models",
+            "Plugin"
+        ],
         "subtag": [],
         "software": [
             "Blender"
@@ -2410,7 +2636,12 @@ export const links = [
         "category": [
             "Assets"
         ],
-        "tag": [],
+        "tag": [
+            "AssetLibrary",
+            "Textures",
+            "Models",
+            "Plugin"
+        ],
         "subtag": [],
         "software": [
             "Maya"
@@ -2434,7 +2665,12 @@ export const links = [
         "category": [
             "Assets"
         ],
-        "tag": [],
+        "tag": [
+            "AssetLibrary",
+            "Textures",
+            "Models",
+            "Plugin"
+        ],
         "subtag": [],
         "software": [
             "Blender"
@@ -2458,7 +2694,12 @@ export const links = [
         "category": [
             "Assets"
         ],
-        "tag": [],
+        "tag": [
+            "AssetLibrary",
+            "Textures",
+            "Models",
+            "Plugin"
+        ],
         "subtag": [],
         "software": [
             "Maya"
@@ -2482,7 +2723,10 @@ export const links = [
         "category": [
             "Assets"
         ],
-        "tag": [],
+        "tag": [
+            "AssetLibrary",
+            "Plugin"
+        ],
         "subtag": [],
         "software": [
             "Maya"
@@ -2506,7 +2750,10 @@ export const links = [
         "category": [
             "Assets"
         ],
-        "tag": [],
+        "tag": [
+            "AssetLibrary",
+            "Plugin"
+        ],
         "subtag": [],
         "software": [
             "Maya"
@@ -2529,7 +2776,10 @@ export const links = [
         "category": [
             "Assets"
         ],
-        "tag": [],
+        "tag": [
+            "AssetLibrary",
+            "Plants"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -2550,7 +2800,12 @@ export const links = [
         "category": [
             "Assets"
         ],
-        "tag": [],
+        "tag": [
+            "AssetLibrary",
+            "Plants",
+            "Plugin",
+            "Tools"
+        ],
         "subtag": [],
         "software": [
             "Blender"
@@ -2573,7 +2828,10 @@ export const links = [
         "category": [
             "Assets"
         ],
-        "tag": [],
+        "tag": [
+            "AssetLibrary",
+            "Plants"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -2594,7 +2852,9 @@ export const links = [
         "category": [
             "Assets"
         ],
-        "tag": [],
+        "tag": [
+            "AssetLibrary"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -2615,7 +2875,9 @@ export const links = [
         "category": [
             "Assets"
         ],
-        "tag": [],
+        "tag": [
+            "AssetLibrary"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -2636,7 +2898,9 @@ export const links = [
         "category": [
             "Assets"
         ],
-        "tag": [],
+        "tag": [
+            "AssetLibrary"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -2657,7 +2921,9 @@ export const links = [
         "category": [
             "Assets"
         ],
-        "tag": [],
+        "tag": [
+            "Tools"
+        ],
         "subtag": [],
         "software": [],
         "price": [
@@ -2687,10 +2953,10 @@ export const links = [
             "Free"
         ],
         "color": null,
-        "primaryTextColor": 'text-orange-300',
+        "primaryTextColor": null,
         "secondaryTextColor": null,
         "score": 100,
-        "datecurated": "06/19/2019",
+        "datecurated": "02/23/2025",
         "id": "0123"
     }
 ];

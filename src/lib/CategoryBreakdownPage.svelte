@@ -37,7 +37,7 @@
 	  let untaggedSites = [];
 
 	  for (const site of categorySites) {
-		const siteTags = site.tags || [];
+		const siteTags = site.tag || [];
 
 		if (siteTags.length === 0) {
 		  untaggedSites.push(site);

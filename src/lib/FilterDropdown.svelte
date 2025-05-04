@@ -22,6 +22,7 @@
 	  }, 900);
 	}
 
+console.log("Loaded Tags:", allTags);
 
   // Manual filters toggle
   let showFiltersUI = false;

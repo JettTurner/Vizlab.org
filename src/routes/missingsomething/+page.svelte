@@ -4,10 +4,10 @@
 	import { writable } from "svelte/store";
 
 	// Extract unique tags and categories dynamically
-	let allTags = [...new Set(sites.flatMap(site => site.tags || []))];
-	let allCategories = [...new Set(sites.flatMap(site => site.category || []))];
-	let allPrices = [...new Set(sites.map(site => site.price || ""))].filter(Boolean);
-	let allSoftware = [...new Set(sites.flatMap(site => site.software || []))];
+	//let allTags = [...new Set(sites.flatMap(site => site.tag || []))];
+	//let allCategories = [...new Set(sites.flatMap(site => site.category || []))];
+	//let allPrices = [...new Set(sites.map(site => site.price || ""))].filter(Boolean);
+	//let allSoftware = [...new Set(sites.flatMap(site => site.software || []))];
 
 	// Writable stores for filters
 	let selectedCategories = writable([]);

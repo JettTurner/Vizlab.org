@@ -103,7 +103,7 @@ for idx, entry in enumerate(cleaned_objects, start=1):
         "href": entry.get("href", ""),
         "image": entry.get("image", ""),
         "category": entry.get("category", []),
-        "tag": entry.get("tags", []),
+        "tag": entry.get("tag", []),
         "subtag": entry.get("subtags", []),
         "software": entry.get("software", []),
         "price": entry.get("price") if isinstance(entry.get("price"), list) else ([entry.get("price")] if entry.get("price") else []),
