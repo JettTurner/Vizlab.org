@@ -318,7 +318,7 @@ export const links = [
             "Reference"
         ],
         "tag": [
-            "ModelingCharacters",
+            "Modeling(Characters)",
             "Anatomy"
         ],
         "subtag": [],
@@ -344,7 +344,7 @@ export const links = [
             "Reference"
         ],
         "tag": [
-            "ModelingCharacters",
+            "Modeling(Characters)",
             "Anatomy"
         ],
         "subtag": [],
@@ -370,7 +370,7 @@ export const links = [
             "Reference"
         ],
         "tag": [
-            "ModelingCharacters",
+            "Modeling(Characters)",
             "Anatomy"
         ],
         "subtag": [],
@@ -774,7 +774,7 @@ export const links = [
             "Education"
         ],
         "tag": [
-            "ModelingCharacters"
+            "Modeling(Characters)"
         ],
         "subtag": [],
         "software": [],
@@ -797,7 +797,7 @@ export const links = [
             "Education"
         ],
         "tag": [
-            "ModelingCharacters"
+            "Modeling(Characters)"
         ],
         "subtag": [],
         "software": [],
@@ -820,7 +820,7 @@ export const links = [
             "Education"
         ],
         "tag": [
-            "ModelingCharacters",
+            "Modeling(Characters)",
             "Animation"
         ],
         "subtag": [],
@@ -988,7 +988,7 @@ export const links = [
             "Education"
         ],
         "tag": [
-            "ModelingCharacters"
+            "Modeling(Characters)"
         ],
         "subtag": [],
         "software": [],
@@ -1035,7 +1035,7 @@ export const links = [
         ],
         "tag": [
             "Animation",
-            "ModelingCharacters"
+            "Modeling(Characters)"
         ],
         "subtag": [],
         "software": [],
@@ -2958,5 +2958,2082 @@ export const links = [
         "score": 100,
         "datecurated": "02/23/2025",
         "id": "0123"
-    }
+    },
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	{
+    "title": "blenderesse.gumroad.com",
+    "description": "",
+    "href": "https://blenderesse.gumroad.com/",
+    "image": "/src/lib/assets/blenderesse.gumroad.com_0001.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "AssetLibrary",
+        "Plugins",
+        "FX",
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "Blender",
+    ],
+    "price": [
+        "Free",
+        "OneTimePurchase"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "06/03/2025",
+    "id": "0001"
+},
+    {
+    "title": "sagado.gumroad.com",
+    "description": "",
+    "href": "https://sagado.gumroad.com/",
+    "image": "/src/lib/assets/sagado.gumroad.com_0002.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "AssetLibrary", 
+        "Models",
+        "Textures",
+        "Plugins",
+        "FX",
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "Blender",
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "06/03/2025",
+    "id": "0002"
+},
+    {
+    "title": "3dtudor.gumroad.com",
+    "description": "",
+    "href": "https://3dtudor.gumroad.com/",
+    "image": "/src/lib/assets/3dtudor.gumroad.com_0003.png",
+    "category": [
+        "Education",
+        "Assets"
+    ],
+    "tag": [
+        "AssetLibrary",
+        "Models",
+        "Textures",
+        "Plugins",
+        "FX",
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "Blender",
+    ],
+    "price": [
+        "Free",
+        "OneTimePurchase"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "06/03/2025",
+    "id": "0003"
+},
+    {
+    "title": "miauarts.gumroad.com",
+    "description": "",
+    "href": "https://miauarts.gumroad.com/",
+    "image": "/src/lib/assets/miauarts.gumroad.com_0004.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "AssetLibrary",
+        "Models",
+        "FX",
+    ],
+    "subtag": [
+        "FeatherGenerator",
+    ],
+    "software": [
+        "Blender",
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "06/03/2025",
+    "id": "0004"
+},
+    {
+    "title": "felipedelrio.gumroad.com",
+    "description": "",
+    "href": "https://felipedelrio.gumroad.com/l/msJMr?layout=profile",
+    "image": "/src/lib/assets/felipedelrio.gumroad.com_0005.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "AssetLibrary",
+        "Models",
+        "Plugins",
+        "FX",
+    ],
+    "subtag": [
+        "BuildingGenerator"
+    ],
+    "software": [
+        "Blender",
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "06/03/2025",
+    "id": "0005"
+},
+    {
+    "title": "bd3d.gumroad.com",
+    "description": "",
+    "href": "https://bd3d.gumroad.com/",
+    "image": "/src/lib/assets/bd3d.gumroad.com_0006.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "AssetLibrary",
+        "Models",
+        "Plugins",
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "Blender",
+    ],
+    "price": [
+        "Free",
+        "OneTimePurchase"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "06/03/2025",
+    "id": "0006"
+},
+    {
+    "title": "nickowens.artstation.com",
+    "description": "A guide on how to generate complex road networks",
+    "href": "https://nickowens.artstation.com/blog/zRmm/procedural-cities-for-games-part-2-street-and-bridge-meshes-in-houdini-and-unity",
+    "image": "/src/lib/assets/nickowens.artstation.com_0007.png",
+    "category": [
+        "Education"
+    ],
+    "tag": [
+        "Environment",
+        "Modeling(HardSurface)"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        ""
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "07/03/2025",
+    "id": "0007"
+},
+    {
+    "title": "www.youtube.com",
+    "description": "Houdini Road Network Generation",
+    "href": "https://www.youtube.com/watch?v=G5Iq-jxgZn0",
+    "image": "/src/lib/assets/www.youtube.com_0008.png",
+    "category": [
+        "Education"
+    ],
+    "tag": [
+        "LevelDesign",
+        "Environment",
+        "Modeling(Procedural)"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        ""
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "07/03/2025",
+    "id": "0008"
+},
+    {
+    "title": "vimeo.com",
+    "description": "Houdini Generating Road Networks",
+    "href": "https://vimeo.com/734440723",
+    "image": "/src/lib/assets/vimeo.com_0009.png",
+    "category": [
+        "Education"
+    ],
+    "tag": [
+        "Environment",
+        "Modeling(Procedural)"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        ""
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "07/03/2025",
+    "id": "0009"
+},
+    {
+    "title": "www.sidefx.com",
+    "description": "Houdini Talks",
+    "href": "https://www.sidefx.com/learn/talks/",
+    "image": "/src/lib/assets/www.sidefx.com_0010.png",
+    "category": [
+        "Education"
+    ],
+    "tag": [
+        "AssetLibrary"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        ""
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "07/03/2025",
+    "id": "0010"
+},
+    {
+    "title": "www.esri.com",
+    "description": "City Engine: Generate 3d road meshes",
+    "href": "https://www.esri.com/en-us/arcgis/products/arcgis-cityengine/resources",
+    "image": "/src/lib/assets/www.esri.com_0011.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "Environment",
+        "Modeling(Procedural)"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        ""
+    ],
+    "price": [
+        "OneTimePurchase",
+        "Subscription"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "07/03/2025",
+    "id": "0011"
+},
+    {
+    "title": "www.bentley.com",
+    "description": "3d Site Modeling Tools",
+    "href": "https://www.bentley.com/software/road-and-site-design/",
+    "image": "/src/lib/assets/www.bentley.com_0012.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "AssetLibrary",
+        "Environment",
+        "Modeling(Procedural)"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        ""
+    ],
+    "price": [
+        "OneTimePurchase",
+        "Subscription"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "07/03/2025",
+    "id": "0012"
+},
+    {
+    "title": "carla.org",
+    "description": "Open-source simulator for autonomous driving research.",
+    "href": "https://carla.org/",
+    "image": "/src/lib/assets/carla.org_0013.png",
+    "category": [
+        "Education",
+        "Assets"
+    ],
+    "tag": [
+        "Environment",
+        "Modeling(Procedural)"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        ""
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "07/03/2025",
+    "id": "0013"
+},
+    {
+    "title": "rumba-animation.com",
+    "description": "Animation Software for Maya",
+    "href": "https://rumba-animation.com/",
+    "image": "/src/lib/assets/rumba-animation.com_0014.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "Animation",
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "Maya"
+    ],
+    "price": [
+        "Free",
+        "OneTimePurchase"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "07/03/2025",
+    "id": "0014"
+},
+    {
+    "title": "thomasfransson.gumroad.com",
+    "description": "Film Luts and emulation",
+    "href": "https://thomasfransson.gumroad.com/",
+    "image": "/src/lib/assets/thomasfransson.gumroad.com_0015.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "ColorSpacesandManagement"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        ""
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "07/03/2025",
+    "id": "0015"
+},
+    {
+    "title": "ghkim0045.gumroad.com",
+    "description": "Free Pencil Brushes for Procreate",
+    "href": "https://ghkim0045.gumroad.com/l/COFE_PencilPack?layout=discover&recommended_by=search&_gl=1*1qazkeq*_ga*MTk5NTAwNTUyNS4xNzQwNzYyOTYw*_ga_6LJN6D94N6*MTc0MTM2ODI3OC41LjEuMTc0MTM2ODg5Mi4wLjAuMA..",
+    "image": "/src/lib/assets/ghkim0045.gumroad.com_0016.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        ""
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        ""
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "07/03/2025",
+    "id": "0016"
+},
+    {
+    "title": "olguioo.gumroad.com",
+    "description": "Free Procreate Bush Pack 1",
+    "href": "https://olguioo.gumroad.com/l/starterpack?layout=discover&recommended_by=search&_gl=1*16gaqr8*_ga*MTk5NTAwNTUyNS4xNzQwNzYyOTYw*_ga_6LJN6D94N6*MTc0MTM2ODI3OC41LjEuMTc0MTM2ODg3Ny4wLjAuMA..",
+    "image": "/src/lib/assets/olguioo.gumroad.com_0017.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        ""
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        ""
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "07/03/2025",
+    "id": "0017"
+},
+    {
+    "title": "olguioo.gumroad.com",
+    "description": "Free Procreate Bush Pack 2",
+    "href": "https://olguioo.gumroad.com/l/secrqb?layout=discover&recommended_by=search&_gl=1*10tnqh4*_ga*MTk5NTAwNTUyNS4xNzQwNzYyOTYw*_ga_6LJN6D94N6*MTc0MTM2ODI3OC41LjEuMTc0MTM2ODg5Mi4wLjAuMA..",
+    "image": "/src/lib/assets/olguioo.gumroad.com_0018.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        ""
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        ""
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "07/03/2025",
+    "id": "0018"
+},
+    {
+    "title": "tawansunflower.gumroad.com",
+    "description": "Blender Geometry Node View Culling",
+    "href": "https://tawansunflower.gumroad.com/l/view?layout=profile&recommended_by=search",
+    "image": "/src/lib/assets/tawansunflower.gumroad.com_0019.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "Modeling(Procedural)",
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "Blender",
+    ],
+    "price": [
+        "OneTimePurchase"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "07/03/2025",
+    "id": "0019"
+},
+    {
+    "title": "tawansunflower.gumroad.com",
+    "description": "Blender Paint System for Non PBR ",
+    "href": "https://tawansunflower.gumroad.com/l/paint_system?layout=profile&recommended_by=search",
+    "image": "/src/lib/assets/tawansunflower.gumroad.com_0020.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "Plugins"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "Blender",
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "07/03/2025",
+    "id": "0020"
+},
+    {
+    "title": "tawansunflower.gumroad.com",
+    "description": "Blender Painterly Planes",
+    "href": "https://tawansunflower.gumroad.com/l/blender-painterly-geo?layout=profile",
+    "image": "/src/lib/assets/tawansunflower.gumroad.com_0021.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "Plugins"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "Blender",
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "07/03/2025",
+    "id": "0021"
+},
+    {
+    "title": "tinynocky.gumroad.com",
+    "description": "Blender Stylized Hair Generation and Rendering",
+    "href": "https://tinynocky.gumroad.com/l/tinyhairshader?layout=discover&recommended_by=search&_gl=1*1cnwo8k*_ga*MTk5NTAwNTUyNS4xNzQwNzYyOTYw*_ga_6LJN6D94N6*MTc0MTM2ODI3OC41LjEuMTc0MTM2OTEwOS4wLjAuMA..",
+    "image": "/src/lib/assets/tinynocky.gumroad.com_0022.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "Modeling(Characters)",
+        "Modeling(Procedural)",
+        "Plugins"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "Blender",
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "07/03/2025",
+    "id": "0022"
+},
+    {
+    "title": "tinynocky.gumroad.com",
+    "description": "Blender Eye Plugin- best on the web",
+    "href": "https://tinynocky.gumroad.com/l/tinyeye?layout=profile&recommended_by=search",
+    "image": "/src/lib/assets/tinynocky.gumroad.com_0023.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "Modeling(Characters)",
+        "Modeling(Procedural)",
+        "Plugins"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "Blender",
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "07/03/2025",
+    "id": "0023"
+},
+    {
+    "title": "prochitecture.gumroad.com",
+    "description": "OSM Data for Blender ",
+    "href": "https://prochitecture.gumroad.com/l/blender-osm?layout=profile&recommended_by=search",
+    "image": "/src/lib/assets/prochitecture.gumroad.com_0024.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "Modeling(Procedural)",
+        "Plugins"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "Blender",
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "07/03/2025",
+    "id": "0024"
+},
+    {
+    "title": "reipart.gumroad.com",
+    "description": "Stylized Asset Generators for Blender",
+    "href": "https://reipart.gumroad.com/?recommended_by=search",
+    "image": "/src/lib/assets/reipart.gumroad.com_0025.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "AssetLibrary",
+        "Modeling(Procedural)",
+        "Plugins"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "Blender",
+    ],
+    "price": [
+        "Free",
+        "OneTimePurchase"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "07/03/2025",
+    "id": "0025"
+},
+    {
+    "title": "lightningboystudio.gumroad.com",
+    "description": "Blender non PBR rendering ",
+    "href": "https://lightningboystudio.gumroad.com/?recommended_by=search",
+    "image": "/src/lib/assets/lightningboystudio.gumroad.com_0026.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "AssetLibrary",
+        "Modeling(Procedural)",
+        "Plugins"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "Blender",
+    ],
+    "price": [
+        "Free",
+        "OneTimePurchase"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "07/03/2025",
+    "id": "0026"
+},
+    {
+    "title": "doublegum.gumroad.com",
+    "description": "Procedural Shaders and tools for blender",
+    "href": "https://doublegum.gumroad.com/?recommended_by=search&_gl=1*2fj4yq*_ga*MTk5NTAwNTUyNS4xNzQwNzYyOTYw*_ga_6LJN6D94N6*MTc0MTM2ODI3OC41LjEuMTc0MTM2OTQ4OC4wLjAuMA..",
+    "image": "/src/lib/assets/doublegum.gumroad.com_0027.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "AssetLibrary",
+        "Plugins"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "Blender",
+    ],
+    "price": [
+        "Free",
+        "OneTimePurchase"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "07/03/2025",
+    "id": "0027"
+},
+    {
+    "title": "tradigital.gumroad.com",
+    "description": "Blender paint stroke generation",
+    "href": "https://tradigital.gumroad.com/?recommended_by=search&_gl=1*fi31g2*_ga*MTk5NTAwNTUyNS4xNzQwNzYyOTYw*_ga_6LJN6D94N6*MTc0MTM2ODI3OC41LjEuMTc0MTM2OTUwMS4wLjAuMA..",
+    "image": "/src/lib/assets/tradigital.gumroad.com_0028.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "AssetLibrary",
+        "Modeling(Procedural)",
+        "Plugins"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "Blender",
+    ],
+    "price": [
+        "Free",
+        "OneTimePurchase"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "07/03/2025",
+    "id": "0028"
+},
+    {
+    "title": "3dsinghvfx.gumroad.com",
+    "description": "Extra geometry nodes for blender",
+    "href": "https://3dsinghvfx.gumroad.com/l/extra-nodes?layout=discover&recommended_by=search&_gl=1*rvdmxh*_ga*MTk5NTAwNTUyNS4xNzQwNzYyOTYw*_ga_6LJN6D94N6*MTc0MTM2ODI3OC41LjEuMTc0MTM2OTcyOC4wLjAuMA..",
+    "image": "/src/lib/assets/3dsinghvfx.gumroad.com_0029.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "AssetLibrary",
+        "Modeling(Procedural)",
+        "Plugins"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "Blender",
+    ],
+    "price": [
+        "Free",
+        "OneTimePurchase"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "07/03/2025",
+    "id": "0029"
+},
+    {
+    "title": "casey-sheep.carrd.co",
+    "description": "Flora Paint Plugin for Bleneder",
+    "href": "https://casey-sheep.carrd.co/#florapaint",
+    "image": "/src/lib/assets/casey-sheep.carrd.co_0030.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "Modeling(Procedural)",
+        "Plugins"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "Blender",
+    ],
+    "price": [
+        "OneTimePurchase"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "07/03/2025",
+    "id": "0030"
+},
+    {
+    "title": "treehive.gumroad.com",
+    "description": "Mantis Rigging Nodes (geometry node rigging) for Blender",
+    "href": "https://treehive.gumroad.com/l/mantis-component-pack-000?layout=profile&recommended_by=search",
+    "image": "/src/lib/assets/treehive.gumroad.com_0031.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "Plugins"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "Blender",
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "07/03/2025",
+    "id": "0031"
+},
+    {
+    "title": "bbbn19.gumroad.com",
+    "description": "Cartesian Caramel Procedural Assets for Blender",
+    "href": "https://bbbn19.gumroad.com/",
+    "image": "/src/lib/assets/bbbn19.gumroad.com_0032.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "Modeling(Procedural)",
+        "Plugins"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "Blender",
+    ],
+    "price": [
+        "Free",
+        "OneTimePurchase"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "07/03/2025",
+    "id": "0032"
+},
+    {
+    "title": "creativeshrimp.gumroad.com",
+    "description": "Dust Particles for Blender Made easy",
+    "href": "https://creativeshrimp.gumroad.com/l/dust-particles?layout=discover&recommended_by=search&_gl=1*6nimfm*_ga*MTk5NTAwNTUyNS4xNzQwNzYyOTYw*_ga_6LJN6D94N6*MTc0MTM2ODI3OC41LjEuMTc0MTM3MDA3My4wLjAuMA..",
+    "image": "/src/lib/assets/creativeshrimp.gumroad.com_0033.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "Plugins"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "Blender",
+    ],
+    "price": [
+        "Free",
+        "OneTimePurchase"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "07/03/2025",
+    "id": "0033"
+},
+    {
+    "title": "5minblender.gumroad.com",
+    "description": "Procedural book opening for Blender",
+    "href": "https://5minblender.gumroad.com/l/flip-my-page?layout=discover&recommended_by=search&_gl=1*1iifeo8*_ga*MTk5NTAwNTUyNS4xNzQwNzYyOTYw*_ga_6LJN6D94N6*MTc0MTM2ODI3OC41LjEuMTc0MTM3MDA4MC4wLjAuMA..",
+    "image": "/src/lib/assets/5minblender.gumroad.com_0034.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "Plugins"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "Blender",
+    ],
+    "price": [
+        "Free",
+        "OneTimePurchase"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "07/03/2025",
+    "id": "0034"
+},
+    {
+    "title": "malteullrich.gumroad.com",
+    "description": "Free Procedural Planet Setup",
+    "href": "https://malteullrich.gumroad.com/l/orduj?layout=profile&recommended_by=search",
+    "image": "/src/lib/assets/malteullrich.gumroad.com_0035.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "Modeling(Procedural)",
+        "Plugins"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "Blender",
+    ],
+    "price": [
+        "Free",
+        "OneTimePurchase"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "07/03/2025",
+    "id": "0035"
+},
+    {
+    "title": "cgmood.com",
+    "description": "A fairly Priced Architecture Visualization Asset Marketplace.",
+    "href": "https://cgmood.com/",
+    "image": "/src/lib/assets/cgmood.com_0036.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "AssetLibrary",
+        "Models",
+        "Textures"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "Free",
+        "Subscription"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "11/03/2025",
+    "id": "0036"
+},
+    {
+    "title": "assetstore.unity.com",
+    "description": "Unity Marketplace for plugins, assets, and more.",
+    "href": "https://assetstore.unity.com/",
+    "image": "/src/lib/assets/assetstore.unity.com_0037.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "AssetLibrary",
+        "Models",
+        "Textures",
+        "Plugins",
+        "FX"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "Unity"
+    ],
+    "price": [
+        "Free",
+        "OneTimePurchase"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "11/03/2025",
+    "id": "0037"
+},
+    {
+    "title": "www.cgtrader.com",
+    "description": "Over 2 million 3D models for sale",
+    "href": "https://www.cgtrader.com/",
+    "image": "/src/lib/assets/www.cgtrader.com_0038.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "AssetLibrary",
+        "Models"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "OneTimePurchase"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "11/03/2025",
+    "id": "0038"
+},
+    {
+    "title": "www.cgspectrum.com",
+    "description": "Online education for creative industries",
+    "href": "https://www.cgspectrum.com/",
+    "image": "/src/lib/assets/www.cgspectrum.com_0039.png",
+    "category": [
+        "Education"
+    ],
+    "tag": [
+        ""
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "OneTimePurchase"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "11/03/2025",
+    "id": "0039"
+},
+    {
+    "title": "animschool.edu",
+    "description": "Learn 3D Animation Online! Become a 3D Character Animator or Game Animator",
+    "href": "https://animschool.edu/",
+    "image": "/src/lib/assets/animschool.edu_0040.png",
+    "category": [
+        "Education"
+    ],
+    "tag": [
+        "Animation"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "OneTimePurchase"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "11/03/2025",
+    "id": "0040"
+},
+    {
+    "title": "www.animationmentor.com",
+    "description": "Learn 3D Animation Online!  Become a 3D Character Animator or Game Animator",
+    "href": "https://www.animationmentor.com/",
+    "image": "/src/lib/assets/www.animationmentor.com_0041.png",
+    "category": [
+        "Education"
+    ],
+    "tag": [
+        "Animation"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "OneTimePurchase"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "11/03/2025",
+    "id": "0041"
+},
+    {
+    "title": "www.skillshare.com",
+    "description": "Find what fascinates you as you explore these 3D Animation classes.",
+    "href": "https://www.skillshare.com/en/browse/3d-animation",
+    "image": "/src/lib/assets/www.skillshare.com_0042.png",
+    "category": [
+        "Education"
+    ],
+    "tag": [
+        "Animation"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "OneTimePurchase"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "11/03/2025",
+    "id": "0042"
+},
+    {
+    "title": "animawarriors.thinkific.com",
+    "description": "Over 600 hours of Learning Content for Animation, Centered on Animation Principles",
+    "href": "https://animawarriors.thinkific.com/collections/online-courses",
+    "image": "/src/lib/assets/animawarriors.thinkific.com_0043.png",
+    "category": [
+        "Education"
+    ],
+    "tag": [
+        "Animation"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "OneTimePurchase"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "11/03/2025",
+    "id": "0043"
+},
+    {
+    "title": "www.rebelway.net",
+    "description": "Learn VFX Online from the pros.",
+    "href": "https://www.rebelway.net/",
+    "image": "/src/lib/assets/www.rebelway.net_0044.png",
+    "category": [
+        "Education"
+    ],
+    "tag": [
+        "FX"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "OneTimePurchase"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "11/03/2025",
+    "id": "0044"
+},
+    {
+    "title": "www.schoolofmotion.com",
+    "description": "Motion Design Focused Education",
+    "href": "https://www.schoolofmotion.com/courses",
+    "image": "/src/lib/assets/www.schoolofmotion.com_0045.png",
+    "category": [
+        "Education"
+    ],
+    "tag": [
+        "Animation",
+        "MotionDesign"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "OneTimePurchase"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "11/03/2025",
+    "id": "0045"
+},
+    {
+    "title": "www.gnomon.edu",
+    "description": "A variety of educational options. Certificate and Degree Options.",
+    "href": "https://www.gnomon.edu/",
+    "image": "/src/lib/assets/www.gnomon.edu_0046.png",
+    "category": [
+        "Education"
+    ],
+    "tag": [
+        "Animation",
+        "FX"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "OneTimePurchase"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "11/03/2025",
+    "id": "0046"
+},
+    {
+    "title": "ambientcg.com",
+    "description": "Texture model and substance library cc0",
+    "href": "https://ambientcg.com/",
+    "image": "/src/lib/assets/ambientcg.com_0047.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "AssetLibrary",
+        "Models",
+        "Textures"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "11/03/2025",
+    "id": "0047"
+},
+    {
+    "title": "freesound.org",
+    "description": "Find any sound you like In a collaborative collection of 678,635 free sounds",
+    "href": "https://freesound.org/",
+    "image": "/src/lib/assets/freesound.org_0048.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "Sound/Audio/SoundFX"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "13/03/2025",
+    "id": "0048"
+},
+    {
+    "title": "soundcloud.com",
+    "description": "400 million songs, remixes and DJ sets.",
+    "href": "https://soundcloud.com/",
+    "image": "/src/lib/assets/soundcloud.com_0049.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "Music"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "13/03/2025",
+    "id": "0049"
+},
+    {
+    "title": "motionarray.com",
+    "description": "Stock footage and Effects Templates Sound Effects and Music",
+    "href": "https://motionarray.com/",
+    "image": "/src/lib/assets/motionarray.com_0050.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "AssetLibrary",
+        "Compositing"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "Subscription"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "13/03/2025",
+    "id": "0050"
+},
+    {
+    "title": "elements.envato.com",
+    "description": "Unlimited Access to Stock elements / footage / sound effects/ music/ and transitions",
+    "href": "https://elements.envato.com/",
+    "image": "/src/lib/assets/elements.envato.com_0051.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "AssetLibrary",
+        "Compositing"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "Subscription"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "13/03/2025",
+    "id": "0051"
+},
+    {
+    "title": "www.freevisuals.net",
+    "description": "Over 1000 Template and Effects for Editing",
+    "href": "https://www.freevisuals.net/",
+    "image": "/src/lib/assets/www.freevisuals.net_0052.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "AssetLibrary",
+        "Compositing"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "13/03/2025",
+    "id": "0052"
+},
+    {
+    "title": "mixkit.co",
+    "description": "Free After effect Templates To try with the option to upgrade to subscription.",
+    "href": "https://mixkit.co/free-after-effects-templates/",
+    "image": "/src/lib/assets/mixkit.co_0053.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "AssetLibrary",
+        "Compositing"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "Free",
+        "Subscription"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "13/03/2025",
+    "id": "0053"
+},
+    {
+    "title": "fontsinuse.com",
+    "description": " An independent archive of typography.",
+    "href": "https://fontsinuse.com/",
+    "image": "/src/lib/assets/fontsinuse.com_0054.png",
+    "category": [
+        "Education",
+        "Reference"
+    ],
+    "tag": [
+        "Font"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "16/03/2025",
+    "id": "0054"
+},
+    {
+    "title": "www.artstation.com",
+    "description": "Character Modeling Refference",
+    "href": "https://www.artstation.com/leorezende",
+    "image": "/src/lib/assets/www.artstation.com_0055.png",
+    "category": [
+        "Education",
+        "Reference"
+    ],
+    "tag": [
+        "Modeling(Characters)"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "17/03/2025",
+    "id": "0055"
+},
+    {
+    "title": "www.artstation.com",
+    "description": "Character Design Reference",
+    "href": "https://www.artstation.com/soonsanghong54",
+    "image": "/src/lib/assets/www.artstation.com_0056.png",
+    "category": [
+        "Education",
+        "Reference"
+    ],
+    "tag": [
+        "Modeling(Characters)"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "17/03/2025",
+    "id": "0056"
+},
+    {
+    "title": "www.pentagram.com",
+    "description": "Graphic Design Archive of Pentagram Studio",
+    "href": "https://www.pentagram.com/work",
+    "image": "/src/lib/assets/www.pentagram.com_0057.png",
+    "category": [
+        "Reference"
+    ],
+    "tag": [
+        "Fonts"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "18/03/2025",
+    "id": "0057"
+},
+    {
+    "title": "elliothasacoolstore.com",
+    "description": "Graphic Design Inspiration from Eliot",
+    "href": "https://elliothasacoolstore.com/",
+    "image": "/src/lib/assets/elliothasacoolstore.com_0058.png",
+    "category": [
+        "Reference"
+    ],
+    "tag": [
+        "Typography"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "18/03/2025",
+    "id": "0058"
+},
+    {
+    "title": "www.artstation.com",
+    "description": "Stylized Environment Art of Tyler Smith",
+    "href": "https://www.artstation.com/tsmith3d",
+    "image": "/src/lib/assets/www.artstation.com_0059.png",
+    "category": [
+        "Reference"
+    ],
+    "tag": [
+        "Environment",
+        "ShadersandRendering",
+        "Compositing",
+        "Lighting"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "Unreal"
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "20/03/2025",
+    "id": "0059"
+},
+    {
+    "title": "architextures.org",
+    "description": "Architecture Texture Generator with some free assets",
+    "href": "https://architextures.org/",
+    "image": "/src/lib/assets/architextures.org_0060.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "AssetLibrary",
+        "Textures"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "Free",
+        "Subscription"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "24/03/2025",
+    "id": "0060"
+},
+    {
+    "title": "help.autodesk.com",
+    "description": "Maya 2024 Documentation",
+    "href": "https://help.autodesk.com/view/MAYAUL/2024/ENU/",
+    "image": "/src/lib/assets/help.autodesk.com_0061.png",
+    "category": [
+        "Education",
+        "Reference"
+    ],
+    "tag": [
+        "Documentation"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "Maya"
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "25/03/2025",
+    "id": "0061"
+},
+    {
+    "title": "libresprite.github.io",
+    "description": "free and open source program for creating and animating your sprites",
+    "href": "https://libresprite.github.io/#!/",
+    "image": "/src/lib/assets/libresprite.github.io_0062.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "Animation",
+        "GameDevelopment"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "Animation(2D)"
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "31/03/2025",
+    "id": "0062"
+},
+    {
+    "title": "syncsketch.com",
+    "description": "Review, Draw over, and Annotation software for Animation Critique.",
+    "href": "https://syncsketch.com/",
+    "image": "/src/lib/assets/syncsketch.com_0063.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        ""
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "Free",
+        "Subscription"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "03/04/2025",
+    "id": "0063"
+},
+    {
+    "title": "www.atlassian.com",
+    "description": "Project Management Software",
+    "href": "https://www.atlassian.com/software/jira",
+    "image": "/src/lib/assets/www.atlassian.com_0064.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        ""
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "Free",
+        "Subscription"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "07/04/2025",
+    "id": "0064"
+},
+    {
+    "title": "www.artstation.com",
+    "description": "How to do Art Direction",
+    "href": "https://www.artstation.com/artwork/AZawX5",
+    "image": "/src/lib/assets/www.artstation.com_0065.png",
+    "category": [
+        "Education"
+    ],
+    "tag": [
+        ""
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "08/04/2025",
+    "id": "0065"
+},
+    {
+    "title": "www.youtube.com",
+    "description": "Excellent unreal instruction",
+    "href": "https://www.youtube.com/@ProjProd",
+    "image": "/src/lib/assets/www.youtube.com_0066.png",
+    "category": [
+        "Education"
+    ],
+    "tag": [
+        "FX",
+        "Rigging"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "Unreal"
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "08/04/2025",
+    "id": "0066"
+},
+    {
+    "title": "www.alksndr.com",
+    "description": "Tool Plugins for blender, designed by industry pros",
+    "href": "https://www.alksndr.com/tools",
+    "image": "/src/lib/assets/www.alksndr.com_0067.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "Plugins"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "Blender"
+    ],
+    "price": [
+        "OneTimePurchase"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "21/04/2025",
+    "id": "0067"
+},
+    {
+    "title": "www.sidefx.com",
+    "description": "Tutorials and lessons on Houdini",
+    "href": "https://www.sidefx.com/learn/",
+    "image": "/src/lib/assets/www.sidefx.com_0068.png",
+    "category": [
+        "Education"
+    ],
+    "tag": [
+        ""
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "Houdini"
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "23/04/2025",
+    "id": "0068"
+},
+    {
+    "title": "www.actionvfx.com",
+    "description": "VFX resources. 2D or 3D",
+    "href": "https://www.actionvfx.com/",
+    "image": "/src/lib/assets/www.actionvfx.com_0069.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "AssetLibrary",
+        "FX"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "Subscription"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "23/04/2025",
+    "id": "0069"
+},
+    {
+    "title": "flippednormals.com",
+    "description": "Curated 3D models, brushes, textures, tutorials and more. Ready to use in gaming, animation, and VFX projects.",
+    "href": "https://flippednormals.com/",
+    "image": "/src/lib/assets/flippednormals.com_0070.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "AssetLibrary",
+        "Models",
+        "Textures",
+        "Plugins",
+        "FX"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "OneTimePurchase"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "23/04/2025",
+    "id": "0070"
+},
+    {
+    "title": "www.vfxgrace.com",
+    "description": "Rigged, Animated, Realistic 3D animals",
+    "href": "https://www.vfxgrace.com/",
+    "image": "/src/lib/assets/www.vfxgrace.com_0071.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "AssetLibrary",
+        "Models",
+        "Plugins"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "blender",
+        "maya",
+        "unreal"
+    ],
+    "price": [
+        "OneTimePurchase"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "23/04/2025",
+    "id": "0071"
+},
+    {
+    "title": "vfxcamdb.com",
+    "description": "1. CAMERA MANUFACTURER AND MODEL 2. PHOTOGRAPH OF CAMERA 3. SENSOR TYPE 4. SHUTTER",
+    "href": "https://vfxcamdb.com/",
+    "image": "/src/lib/assets/vfxcamdb.com_0072.png",
+    "category": [
+        "Education",
+        "Assets",
+        "Reference"
+    ],
+    "tag": [
+        "Compositing",
+        "ColorSpacesandManagement",
+        "FX"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "23/04/2025",
+    "id": "0072"
+},
+    {
+    "title": "www.productioncrate.com",
+    "description": "over 10,000 creative assets",
+    "href": "https://www.productioncrate.com/",
+    "image": "/src/lib/assets/www.productioncrate.com_0073.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "AssetLibrary",
+        "Models",
+        "Textures",
+        "FX"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "OneTimePurchase"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "23/04/2025",
+    "id": "0073"
+},
+    {
+    "title": "www.thepixellab.net",
+    "description": "The Biggest Collection of 3D VFX and VDB Assets in the World",
+    "href": "https://www.thepixellab.net/",
+    "image": "/src/lib/assets/www.thepixellab.net_0074.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "AssetLibrary",
+        "FX",
+        "VDB"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "OneTimePurchase"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "23/04/2025",
+    "id": "0074"
+},
+    {
+    "title": "www.gooddesign.tools",
+    "description": "A web site full of design tools",
+    "href": "https://www.gooddesign.tools/",
+    "image": "/src/lib/assets/www.gooddesign.tools_0075.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "AssetLibrary",
+        "WebDevelopment"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "Design"
+    ],
+    "price": [
+        "Free",
+        "OneTimePurchase",
+        "Subscription"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "25/04/2025",
+    "id": "0075"
+},
+    {
+    "title": "www.logofork.com",
+    "description": "Drag & drop, paste, or upload your SVG logos and convert them to the file formats you need - packaged in seconds!",
+    "href": "https://www.logofork.com/",
+    "image": "/src/lib/assets/www.logofork.com_0076.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "WebDevelopment"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "Web"
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "25/04/2025",
+    "id": "0076"
+},
+    {
+    "title": "sound-effects.bbcrewind.co.uk",
+    "description": "BBC archive of 30,000+ sound effects",
+    "href": "https://sound-effects.bbcrewind.co.uk/",
+    "image": "/src/lib/assets/sound-effects.bbcrewind.co.uk_0077.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "AssetLibrary",
+        "Sound"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "25/04/2025",
+    "id": "0077"
+},
+    {
+    "title": "substance3d.adobe.com",
+    "description": "A library of thousands of materials, models, and lights A vast range of assets, to meet an immense variety of needs.",
+    "href": "https://substance3d.adobe.com/assets/allassets",
+    "image": "/src/lib/assets/substance3d.adobe.com_0078.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "AssetLibrary",
+        "Models",
+        "Textures"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "Subscription"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "30/04/2025",
+    "id": "0078"
+},
+
 ];
