@@ -56,7 +56,7 @@
 
     <!-- Left Side: Logo + Optional Filter Button -->
     <div class="flex items-center gap-3 ml-4">
-      <a href="/" class="tracking-wide hover:text-blue-900 transition">
+      <a href="/" class="tracking-wide hover:text-purple-900 transition">
         Vizlab.org
       </a>
 
@@ -74,7 +74,7 @@
     <nav class="hidden md:flex items-center flex-wrap space-x-2 pr-4">
       {#each primaryNavLinks as link}
         <button 
-          class="nav-link {activeNavColor(link, $selectedCategory)}"
+          class="nav-link text-white {activeNavColor(link, $selectedCategory)}"
           on:click={() => handleCategoryClick(link.category)}>
           {link.label}
         </button>
