@@ -80,8 +80,8 @@
 
 
       case 'date':
-        const aDate = new Date(a.date ?? 0).getTime();
-        const bDate = new Date(b.date ?? 0).getTime();
+        const aDate = Date.parse(a.datecurated || '') || 0;
+        const bDate = Date.parse(b.datecurated || '') || 0;
         return direction * (aDate - bDate);
 
       default:

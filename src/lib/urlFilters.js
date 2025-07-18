@@ -34,8 +34,8 @@ export const sortOptions = [
   { value: "none", label: "None" },
   { value: "popularity", label: "Most Popular" },
   { value: "alphabetical", label: "A–Z" },
-  //{ value: "likes", label: "Most Liked" },
-  //{ value: "date", label: "Newest" },
+  { value: "likes", label: "Likes" },
+  { value: "date", label: "Date Added" },
 ];
 
 
