@@ -23,18 +23,23 @@ PROCESSED_URLS_FILE = os.path.join(BASE_OUTPUT_FOLDER, 'processed_urls.txt')
 os.makedirs(SCREENSHOT_FOLDER, exist_ok=True)
 
 # --------------------------
-# Chrome driver setup
+# Chrome driver setup (auto with webdriver_manager)
 # --------------------------
+from webdriver_manager.chrome import ChromeDriverManager
+
 chrome_options = Options()
 chrome_options.add_argument("--headless")
 chrome_options.add_argument("--no-sandbox")
 chrome_options.add_argument("--disable-dev-shm-usage")
 chrome_options.add_argument("--window-size=875,875")
-chrome_driver_path = 'chromedriver.exe'
+# Suppress ChromeDriver + DevTools logging
+chrome_options.add_experimental_option('excludeSwitches', ['enable-logging'])
+chrome_options.add_argument("--log-level=3")  # Suppress console errors/warnings
+
 
 def initialize_driver():
-    # Create a new Chrome driver instance
-    service = Service(chrome_driver_path)
+    # Automatically installs/updates the correct ChromeDriver for your Chrome
+    service = Service(ChromeDriverManager().install())
     driver = webdriver.Chrome(service=service, options=chrome_options)
     return driver
 
@@ -67,6 +72,15 @@ def normalize_multi_value_field(raw, mapping=None):
         values = [raw.replace(" ", "")]
 
     return values
+    
+def parse_timestamp(input_str):
+    for fmt in ("%m/%d/%Y %H:%M:%S", "%m/%d/%Y %H:%M"):
+        try:
+            return datetime.strptime(input_str, fmt)
+        except ValueError:
+            continue
+    raise ValueError(f"Time data '{input_str}' does not match any expected format")
+
 
 # --------------------------
 # Function to capture screenshot and build JS object
@@ -177,7 +191,7 @@ with open(CSV_FILE, newline='', encoding='utf-8') as csvfile:
 
             # Parse and format timestamp
             input_str = row['Timestamp']
-            dt = datetime.strptime(input_str, "%m/%d/%Y %H:%M:%S")
+            dt = parse_timestamp(input_str)
             formatted_date = dt.strftime("%d/%m/%Y")
 
             # Extract row fields
@@ -204,6 +218,7 @@ with open(CSV_FILE, newline='', encoding='utf-8') as csvfile:
             result = future.result()
             if result:
                 resources.append(result)
+
 
 # --------------------------
 # Write resources.js file

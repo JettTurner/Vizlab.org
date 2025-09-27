@@ -10,7 +10,7 @@ export const links = [
         ],
         "tag": [
             "Top",
-            "AssetLibrary",
+            "AssetLibrary/Marketplace",
             "Textures",
             "Models"
         ],
@@ -62,7 +62,7 @@ export const links = [
             "Assets"
         ],
         "tag": [
-            "AssetLibrary",
+            "AssetLibrary/Marketplace",
             "Top",
             "Textures"
         ],
@@ -89,7 +89,7 @@ export const links = [
             "Assets"
         ],
         "tag": [
-            "AssetLibrary",
+            "AssetLibrary/Marketplace",
             "Top",
             "Textures"
         ],
@@ -114,7 +114,7 @@ export const links = [
             "Assets"
         ],
         "tag": [
-            "AssetLibrary",
+            "AssetLibrary/Marketplace",
             "Top",
             "Textures"
         ],
@@ -140,7 +140,7 @@ export const links = [
             "Assets"
         ],
         "tag": [
-            "AssetLibrary",
+            "AssetLibrary/Marketplace",
             "Top",
             "Fonts"
         ],
@@ -166,7 +166,7 @@ export const links = [
             "Assets"
         ],
         "tag": [
-            "AssetLibrary",
+            "AssetLibrary/Marketplace",
             "Top",
             "Fonts"
         ],
@@ -192,7 +192,7 @@ export const links = [
             "Reference"
         ],
         "tag": [
-            "AssetLibrary",
+            "AssetLibrary/Marketplace",
             "Top",
             "Fonts"
         ],
@@ -890,7 +890,7 @@ export const links = [
             "Education"
         ],
         "tag": [
-            "ModelingHardSurface"
+            "Modeling(HardSurface)"
         ],
         "subtag": [],
         "software": [],
@@ -941,7 +941,7 @@ export const links = [
         ],
         "tag": [
             "Environment",
-            "ModelingHardSurface"
+            "Modeling(HardSurface)"
         ],
         "subtag": [],
         "software": [],
@@ -965,7 +965,7 @@ export const links = [
         ],
         "tag": [
             "Environment",
-            "ModelingHardSurface"
+            "Modeling(HardSurface)"
         ],
         "subtag": [],
         "software": [],
@@ -1011,7 +1011,7 @@ export const links = [
             "Education"
         ],
         "tag": [
-            "ModelingHardSurface"
+            "Modeling(HardSurface)"
         ],
         "subtag": [],
         "software": [],
@@ -1058,7 +1058,7 @@ export const links = [
             "Education"
         ],
         "tag": [
-            "ModelingHardSurface"
+            "Modeling(HardSurface)"
         ],
         "subtag": [],
         "software": [],
@@ -1083,7 +1083,7 @@ export const links = [
         "tag": [
             "Environment",
             "Compositing",
-            "ModelingHardSurface"
+            "Modeling(HardSurface)"
         ],
         "subtag": [],
         "software": [],
@@ -1108,7 +1108,7 @@ export const links = [
         "tag": [
             "Environment",
             "Compositing",
-            "ModelingHardSurface"
+            "Modeling(HardSurface)"
         ],
         "subtag": [],
         "software": [],
@@ -1134,7 +1134,7 @@ export const links = [
             "Environment",
             "LevelDesign",
             "Shaders",
-            "ModelingHardSurface"
+            "Modeling(HardSurface)"
         ],
         "subtag": [],
         "software": [],
@@ -1159,7 +1159,7 @@ export const links = [
         "tag": [
             "Environment",
             "Compositing",
-            "ModelingHardSurface"
+            "Modeling(HardSurface)"
         ],
         "subtag": [],
         "software": [],
@@ -1184,7 +1184,7 @@ export const links = [
         "tag": [
             "Environment",
             "Compositing",
-            "ModelingHardSurface"
+            "Modeling(HardSurface)"
         ],
         "subtag": [],
         "software": [],
@@ -1209,7 +1209,7 @@ export const links = [
         "tag": [
             "Environment",
             "Compositing",
-            "ModelingHardSurface"
+            "Modeling(HardSurface)"
         ],
         "subtag": [],
         "software": [],
@@ -2294,7 +2294,7 @@ export const links = [
             "Assets"
         ],
         "tag": [
-            "AssetLibrary",
+            "AssetLibrary/Marketplace",
             "Textures",
             "Models"
         ],
@@ -2320,7 +2320,7 @@ export const links = [
             "Assets"
         ],
         "tag": [
-            "AssetLibrary",
+            "AssetLibrary/Marketplace",
             "Plugin",
             "Textures",
             "Models"
@@ -2348,7 +2348,7 @@ export const links = [
             "Assets"
         ],
         "tag": [
-            "AssetLibrary",
+            "AssetLibrary/Marketplace",
             "Plugin",
             "Textures",
             "Models"
@@ -2374,7 +2374,7 @@ export const links = [
             "Assets"
         ],
         "tag": [
-            "AssetLibrary",
+            "AssetLibrary/Marketplace",
             "Plugin",
             "Textures",
             "Models"
@@ -2400,7 +2400,7 @@ export const links = [
             "Assets"
         ],
         "tag": [
-            "AssetLibrary",
+            "AssetLibrary/Marketplace",
             "Plugin",
             "Textures",
             "Models"
@@ -2427,7 +2427,7 @@ export const links = [
             "Assets"
         ],
         "tag": [
-            "AssetLibrary",
+            "AssetLibrary/Marketplace",
             "Textures",
             "Models",
             "Plugin"
@@ -2456,7 +2456,7 @@ export const links = [
             "Assets"
         ],
         "tag": [
-            "AssetLibrary",
+            "AssetLibrary/Marketplace",
             "Textures",
             "Models"
         ],
@@ -2481,7 +2481,7 @@ export const links = [
             "Assets"
         ],
         "tag": [
-            "AssetLibrary",
+            "AssetLibrary/Marketplace",
             "Models"
         ],
         "subtag": [],
@@ -2505,7 +2505,7 @@ export const links = [
             "Assets"
         ],
         "tag": [
-            "AssetLibrary",
+            "AssetLibrary/Marketplace",
             "Textures",
             "Models"
         ],
@@ -2530,7 +2530,7 @@ export const links = [
             "Assets"
         ],
         "tag": [
-            "AssetLibrary",
+            "AssetLibrary/Marketplace",
             "Textures"
         ],
         "subtag": [],
@@ -2554,7 +2554,7 @@ export const links = [
             "Assets"
         ],
         "tag": [
-            "AssetLibrary",
+            "AssetLibrary/Marketplace",
             "Textures"
         ],
         "subtag": [],
@@ -2579,7 +2579,7 @@ export const links = [
             "Assets"
         ],
         "tag": [
-            "AssetLibrary",
+            "AssetLibrary/Marketplace",
             "Textures",
             "Models",
             "Plugin"
@@ -2608,7 +2608,7 @@ export const links = [
             "Assets"
         ],
         "tag": [
-            "AssetLibrary",
+            "AssetLibrary/Marketplace",
             "Textures",
             "Models",
             "Plugin"
@@ -2637,7 +2637,7 @@ export const links = [
             "Assets"
         ],
         "tag": [
-            "AssetLibrary",
+            "AssetLibrary/Marketplace",
             "Textures",
             "Models",
             "Plugin"
@@ -2666,7 +2666,7 @@ export const links = [
             "Assets"
         ],
         "tag": [
-            "AssetLibrary",
+            "AssetLibrary/Marketplace",
             "Textures",
             "Models",
             "Plugin"
@@ -2695,7 +2695,7 @@ export const links = [
             "Assets"
         ],
         "tag": [
-            "AssetLibrary",
+            "AssetLibrary/Marketplace",
             "Textures",
             "Models",
             "Plugin"
@@ -2724,7 +2724,7 @@ export const links = [
             "Assets"
         ],
         "tag": [
-            "AssetLibrary",
+            "AssetLibrary/Marketplace",
             "Plugin"
         ],
         "subtag": [],
@@ -2751,7 +2751,7 @@ export const links = [
             "Assets"
         ],
         "tag": [
-            "AssetLibrary",
+            "AssetLibrary/Marketplace",
             "Plugin"
         ],
         "subtag": [],
@@ -2777,7 +2777,7 @@ export const links = [
             "Assets"
         ],
         "tag": [
-            "AssetLibrary",
+            "AssetLibrary/Marketplace",
             "Plants"
         ],
         "subtag": [],
@@ -2801,7 +2801,7 @@ export const links = [
             "Assets"
         ],
         "tag": [
-            "AssetLibrary",
+            "AssetLibrary/Marketplace",
             "Plants",
             "Plugin",
             "Tools"
@@ -2829,7 +2829,7 @@ export const links = [
             "Assets"
         ],
         "tag": [
-            "AssetLibrary",
+            "AssetLibrary/Marketplace",
             "Plants"
         ],
         "subtag": [],
@@ -2853,7 +2853,7 @@ export const links = [
             "Assets"
         ],
         "tag": [
-            "AssetLibrary"
+            "AssetLibrary/Marketplace"
         ],
         "subtag": [],
         "software": [],
@@ -2876,7 +2876,7 @@ export const links = [
             "Assets"
         ],
         "tag": [
-            "AssetLibrary"
+            "AssetLibrary/Marketplace"
         ],
         "subtag": [],
         "software": [],
@@ -2899,7 +2899,8 @@ export const links = [
             "Assets"
         ],
         "tag": [
-            "AssetLibrary"
+            "AssetLibrary/Marketplace",
+			"Sound/Audio/SoundFX"
         ],
         "subtag": [],
         "software": [],
@@ -2980,8 +2981,8 @@ export const links = [
         "Assets"
     ],
     "tag": [
-        "AssetLibrary",
-        "Plugins",
+        "AssetLibrary/Marketplace",
+        "Plugin",
         "FX",
     ],
     "subtag": [
@@ -3008,10 +3009,10 @@ export const links = [
         "Assets"
     ],
     "tag": [
-        "AssetLibrary", 
+        "AssetLibrary/Marketplace", 
         "Models",
         "Textures",
-        "Plugins",
+        "Plugin",
         "FX",
     ],
     "subtag": [
@@ -3038,10 +3039,10 @@ export const links = [
         "Assets"
     ],
     "tag": [
-        "AssetLibrary",
+        "AssetLibrary/Marketplace",
         "Models",
         "Textures",
-        "Plugins",
+        "Plugin",
         "FX",
     ],
     "subtag": [
@@ -3068,7 +3069,7 @@ export const links = [
         "Assets"
     ],
     "tag": [
-        "AssetLibrary",
+        "AssetLibrary/Marketplace",
         "Models",
         "FX",
     ],
@@ -3095,9 +3096,9 @@ export const links = [
         "Assets"
     ],
     "tag": [
-        "AssetLibrary",
+        "AssetLibrary/Marketplace",
         "Models",
-        "Plugins",
+        "Plugin",
         "FX",
     ],
     "subtag": [
@@ -3123,9 +3124,9 @@ export const links = [
         "Assets"
     ],
     "tag": [
-        "AssetLibrary",
+        "AssetLibrary/Marketplace",
         "Models",
-        "Plugins",
+        "Plugin",
     ],
     "subtag": [
         ""
@@ -3230,7 +3231,7 @@ export const links = [
         "Education"
     ],
     "tag": [
-        "AssetLibrary"
+        "AssetLibrary/Marketplace"
     ],
     "subtag": [
         ""
@@ -3282,7 +3283,7 @@ export const links = [
         "Assets"
     ],
     "tag": [
-        "AssetLibrary",
+        "AssetLibrary/Marketplace",
         "Environment",
         "Modeling(Procedural)"
     ],
@@ -3488,7 +3489,7 @@ export const links = [
         "Assets"
     ],
     "tag": [
-        "Plugins"
+        "Plugin"
     ],
     "subtag": [
         ""
@@ -3513,7 +3514,7 @@ export const links = [
         "Assets"
     ],
     "tag": [
-        "Plugins"
+        "Plugin"
     ],
     "subtag": [
         ""
@@ -3540,7 +3541,7 @@ export const links = [
     "tag": [
         "Modeling(Characters)",
         "Modeling(Procedural)",
-        "Plugins"
+        "Plugin"
     ],
     "subtag": [
         ""
@@ -3567,7 +3568,7 @@ export const links = [
     "tag": [
         "Modeling(Characters)",
         "Modeling(Procedural)",
-        "Plugins"
+        "Plugin"
     ],
     "subtag": [
         ""
@@ -3593,7 +3594,7 @@ export const links = [
     ],
     "tag": [
         "Modeling(Procedural)",
-        "Plugins"
+        "Plugin"
     ],
     "subtag": [
         ""
@@ -3618,9 +3619,9 @@ export const links = [
         "Assets"
     ],
     "tag": [
-        "AssetLibrary",
+        "AssetLibrary/Marketplace",
         "Modeling(Procedural)",
-        "Plugins"
+        "Plugin"
     ],
     "subtag": [
         ""
@@ -3646,9 +3647,9 @@ export const links = [
         "Assets"
     ],
     "tag": [
-        "AssetLibrary",
+        "AssetLibrary/Marketplace",
         "Modeling(Procedural)",
-        "Plugins"
+        "Plugin"
     ],
     "subtag": [
         ""
@@ -3674,8 +3675,8 @@ export const links = [
         "Assets"
     ],
     "tag": [
-        "AssetLibrary",
-        "Plugins"
+        "AssetLibrary/Marketplace",
+        "Plugin"
     ],
     "subtag": [
         ""
@@ -3701,9 +3702,9 @@ export const links = [
         "Assets"
     ],
     "tag": [
-        "AssetLibrary",
+        "AssetLibrary/Marketplace",
         "Modeling(Procedural)",
-        "Plugins"
+        "Plugin"
     ],
     "subtag": [
         ""
@@ -3729,9 +3730,9 @@ export const links = [
         "Assets"
     ],
     "tag": [
-        "AssetLibrary",
+        "AssetLibrary/Marketplace",
         "Modeling(Procedural)",
-        "Plugins"
+        "Plugin"
     ],
     "subtag": [
         ""
@@ -3758,7 +3759,7 @@ export const links = [
     ],
     "tag": [
         "Modeling(Procedural)",
-        "Plugins"
+        "Plugin"
     ],
     "subtag": [
         ""
@@ -3783,7 +3784,7 @@ export const links = [
         "Assets"
     ],
     "tag": [
-        "Plugins"
+        "Plugin"
     ],
     "subtag": [
         ""
@@ -3809,7 +3810,7 @@ export const links = [
     ],
     "tag": [
         "Modeling(Procedural)",
-        "Plugins"
+        "Plugin"
     ],
     "subtag": [
         ""
@@ -3835,7 +3836,7 @@ export const links = [
         "Assets"
     ],
     "tag": [
-        "Plugins"
+        "Plugin"
     ],
     "subtag": [
         ""
@@ -3861,7 +3862,7 @@ export const links = [
         "Assets"
     ],
     "tag": [
-        "Plugins"
+        "Plugin"
     ],
     "subtag": [
         ""
@@ -3888,7 +3889,7 @@ export const links = [
     ],
     "tag": [
         "Modeling(Procedural)",
-        "Plugins"
+        "Plugin"
     ],
     "subtag": [
         ""
@@ -3914,7 +3915,7 @@ export const links = [
         "Assets"
     ],
     "tag": [
-        "AssetLibrary",
+        "AssetLibrary/Marketplace",
         "Models",
         "Textures"
     ],
@@ -3942,10 +3943,10 @@ export const links = [
         "Assets"
     ],
     "tag": [
-        "AssetLibrary",
+        "AssetLibrary/Marketplace",
         "Models",
         "Textures",
-        "Plugins",
+        "Plugin",
         "FX"
     ],
     "subtag": [
@@ -3972,7 +3973,7 @@ export const links = [
         "Assets"
     ],
     "tag": [
-        "AssetLibrary",
+        "AssetLibrary/Marketplace",
         "Models"
     ],
     "subtag": [
@@ -4200,7 +4201,7 @@ export const links = [
         "Assets"
     ],
     "tag": [
-        "AssetLibrary",
+        "AssetLibrary/Marketplace",
         "Models",
         "Textures"
     ],
@@ -4277,8 +4278,9 @@ export const links = [
         "Assets"
     ],
     "tag": [
-        "AssetLibrary",
-        "Compositing"
+        "AssetLibrary/Marketplace",
+        "Compositing",
+		"Sound/Audio/SoundFX"
     ],
     "subtag": [
         ""
@@ -4303,8 +4305,9 @@ export const links = [
         "Assets"
     ],
     "tag": [
-        "AssetLibrary",
-        "Compositing"
+        "AssetLibrary/Marketplace",
+        "Compositing",
+		"Sound/Audio/SoundFX"
     ],
     "subtag": [
         ""
@@ -4329,7 +4332,7 @@ export const links = [
         "Assets"
     ],
     "tag": [
-        "AssetLibrary",
+        "AssetLibrary/Marketplace",
         "Compositing"
     ],
     "subtag": [
@@ -4355,7 +4358,7 @@ export const links = [
         "Assets"
     ],
     "tag": [
-        "AssetLibrary",
+        "AssetLibrary/Marketplace",
         "Compositing"
     ],
     "subtag": [
@@ -4538,7 +4541,7 @@ export const links = [
         "Assets"
     ],
     "tag": [
-        "AssetLibrary",
+        "AssetLibrary/Marketplace",
         "Textures"
     ],
     "subtag": [
@@ -4720,7 +4723,7 @@ export const links = [
         "Assets"
     ],
     "tag": [
-        "Plugins"
+        "Plugin"
     ],
     "subtag": [
         ""
@@ -4770,7 +4773,7 @@ export const links = [
         "Assets"
     ],
     "tag": [
-        "AssetLibrary",
+        "AssetLibrary/Marketplace",
         "FX"
     ],
     "subtag": [
@@ -4796,10 +4799,10 @@ export const links = [
         "Assets"
     ],
     "tag": [
-        "AssetLibrary",
+        "AssetLibrary/Marketplace",
         "Models",
         "Textures",
-        "Plugins",
+        "Plugin",
         "FX"
     ],
     "subtag": [
@@ -4825,9 +4828,9 @@ export const links = [
         "Assets"
     ],
     "tag": [
-        "AssetLibrary",
+        "AssetLibrary/Marketplace",
         "Models",
-        "Plugins"
+        "Plugin"
     ],
     "subtag": [
         ""
@@ -4883,7 +4886,7 @@ export const links = [
         "Assets"
     ],
     "tag": [
-        "AssetLibrary",
+        "AssetLibrary/Marketplace",
         "Models",
         "Textures",
         "FX"
@@ -4911,7 +4914,7 @@ export const links = [
         "Assets"
     ],
     "tag": [
-        "AssetLibrary",
+        "AssetLibrary/Marketplace",
         "FX",
         "VDB"
     ],
@@ -4938,7 +4941,7 @@ export const links = [
         "Assets"
     ],
     "tag": [
-        "AssetLibrary",
+        "AssetLibrary/Marketplace",
         "WebDevelopment"
     ],
     "subtag": [
@@ -4991,8 +4994,8 @@ export const links = [
         "Assets"
     ],
     "tag": [
-        "AssetLibrary",
-        "Sound"
+        "AssetLibrary/Marketplace",
+        "Sound/Audio/SoundFX"
     ],
     "subtag": [
         ""
@@ -5017,7 +5020,7 @@ export const links = [
         "Assets"
     ],
     "tag": [
-        "AssetLibrary",
+        "AssetLibrary/Marketplace",
         "Models",
         "Textures"
     ],
@@ -5035,5 +5038,1520 @@ export const links = [
     "datecurated": "30/04/2025",
     "id": "0078"
 },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+    "title": "Home Assistant",
+    "description": "Home Assistant Made Open Source",
+    "href": "https://www.home-assistant.io/",
+    "image": "/src/lib/assets/Home Assistant_0003.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "Workflow/Management/Pipeline/Communication"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "Home"
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "05/05/2025",
+    "id": "0003"
+},
+    {
+    "title": "Advanced Skeleton Maya",
+    "description": "AdvancedSkeleton is a collection of tools for Autodesk\u00ae Maya\u00ae doing character setup.",
+    "href": "https://apps.autodesk.com/MAYA/en/Detail/Index?id=62613408649661561&appLang=en&os=Win64",
+    "image": "/src/lib/assets/Advanced Skeleton Maya_0004.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "Rigging",
+        "Plugin"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "Maya"
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "12/05/2025",
+    "id": "0004"
+},
+    {
+    "title": "Learn about FACS-based Shapes",
+    "description": "FACS-based shapes for facial mocap",
+    "href": "https://imotions.com/blog/learning/research-fundamentals/facial-action-coding-system/",
+    "image": "/src/lib/assets/Learn about FACS-based Shapes_0005.png",
+    "category": [
+        "Education"
+    ],
+    "tag": [
+        "Animation",
+        "Rigging",
+        "Sculpting"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "12/05/2025",
+    "id": "0005"
+},
+    {
+    "title": "Facial Action Coding System",
+    "description": "Facial Action Coding System Wiki",
+    "href": "https://en.wikipedia.org/wiki/Facial_Action_Coding_System",
+    "image": "/src/lib/assets/Facial Action Coding System_0006.png",
+    "category": [
+        "Education"
+    ],
+    "tag": [
+        "Animation",
+        "Rigging",
+        "Sculpting"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "12/05/2025",
+    "id": "0006"
+},
+    {
+    "title": "FACS Rigging & Texture Blending",
+    "description": "A breakdown of how to create FACS Rigging from a facial scan set",
+    "href": "https://adamspring.co.uk/2020/05/25/facs-rigging-texture-blending-digital-humans/",
+    "image": "/src/lib/assets/FACS Rigging & Texture Blending_0007.png",
+    "category": [
+        "Education"
+    ],
+    "tag": [
+        "Animation",
+        "Anatomy",
+        "Sculpting"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "12/05/2025",
+    "id": "0007"
+},
+    {
+    "title": "The Ultimate Guide to Creating ARKit 52 Facial Blendshapes",
+    "description": "Learn ARKit blendshapes, based on FACS.",
+    "href": "https://pooyadeperson.com/the-ultimate-guide-to-creating-arkits-52-facial-blendshapes/",
+    "image": "/src/lib/assets/The Ultimate Guide to Creating ARKit 52 Facial Blendshapes_0008.png",
+    "category": [
+        "Education"
+    ],
+    "tag": [
+        "Animation",
+        "Rigging",
+        "Sculpting"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "12/05/2025",
+    "id": "0008"
+},
+    {
+    "title": "Gnomon Workshop Facial Blendshapes Using Photogrammetry",
+    "description": "FACS Pipeline - Lightroom, Metashape, Wrap, Maya, ZBrush & Photoshop.",
+    "href": "https://www.thegnomonworkshop.com/tutorials/creating-facial-blendshapes-using-photogrammetry",
+    "image": "/src/lib/assets/Gnomon Workshop Creating Facial Blendshapes Using Photogrammetry_0009.png",
+    "category": [
+        "Education"
+    ],
+    "tag": [
+        "Animation",
+        "Rigging",
+        "Sculpting"
+    ],
+    "subtag": [
+        "FaceRigs"
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "12/05/2025",
+    "id": "0009"
+},
+    {
+    "title": "Very Normal Paint",
+    "description": "\"Very Normal Paint\" is a smart material for Substance Painter that allows you to paint Normal maps seamlessly and live on your model.",
+    "href": "https://flippednormals.com/product/very-normal-paint-57696?dst=Liodun9h",
+    "image": "/src/lib/assets/Very Normal Paint_0010.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "TexturingTrimsandProcedurals",
+        "CharacterDesign"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "Substance"
+    ],
+    "price": [
+        "OneTimePurchase"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "14/05/2025",
+    "id": "0010"
+},
+    {
+    "title": "Tutorial Painting Normal Maps",
+    "description": "A tutorial about painting over Object Space Normal Maps to achieve a stylized look",
+    "href": "https://www.youtube.com/watch?v=s8N00rjil_4",
+    "image": "/src/lib/assets/Tutorial Painting Normal Maps_0011.png",
+    "category": [
+        "Education"
+    ],
+    "tag": [
+        "ShadersandRendering",
+        "TexturingTrimsandProcedurals",
+        "CharacterDesign"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "Blender",
+        "Substance"
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "14/05/2025",
+    "id": "0011"
+},
+    {
+    "title": "MGear 5.0",
+    "description": "Free open-source rigging tools for maya ",
+    "href": "https://github.com/mgear-dev/mgear",
+    "image": "/src/lib/assets/MGear 5.0_0012.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "Rigging"
+    ],
+    "subtag": [
+        "FaceRigs",
+        "BodyRigs",
+        "NonHumanRigs"
+    ],
+    "software": [
+        "Maya"
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "26/05/2025",
+    "id": "0012"
+},
+    {
+    "title": "ueGear",
+    "description": "Free and open-source rigging tools for unreal engine",
+    "href": "https://github.com/mgear-dev/ueGear",
+    "image": "/src/lib/assets/ueGear_0013.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "Rigging"
+    ],
+    "subtag": [
+        "FaceRigs",
+        "BodyRigs",
+        "NonHumanRigs"
+    ],
+    "software": [
+        "Unreal"
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "26/05/2025",
+    "id": "0013"
+},
+    {
+    "title": "Everything File Search",
+    "description": "Locate files and folders by name instantly.",
+    "href": "https://www.voidtools.com/",
+    "image": "/src/lib/assets/Everything File Search_0014.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "Workflow/Management/Pipeline/Communication"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "28/05/2025",
+    "id": "0014"
+},
+    {
+    "title": "O&O Software",
+    "description": "Management tools for Windows. Backup. Rescue. Optimize. Protect.",
+    "href": "https://www.oo-software.com/en/",
+    "image": "/src/lib/assets/O&O Software_0015.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "Workflow/Management/Pipeline/Communication"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "Free",
+        "OneTimePurchase"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "28/05/2025",
+    "id": "0015"
+},
+    {
+    "title": "O&O App Buster",
+    "description": "Free uninstaller for unwanted windows apps",
+    "href": "https://www.oo-software.com/en/ooappbuster",
+    "image": "/src/lib/assets/O&O App Buster_0016.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "Workflow/Management/Pipeline/Communication"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "28/05/2025",
+    "id": "0016"
+},
+    {
+    "title": "O&O StupUp10++",
+    "description": "Free Antispy tool for Windows 10 and 11",
+    "href": "https://www.oo-software.com/en/shutup10",
+    "image": "/src/lib/assets/O&O StupUp10++_0017.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "Workflow/Management/Pipeline/Communication"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "28/05/2025",
+    "id": "0017"
+},
+    {
+    "title": "Breakdown Maker Blender",
+    "description": "Create scene breakdowns in just a few clicks.",
+    "href": "https://superhivemarket.com/products/breakdown-maker",
+    "image": "/src/lib/assets/Breakdown Maker Blender_0018.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "ShadersandRendering",
+        "Plugin",
+        "Workflow/Management/Pipeline/Communication"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "Blender"
+    ],
+    "price": [
+        "OneTimePurchase"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "29/05/2025",
+    "id": "0018"
+},
+    {
+    "title": "Jamstack Themes",
+    "description": "A collection of open source website themes",
+    "href": "https://jamstackthemes.dev/",
+    "image": "/src/lib/assets/Jamstack Themes_0019.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "AssetLibrary/Marketplace",
+        "WebDevelopment",
+        "Workflow/Management/Pipeline/Communication"
+    ],
+    "subtag": [
+        "UI/UX"
+    ],
+    "software": [
+        "WebDevelopment"
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "18/06/2025",
+    "id": "0019"
+},
+    {
+    "title": "Theme Fisher",
+    "description": "A database of Web Development Themes",
+    "href": "https://themefisher.com/",
+    "image": "/src/lib/assets/Theme Fisher_0020.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "AssetLibrary/Marketplace",
+        "WebDevelopment",
+        "Workflow/Management/Pipeline/Communication"
+    ],
+    "subtag": [
+        "UI/UX"
+    ],
+    "software": [
+        "WebDevelopment"
+    ],
+    "price": [
+        "Free",
+        "OneTimePurchase"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "18/06/2025",
+    "id": "0020"
+},
+    {
+    "title": "Friendly Shade Asset Library",
+    "description": "hundreds of assets for your projects.",
+    "href": "https://friendlyshade.com/library",
+    "image": "/src/lib/assets/Friendly Shade Asset Library_0021.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "AssetLibrary/Marketplace",
+        "ShadersandRendering",
+        "TexturingTrimsandProcedurals",
+        "Models",
+        "Textures"
+    ],
+    "subtag": [
+        "Plants/Nature",
+        "Architecture",
+        "Props"
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "Free",
+        "Subscription"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "08/07/2025",
+    "id": "0021"
+},
+    {
+    "title": "Friendly Shade Normalizer",
+    "description": "Normalizer is a simple but powerful tool for texture manipulation and conversion, available for free!",
+    "href": "https://friendlyshade.com/normalizer",
+    "image": "/src/lib/assets/Friendly Shade Normalizer_0022.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "ShadersandRendering",
+        "TexturingTrimsandProcedurals",
+        "Textures",
+        "Plugin"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "08/07/2025",
+    "id": "0022"
+},
+    {
+    "title": "ArmorLab",
+    "description": "Stand-alone software designed for AI-powered texture authoring. Generate PBR textures using text prompts or by drag & dropping your photos.",
+    "href": "https://armory3d.org/lab/",
+    "image": "/src/lib/assets/ArmorLab_0023.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "ShadersandRendering",
+        "TexturingTrimsandProcedurals",
+        "Textures",
+        "Plugin"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "OneTimePurchase"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "08/07/2025",
+    "id": "0023"
+},
+    {
+    "title": "Puppet Soul",
+    "description": "Rigging tools for Maya",
+    "href": "https://www.puppetsoul.com/download",
+    "image": "/src/lib/assets/Puppet Soul_0024.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "Rigging"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "Maya"
+    ],
+    "price": [
+        "Free",
+        "OneTimePurchase"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "09/07/2025",
+    "id": "0024"
+},
+    {
+    "title": "Social Sizes",
+    "description": "Image and Video sizes for Social Media. Templates for Sketch, Figma, XD, Photoshop & Illustrator.",
+    "href": "https://socialsizes.io/",
+    "image": "/src/lib/assets/Social Sizes_0025.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "Compositing",
+        "WebDevelopment",
+        "Plugin"
+    ],
+    "subtag": [
+        "UI/UX"
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "14/07/2025",
+    "id": "0025"
+},
+    {
+    "title": "Draw to Animate",
+    "description": "Simply draw the trajectory of your Object/Bone, trace the spacings on that trajectory, and press \"Animate\", and voil\u00e0, you generated an animation ! ",
+    "href": "https://dedouze.gumroad.com/l/fsbdw?layout=profile",
+    "image": "/src/lib/assets/Simple animation graph (Blender Addon)_0026.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "Animation",
+        "Plugin"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "Blender"
+    ],
+    "price": [
+        "OneTimePurchase"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "16/07/2025",
+    "id": "0026"
+},
+    {
+    "title": "tagspaces",
+    "description": "A powerful, file-based workspace\u2014no cloud required.",
+    "href": "https://www.tagspaces.org/",
+    "image": "/src/lib/assets/tagspaces_0027.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "Workflow/Management/Pipeline/Communication"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "Free",
+        "OneTimePurchase"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "14/08/2025",
+    "id": "0027"
+},
+    {
+    "title": "HalftoneMaker",
+    "description": "Convert images to half tone SVG",
+    "href": "https://halftonemaker.com/",
+    "image": "/src/lib/assets/HalftoneMaker_0028.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "WebDevelopment",
+        "Textures"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "14/08/2025",
+    "id": "0028"
+},
+    {
+    "title": "HalftoneMaker-Proto",
+    "description": "The Free Prototype version of the same tool.",
+    "href": "https://halftone.xoihazard.com/",
+    "image": "/src/lib/assets/HalftoneMaker-Proto_0029.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "Textures"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "14/08/2025",
+    "id": "0029"
+},
+    {
+    "title": "Texture Labs",
+    "description": "Free texture images ",
+    "href": "https://texturelabs.org/",
+    "image": "/src/lib/assets/Texture Labs_0030.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "Textures"
+    ],
+    "subtag": [
+        "NoiseMaps",
+        "Decals",
+        "AlphaBrushes",
+        "UI/UX"
+    ],
+    "software": [
+        "All",
+        "Photoshop",
+        "Illustrator",
+        "AfterEffects"
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "20/08/2025",
+    "id": "0030"
+},
+    {
+    "title": "Texture Fabrik",
+    "description": "Free and paid Textures for Graphic Design",
+    "href": "https://texturefabrik.com/",
+    "image": "/src/lib/assets/Texture Fabrik_0031.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "AssetLibrary/Marketplace",
+        "Textures"
+    ],
+    "subtag": [
+        "NoiseMaps",
+        "Grunge",
+        "Decals",
+        "UI/UX"
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "Free",
+        "OneTimePurchase"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "20/08/2025",
+    "id": "0031"
+},
+    {
+    "title": "A23D",
+    "description": "An extensive 3D assets library",
+    "href": "https://www.a23d.co/",
+    "image": "/src/lib/assets/A23D_0032.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "AssetLibrary/Marketplace",
+        "Models",
+        "Textures",
+        "Plugin"
+    ],
+    "subtag": [
+        "Grunge",
+        "Decals",
+        "IESprofiles"
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "Free",
+        "Subscription"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "25/08/2025",
+    "id": "0032"
+},
+    {
+    "title": "Spaghetmenot Blender Nodes",
+    "description": "A collection of Incredibly useful nodes for Blender",
+    "href": "https://spaghetmenot.gumroad.com/",
+    "image": "/src/lib/assets/Spaghetmenot Blender Nodes_0033.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "AssetLibrary/Marketplace",
+        "ShadersandRendering",
+        "TexturingTrimsandProcedurals",
+        "Modeling(Procedural)",
+        "Plugin"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "Blender"
+    ],
+    "price": [
+        "Free",
+        "OneTimePurchase"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "04/09/2025",
+    "id": "0033"
+},
+    {
+    "title": "Aesthetics Wiki",
+    "description": "a comprehensive encyclopedia of online and offline aesthetics",
+    "href": "https://aesthetics.fandom.com/wiki/List_of_Aesthetics",
+    "image": "/src/lib/assets/Aesthetics Wiki_0034.png",
+    "category": [
+        "Reference"
+    ],
+    "tag": [
+        "AnimationReference"
+    ],
+    "subtag": [
+        "UI/UX"
+    ],
+    "software": [
+        "Photoshop"
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "23/09/2025",
+    "id": "0034"
+},
+    {
+    "title": "Index of Aesthetics",
+    "description": "A visual lexicon of consumer ephemera from the 1970s until now.",
+    "href": "https://cari.institute/aesthetics",
+    "image": "/src/lib/assets/Index of Aesthetics_0035.png",
+    "category": [
+        "Reference"
+    ],
+    "tag": [
+        "AnimationReference"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "Photoshop"
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "23/09/2025",
+    "id": "0035"
+},
+    {
+    "title": "Evan Collins CARI Are.na",
+    "description": "A collection of CARI Aesthetics ",
+    "href": "https://www.are.na/evan-collins-1522646491/channels",
+    "image": "/src/lib/assets/Evan Collins CARI Are.na_0036.png",
+    "category": [
+        "Reference"
+    ],
+    "tag": [
+        "AnimationReference"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "Photoshop"
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "23/09/2025",
+    "id": "0036"
+},
+    {
+    "title": "Garfield Comic Archive",
+    "description": "Garfield Comic Archive",
+    "href": "http://pt.jikos.cz/garfield/",
+    "image": "/src/lib/assets/Garfield Comic Archive_0037.png",
+    "category": [
+        "Reference"
+    ],
+    "tag": [
+        "CharacterDesign"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "Photoshop"
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "24/09/2025",
+    "id": "0037"
+},
+    {
+    "title": "TurboSquid by Shutterstock",
+    "description": "3D models. Thousands available to download. Files formats include max, fbx, obj, c4d, maya.",
+    "href": "https://www.turbosquid.com/Search/3D-Models/free",
+    "image": "/src/lib/assets/TurboSquid by Shutterstock_0038.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "AssetLibrary/Marketplace"
+    ],
+    "subtag": [
+        "Kitbash",
+        "Greebles",
+        "Plants/Nature",
+        "Cars&Vehichles",
+        "Characters&Creatures",
+        "Architecture",
+        "Props",
+        "HDRI"
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "Free",
+        "OneTimePurchase"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "26/09/2025",
+    "id": "0038"
+},
+    {
+    "title": "3D Warehouse by Sketchup",
+    "description": "SketchUp 3D models. Filter by file size, polygons, and popularity.",
+    "href": "https://3dwarehouse.sketchup.com/",
+    "image": "/src/lib/assets/3D Warehouse by Sketchup_0039.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "AssetLibrary/Marketplace"
+    ],
+    "subtag": [
+        "Architecture"
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "26/09/2025",
+    "id": "0039"
+},
+    {
+    "title": "pCon.box",
+    "description": "Customize and export architecture-based models. Registration required.",
+    "href": "https://box.pcon-solutions.com/",
+    "image": "/src/lib/assets/pCon.box_0040.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "AssetLibrary/Marketplace",
+        "Modeling(HardSurface)"
+    ],
+    "subtag": [
+        "Architecture"
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "26/09/2025",
+    "id": "0040"
+},
+    {
+    "title": "bimobject",
+    "description": " High-quality BIM objects to download from over 2,000 building product manufacturer brands. For Revit, Archicad, Rhino, and SketchUp.",
+    "href": "https://www.bimobject.com/en-us",
+    "image": "/src/lib/assets/bimobject_0041.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "AssetLibrary/Marketplace"
+    ],
+    "subtag": [
+        "Architecture"
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "26/09/2025",
+    "id": "0041"
+},
+    {
+    "title": "BIMcontent.com",
+    "description": "A 100% free BIM content. Revit assets, 3D models, advanced / PBR materials and textures, libraries, and more, for use in Enscape.",
+    "href": "https://bimcontent.com/",
+    "image": "/src/lib/assets/BIMcontent.com_0042.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "AssetLibrary/Marketplace"
+    ],
+    "subtag": [
+        "Architecture"
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "26/09/2025",
+    "id": "0042"
+},
+    {
+    "title": "bimstore",
+    "description": "Manufacturer BIM content. Searchable by country, manufacturer, category, top-rated, and more. Forum available. Registration required.",
+    "href": "https://www.bimstore.co/",
+    "image": "/src/lib/assets/bimstore_0043.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "AssetLibrary/Marketplace"
+    ],
+    "subtag": [
+        "Architecture"
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "26/09/2025",
+    "id": "0043"
+},
+    {
+    "title": "MODLAR",
+    "description": "Branded models and BIM content for AEC professionals. Revit, SketchUp, Archicad, and other files available to download. Registration required. ",
+    "href": "https://www.modlar.com/products/",
+    "image": "/src/lib/assets/MODLAR_0044.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "AssetLibrary/Marketplace"
+    ],
+    "subtag": [
+        "Architecture"
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "26/09/2025",
+    "id": "0044"
+},
+    {
+    "title": "SketchUp TEXTURES",
+    "description": "Download SketchUp Texture collections. Registration required. ",
+    "href": "https://www.sketchuptextureclub.com/textures",
+    "image": "/src/lib/assets/SketchUp TEXTURES_0045.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "AssetLibrary/Marketplace",
+        "Textures"
+    ],
+    "subtag": [
+        "Architecture"
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "26/09/2025",
+    "id": "0045"
+},
+    {
+    "title": "CGAXIS",
+    "description": "Over 100 FREE exclusive PBR materials and 3D models",
+    "href": "https://cgaxis.com/free/",
+    "image": "/src/lib/assets/CGAXIS_0047.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "AssetLibrary/Marketplace",
+        "Models",
+        "Textures"
+    ],
+    "subtag": [
+        "Architecture"
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "26/09/2025",
+    "id": "0047"
+},
+    {
+    "title": "Revit City",
+    "description": "Access user-generated Revit content. Over 20,000 objects. Revit families, project files, material libraries, groups, and more. Plus Revit community forum.",
+    "href": "https://www.revitcity.com/downloads.php",
+    "image": "/src/lib/assets/Revit City_0048.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "AssetLibrary/Marketplace",
+        "Models"
+    ],
+    "subtag": [
+        "Architecture"
+    ],
+    "software": [
+        "Revit"
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "26/09/2025",
+    "id": "0048"
+},
+    {
+    "title": "3Dfindit by CADENAS",
+    "description": "Manufacturer catalogs & 3D content from experts for all target groups",
+    "href": "https://www.3dfindit.com/en/",
+    "image": "/src/lib/assets/3Dfindit by CADENAS_0049.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "AssetLibrary/Marketplace",
+        "Models"
+    ],
+    "subtag": [
+        "Architecture"
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "26/09/2025",
+    "id": "0049"
+},
+    {
+    "title": "Public Domain Textures",
+    "description": "Free Textures for Everyone!",
+    "href": "https://publicdomaintextures.com/",
+    "image": "/src/lib/assets/Public Domain Textures_0050.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "AssetLibrary/Marketplace",
+        "Textures"
+    ],
+    "subtag": [
+        "Architecture"
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "26/09/2025",
+    "id": "0050"
+},
+    {
+    "title": "3DTextures.me",
+    "description": "Free PBR textures and Stylized textures with Color, Normal, Displacement, Occlusion and Roughness Maps.",
+    "href": "https://3dtextures.me/",
+    "image": "/src/lib/assets/3DTextures.me_0051.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "AssetLibrary/Marketplace",
+        "Textures"
+    ],
+    "subtag": [
+        "Architecture"
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "26/09/2025",
+    "id": "0051"
+},
+    {
+    "title": "Material Maker",
+    "description": "The open source procedural materials authoring tool",
+    "href": "https://www.materialmaker.org/",
+    "image": "/src/lib/assets/Material Maker_0053.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "TexturingTrimsandProcedurals",
+        "Textures",
+        "Plugin",
+		"ShadersandRendering",
+		"TexturingTrimsandProcedurals"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "26/09/2025",
+    "id": "0053"
+},
+    {
+    "title": "Shadermap.com",
+    "description": "Generate Maps from Textures and 3D Models!",
+    "href": "https://shadermap.com/home/",
+    "image": "/src/lib/assets/Shadermap.com_0054.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "ShadersandRendering",
+        "Textures",
+        "Plugin"
+    ],
+    "subtag": [
+        "Decals"
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "26/09/2025",
+    "id": "0054"
+},
+    {
+    "title": "Philips Professional Lighting Photometric Data",
+    "description": "Browse and download the latest Philips Photometric Data / IES data",
+    "href": "https://www.usa.lighting.philips.com/support/purchase/literature/photometric-data",
+    "image": "/src/lib/assets/Philips Professional Lighting Photometric Data_0055.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "AssetLibrary/Marketplace",
+        "Lighting"
+    ],
+    "subtag": [
+        "Architecture"
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "26/09/2025",
+    "id": "0055"
+},
+    {
+    "title": "American Electric Lighting Technical Data",
+    "description": "Download IES profiles and BIM models.",
+    "href": "https://americanelectriclighting.acuitybrands.com/resources/technical-data",
+    "image": "/src/lib/assets/American Electric Lighting Technical Data_0056.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "AssetLibrary/Marketplace",
+        "Lighting"
+    ],
+    "subtag": [
+        "Architecture"
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "26/09/2025",
+    "id": "0056"
+},
+    {
+    "title": "Lithonia Lighting Technical Downloads",
+    "description": "Extensive resource for commercial and industrial lighting.",
+    "href": "https://lithonia.acuitybrands.com/resources/technical-downloads",
+    "image": "/src/lib/assets/Lithonia Lighting Technical Downloads_0057.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "AssetLibrary/Marketplace",
+        "Lighting"
+    ],
+    "subtag": [
+        "Architecture"
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "26/09/2025",
+    "id": "0057"
+},
+    {
+    "title": "Los Angeles Lighting IES Viewer",
+    "description": "IES Viewer to view Photometric Data. (Windows Only)",
+    "href": "https://www.lalighting.com/ies-viewer/",
+    "image": "/src/lib/assets/Los Angeles Lighting IES Viewer_0058.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "Lighting",
+        "Plugin"
+    ],
+    "subtag": [
+        "Architecture"
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "26/09/2025",
+    "id": "0058"
+},
+    {
+    "title": "Texturify",
+    "description": "Textures and HDRI's for Free",
+    "href": "https://texturify.com/",
+    "image": "/src/lib/assets/Texturify_0059.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "AssetLibrary/Marketplace",
+        "Textures"
+    ],
+    "subtag": [
+        "Architecture",
+        "HDRI"
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "26/09/2025",
+    "id": "0059"
+},
+    {
+    "title": "SoundBible",
+    "description": "SoundBible.com offers free sound clips for download in either wav or mp3 format. ",
+    "href": "https://soundbible.com/",
+    "image": "/src/lib/assets/SoundBible_0060.png",
+    "category": [
+        "Assets"
+    ],
+    "tag": [
+        "AssetLibrary/Marketplace",
+        "Sound/Audio/SoundFX"
+    ],
+    "subtag": [
+        ""
+    ],
+    "software": [
+        "All"
+    ],
+    "price": [
+        "Free"
+    ],
+    "color": null,
+    "score": null,
+    "datecurated": "26/09/2025",
+    "id": "0060"
+},
+
 
 ];
